@@ -2,3 +2,7 @@
 *.geojson filter=lfs diff=lfs merge=lfs -text
 .geojson filter=lfs diff=lfs merge=lfs -text
 .json filter=lfs diff=lfs merge=lfs -text
+processed/data_summary.json filter=lfs diff=lfs merge=lfs -text
+processed/species_index.json filter=lfs diff=lfs merge=lfs -text
+processed/districts.geojson filter=lfs diff=lfs merge=lfs -text
+processed/species_locations.geojson filter=lfs diff=lfs merge=lfs -text
