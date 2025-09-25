@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp gco:nilReason="missing"/>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation gco:nilReason="missing"/>
+            <abstract>
+                <gco:CharacterString>This layer shows the District Boundary of Hong Kong. It is a set of data made available by the Home Affairs Department under the Government of Hong Kong Special Administrative Region (the &amp;quot;Government&amp;quot;) at https://GEODATA.GOV.HK/ (&amp;quot;Hong Kong Geodata Store&amp;quot;). The source data has been processed and then uploaded to Esri’s ArcGIS Online platform for sharing and reference purpose. The objectives are to facilitate our Hong Kong ArcGIS Online users to use the data in a spatial ready format and save their data conversion effort.For details about the data, source format and terms of conditions of usage, please refer to the website of Hong Kong Geodata Store at https://geodata.gov.hk/.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>This layer shows the District Boundary of Hong Kong.</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>Esri China (Hong Kong) Ltd., Hong Kong Geodata Store</gco:CharacterString>
+            </credit>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>The data is created for reference only, there is no warranty about accuracy and update. Please refer to the terms and conditions of usage in Hong Kong Geodata Store (https://geodata.gov.hk/) and below abstract: &amp;quot;Terms and Conditions of UseThe Data are provided by the Government and other organisations to you on an &amp;quot;as is&amp;quot; and &amp;quot;as available&amp;quot; basis.  No statement, representation or warranty of any kind (whether express or implied) is given by the Government or the relevant organisations in relation to the Data (including the accuracy, completeness, non-infringement, reliability, security, timeliness and appropriateness of the Data for use in any particular circumstances).  The Government or the relevant organisations shall not be liable for any errors, omissions, misstatements or misrepresentations (express or implied), concerning any Data, and shall not have or accept any liability, obligation or responsibility whatsoever for any loss, destruction or damage (including without limitation consequential loss, destruction or damage) howsoever arising from or in respect of any use or misuse of or reliance on the Data, or any inability to use the Data.&amp;quot;</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <language gco:nilReason="missing"/>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+        </MD_DataIdentification>
+    </identificationInfo>
+</MD_Metadata>

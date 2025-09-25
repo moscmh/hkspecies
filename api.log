@@ -1,0 +1,38 @@
+/Users/moswai/Documents/Mos_DataScience/project/Hackathon/AWS_AI_HK/species_api.py:36: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [19141]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Error processing 2013: species/O2013.shp: No such file or directory
+Species predictor loaded successfully
+INFO:     127.0.0.1:53103 - "GET /api/species/Sus%20scrofa/predict-2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53115 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53116 - "GET /api/species/list HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53131 - "GET /api/species/search?q=pyro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53134 - "GET /api/species/Pyrocoelia%20analis HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53134 - "GET /api/species/Pyrocoelia%20analis/map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53134 - "GET /api/species/Pyrocoelia%20analis/predict-2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53139 - "GET /api/species/search?q=diapp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53139 - "GET /api/species/search?q=diap HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53141 - "GET /api/species/Diaphanes%20citrinus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53141 - "GET /api/species/Diaphanes%20citrinus/map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53141 - "GET /api/species/Diaphanes%20citrinus/predict-2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53146 - "GET /api/species/search?q=lip HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53146 - "GET /api/species/Merops%20philippinus HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53146 - "GET /api/species/Merops%20philippinus/map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53146 - "GET /api/species/Merops%20philippinus/predict-2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "GET /api/species/Phylloscopus%20tenellipes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "GET /api/species/Phylloscopus%20tenellipes/map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53162 - "GET /api/species/Phylloscopus%20tenellipes/predict-2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53165 - "GET /api/species/Agropsar%20philippensis HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53165 - "GET /api/species/Agropsar%20philippensis/map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53165 - "GET /api/species/Agropsar%20philippensis/predict-2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53168 - "GET /api/species/Agropsar%20philippensis/predict-2025 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53279 - "GET /api/species/list HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53281 - "GET /api/summary HTTP/1.1" 200 OK

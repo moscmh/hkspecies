@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong Species Finder</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .header { background: white; padding: 30px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .search-box { display: flex; gap: 10px; margin: 20px 0; }
+        .search-box input { flex: 1; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; }
+        .search-box button { padding: 12px 24px; background: #007AFF; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
+        .search-box button:hover { background: #0056CC; }
+        .results { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .species-card { border: 1px solid #eee; border-radius: 8px; padding: 15px; margin: 10px 0; cursor: pointer; transition: all 0.2s; display: flex; gap: 15px; align-items: center; }
+        .species-card:hover { background: #f8f9fa; border-color: #007AFF; }
+        .species-photo { width: 80px; height: 80px; border-radius: 8px; object-fit: cover; background: #f0f0f0; flex-shrink: 0; }
+        .species-content { flex: 1; }
+        .species-name { font-weight: 600; color: #333; margin-bottom: 5px; }
+        .species-info { color: #666; font-size: 14px; }
+        .details { background: white; border-radius: 12px; padding: 20px; margin-top: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .species-header { display: flex; gap: 20px; align-items: flex-start; margin-bottom: 20px; }
+        .species-main-photo { width: 200px; height: 200px; border-radius: 12px; object-fit: cover; background: #f0f0f0; flex-shrink: 0; }
+        .species-main-info { flex: 1; }
+        .locations { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 15px; }
+        .location { background: #f8f9fa; padding: 10px; border-radius: 6px; font-size: 14px; }
+        .loading { text-align: center; padding: 40px; color: #666; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
+        .stat { background: #f8f9fa; padding: 15px; border-radius: 8px; text-align: center; }
+        .stat-number { font-size: 24px; font-weight: 600; color: #007AFF; }
+        .stat-label { font-size: 14px; color: #666; margin-top: 5px; }
+        .map-container { height: 400px; width: 100%; border-radius: 12px; overflow: hidden; margin-top: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .map-toggle { background: #007AFF; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; margin-top: 10px; margin-right: 10px; }
+        .map-toggle:hover { background: #0056CC; }
+        .map-toggle.hidden { background: #666; }
+        .predict-btn { background: #FF6B35; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; margin-top: 10px; }
+        .predict-btn:hover { background: #E55A2B; }
+        .predict-btn:disabled { background: #ccc; cursor: not-allowed; }
+        .prediction-info { background: #FFF3E0; border: 1px solid #FF6B35; border-radius: 8px; padding: 15px; margin: 15px 0; }
+        .prediction-title { color: #FF6B35; font-weight: 600; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌿 Hong Kong Species Finder</h1>
+            <p>Search and explore Hong Kong's biodiversity - 2024 occurrence data</p>
+            
+            <div class="search-box">
+                <select id="speciesSelect" style="flex: 1; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; background: white;">
+                    <option value="">Select a species...</option>
+                </select>
+                <input type="text" id="searchInput" placeholder="Or search for species (e.g., Pyrocoelia, bird, frog)..." style="flex: 1;" />
+                <button onclick="searchSpecies()">Search</button>
+                <button onclick="showAllSpecies()" style="background: #34C759;">Show All</button>
+            </div>
+            
+            <div class="stats" id="stats"></div>
+        </div>
+
+        <div class="results" id="results" style="display: none;">
+            <h2>Search Results</h2>
+            <div id="speciesList"></div>
+        </div>
+
+        <div class="details" id="details" style="display: none;">
+            <div id="speciesDetails"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.hostname === 'localhost' ? 
+            'http://localhost:8000/api' : 
+            'https://YOUR_ACTUAL_RENDER_URL.onrender.com/api';
+        
+        // Load summary stats and species list on page load
+        async function loadStats() {
+            try {
+                const response = await fetch(`${API_BASE}/summary`);
+                const data = await response.json();
+                
+                document.getElementById('stats').innerHTML = `
+                    <div class="stat">
+                        <div class="stat-number">${data.total_species}</div>
+                        <div class="stat-label">Species</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">${data.total_occurrences}</div>
+                        <div class="stat-label">Occurrences</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">${data.total_districts}</div>
+                        <div class="stat-label">Districts</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">${data.families.length}</div>
+                        <div class="stat-label">Families</div>
+                    </div>
+                `;
+            } catch (error) {
+                console.error('Failed to load stats:', error);
+            }
+        }
+        
+        // Load species list for dropdown
+        async function loadSpeciesList() {
+            try {
+                const response = await fetch(`${API_BASE}/species/list`);
+                const data = await response.json();
+                
+                const select = document.getElementById('speciesSelect');
+                select.innerHTML = '<option value="">Select a species...</option>';
+                
+                data.species.forEach(species => {
+                    const option = document.createElement('option');
+                    option.value = species.scientific_name;
+                    option.textContent = `${species.scientific_name} (${species.family}) - ${species.occurrences_count} occurrences`;
+                    select.appendChild(option);
+                });
+                
+                // Add event listener for species selection
+                select.addEventListener('change', function() {
+                    if (this.value) {
+                        showSpeciesDetails(this.value);
+                    }
+                });
+                
+            } catch (error) {
+                console.error('Failed to load species list:', error);
+            }
+        }
+        
+        // Get species photo from Wikipedia
+        async function getSpeciesPhoto(scientificName) {
+            try {
+                // First, get the Wikipedia page
+                const searchResponse = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(scientificName)}`);
+                if (!searchResponse.ok) throw new Error('No Wikipedia page');
+                
+                const searchData = await searchResponse.json();
+                if (searchData.thumbnail && searchData.thumbnail.source) {
+                    return searchData.thumbnail.source.replace(/\/\d+px-/, '/300px-'); // Get higher resolution
+                }
+                
+                // Fallback: try iNaturalist
+                const inatResponse = await fetch(`https://api.inaturalist.org/v1/taxa?q=${encodeURIComponent(scientificName)}&per_page=1`);
+                if (inatResponse.ok) {
+                    const inatData = await inatResponse.json();
+                    if (inatData.results && inatData.results[0] && inatData.results[0].default_photo) {
+                        return inatData.results[0].default_photo.medium_url;
+                    }
+                }
+                
+                return null;
+            } catch (error) {
+                return null;
+            }
+        }
+        
+        // Search for species
+        async function searchSpecies() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (!query) return;
+            
+            await displaySpeciesResults(query);
+        }
+        
+        // Show all species
+        async function showAllSpecies() {
+            await displaySpeciesResults('');
+        }
+        
+        // Display species search results
+        async function displaySpeciesResults(query) {
+            const resultsDiv = document.getElementById('results');
+            const speciesListDiv = document.getElementById('speciesList');
+            
+            resultsDiv.style.display = 'block';
+            speciesListDiv.innerHTML = '<div class="loading">Loading...</div>';
+            
+            try {
+                const url = query ? `${API_BASE}/species/search?q=${encodeURIComponent(query)}` : `${API_BASE}/species/search`;
+                const response = await fetch(url);
+                
+                if (!response.ok) {
+                    throw new Error('No species found');
+                }
+                
+                const data = await response.json();
+                
+                // Create species cards with photos
+                const speciesCards = await Promise.all(data.results.map(async species => {
+                    const photoUrl = await getSpeciesPhoto(species.scientific_name);
+                    return `
+                        <div class="species-card" onclick="showSpeciesDetails('${species.scientific_name}')">
+                            ${photoUrl ? `<img src="${photoUrl}" alt="${species.scientific_name}" class="species-photo" onerror="this.style.display='none'">` : '<div class="species-photo"></div>'}
+                            <div class="species-content">
+                                <div class="species-name">${species.scientific_name}</div>
+                                <div class="species-info">
+                                    Family: ${species.family} • 
+                                    ${species.districts_count} districts • 
+                                    ${species.occurrences_count} occurrences • 
+                                    Latest: ${new Date(species.latest_date).toLocaleDateString()}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }));
+                
+                speciesListDiv.innerHTML = speciesCards.join('');
+                
+            } catch (error) {
+                const message = query ? `No species found matching "${query}"` : 'No species data available';
+                speciesListDiv.innerHTML = `<div class="loading">${message}</div>`;
+            }
+        }
+        
+        // Show detailed species information
+        async function showSpeciesDetails(speciesName) {
+            const detailsDiv = document.getElementById('details');
+            const speciesDetailsDiv = document.getElementById('speciesDetails');
+            
+            detailsDiv.style.display = 'block';
+            speciesDetailsDiv.innerHTML = '<div class="loading">Loading details...</div>';
+            
+            try {
+                const [response, photoUrl] = await Promise.all([
+                    fetch(`${API_BASE}/species/${encodeURIComponent(speciesName)}`),
+                    getSpeciesPhoto(speciesName)
+                ]);
+                
+                const data = await response.json();
+                const species = data.species;
+                
+                // Group locations by district
+                const locationsByDistrict = {};
+                species.locations.forEach(loc => {
+                    if (!locationsByDistrict[loc.district]) {
+                        locationsByDistrict[loc.district] = [];
+                    }
+                    locationsByDistrict[loc.district].push(loc);
+                });
+                
+                speciesDetailsDiv.innerHTML = `
+                    <div class="species-header">
+                        ${photoUrl ? `<img src="${photoUrl}" alt="${species.scientific_name}" class="species-main-photo" onerror="this.style.display='none'">` : '<div class="species-main-photo"></div>'}
+                        <div class="species-main-info">
+                            <h2>${species.scientific_name}</h2>
+                            <p><strong>Family:</strong> ${species.family}</p>
+                            <p><strong>Total Occurrences:</strong> ${data.total_occurrences}</p>
+                            <p><strong>Districts Found:</strong> ${data.districts_count}</p>
+                            <p><strong>Latest Sighting:</strong> ${new Date(species.latest_date).toLocaleDateString()}</p>
+                            <button class="map-toggle" onclick="toggleMap('${species.scientific_name}')">Show Current Locations</button>
+                            <button class="predict-btn" onclick="predict2025('${species.scientific_name}')">🔮 Predict 2025</button>
+                        </div>
+                    </div>
+                    
+                    <div id="speciesMap" class="map-container" style="display: none;"></div>
+                    <div id="predictionInfo" class="prediction-info" style="display: none;"></div>
+                    <div id="predictionMap" class="map-container" style="display: none;"></div>
+                    
+                    <h3>Locations by District</h3>
+                    <div class="locations">
+                        ${Object.entries(locationsByDistrict).map(([district, locations]) => `
+                            <div class="location">
+                                <strong>${district}</strong><br>
+                                ${locations.length} occurrence${locations.length > 1 ? 's' : ''}<br>
+                                Latest: ${new Date(Math.max(...locations.map(l => new Date(l.date)))).toLocaleDateString()}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                
+                // Initialize map data for later use
+                window.currentSpeciesName = species.scientific_name;
+                
+            } catch (error) {
+                speciesDetailsDiv.innerHTML = '<div class="loading">Failed to load species details</div>';
+            }
+        }
+        
+        // Allow Enter key to search
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchSpecies();
+            }
+        });
+        
+        let speciesMap = null;
+        let predictionMap = null;
+        
+        // Toggle map display
+        async function toggleMap(speciesName) {
+            const mapContainer = document.getElementById('speciesMap');
+            const toggleButton = document.querySelector('.map-toggle');
+            
+            if (mapContainer.style.display === 'none') {
+                // Show map
+                mapContainer.style.display = 'block';
+                toggleButton.textContent = 'Hide Map';
+                toggleButton.classList.add('hidden');
+                
+                // Load map data and create map
+                await loadSpeciesMap(speciesName);
+            } else {
+                // Hide map
+                mapContainer.style.display = 'none';
+                toggleButton.textContent = 'Show Map';
+                toggleButton.classList.remove('hidden');
+                
+                // Destroy existing map
+                if (speciesMap) {
+                    speciesMap.remove();
+                    speciesMap = null;
+                }
+                
+                // Also hide prediction map if open
+                document.getElementById('predictionMap').style.display = 'none';
+                document.getElementById('predictionInfo').style.display = 'none';
+                if (predictionMap) {
+                    predictionMap.remove();
+                    predictionMap = null;
+                }
+            }
+        }
+        
+        // Load and display species occurrence map
+        async function loadSpeciesMap(speciesName) {
+            try {
+                // Get map data from API
+                const response = await fetch(`${API_BASE}/species/${encodeURIComponent(speciesName)}/map`);
+                if (!response.ok) throw new Error('No map data');
+                
+                const mapData = await response.json();
+                console.log('Map data received:', mapData); // Debug log
+                
+                // Create map centered on Hong Kong
+                speciesMap = L.map('speciesMap').setView([22.3193, 114.1694], 10);
+                
+                // Add OpenStreetMap tiles
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(speciesMap);
+                
+                // Add GeoJSON layer directly
+                if (mapData.features && mapData.features.length > 0) {
+                    const bounds = [];
+                    
+                    // Create GeoJSON layer
+                    const geoJsonLayer = L.geoJSON(mapData, {
+                        style: {
+                            color: '#007AFF',
+                            weight: 2,
+                            opacity: 0.8,
+                            fillOpacity: 0.3
+                        },
+                        onEachFeature: function(feature, layer) {
+                            // Add popup with occurrence info
+                            const props = feature.properties;
+                            layer.bindPopup(`
+                                <strong>${props.scientific_name || speciesName}</strong><br>
+                                <strong>District:</strong> ${props.name_en || 'Unknown'}<br>
+                                <strong>Date:</strong> ${props.date || 'Unknown'}<br>
+                                <strong>Family:</strong> ${props.family || 'Unknown'}
+                            `);
+                            
+                            // Get bounds for fitting
+                            if (layer.getBounds) {
+                                const layerBounds = layer.getBounds();
+                                bounds.push([layerBounds.getSouth(), layerBounds.getWest()]);
+                                bounds.push([layerBounds.getNorth(), layerBounds.getEast()]);
+                            }
+                        }
+                    }).addTo(speciesMap);
+                    
+                    // Fit map to show all features
+                    if (bounds.length > 0) {
+                        speciesMap.fitBounds(bounds, { padding: [20, 20] });
+                    } else {
+                        // Fallback: fit to GeoJSON layer bounds
+                        speciesMap.fitBounds(geoJsonLayer.getBounds(), { padding: [20, 20] });
+                    }
+                    
+                    console.log(`Added ${mapData.features.length} features to map`); // Debug log
+                } else {
+                    // No occurrence data, show Hong Kong overview
+                    L.marker([22.3193, 114.1694]).addTo(speciesMap)
+                        .bindPopup(`<strong>${speciesName}</strong><br>No specific location data available`)
+                        .openPopup();
+                }
+                
+            } catch (error) {
+                console.error('Failed to load map:', error);
+                document.getElementById('speciesMap').innerHTML = '<div style="padding: 20px; text-align: center; color: #666;">Map data not available</div>';
+            }
+        }
+        
+        // Predict 2025 occurrences
+        async function predict2025(speciesName) {
+            const predictionInfo = document.getElementById('predictionInfo');
+            const predictionMapContainer = document.getElementById('predictionMap');
+            const predictBtn = document.querySelector('.predict-btn');
+            
+            // Show loading state
+            predictionInfo.style.display = 'block';
+            predictionInfo.innerHTML = `
+                <div class="prediction-title">🔮 Predicting 2025 Occurrences</div>
+                <div>Training neural network model... This may take a moment.</div>
+            `;
+            
+            predictBtn.disabled = true;
+            predictBtn.textContent = 'Predicting...';
+            
+            try {
+                const response = await fetch(`${API_BASE}/species/${encodeURIComponent(speciesName)}/predict-2025`);
+                
+                if (!response.ok) {
+                    throw new Error('Prediction failed');
+                }
+                
+                const predictionData = await response.json();
+                console.log('Prediction data:', predictionData);
+                
+                // Show prediction info
+                predictionInfo.innerHTML = `
+                    <div class="prediction-title">🔮 2025 Prediction Results</div>
+                    <p><strong>Species:</strong> ${predictionData.prediction_info.species_name}</p>
+                    <p><strong>Predicted Locations:</strong> ${predictionData.prediction_info.predicted_locations}</p>
+                    <p><strong>Model:</strong> Neural Network (Grid-based)</p>
+                    <p><strong>Note:</strong> Predictions based on historical occurrence patterns (2001-2024)</p>
+                `;
+                
+                // Show prediction map
+                predictionMapContainer.style.display = 'block';
+                
+                // Create prediction map
+                if (predictionMap) {
+                    predictionMap.remove();
+                }
+                
+                predictionMap = L.map('predictionMap').setView([22.3193, 114.1694], 10);
+                
+                // Add map tiles
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(predictionMap);
+                
+                // Add prediction markers
+                if (predictionData.features && predictionData.features.length > 0) {
+                    const bounds = [];
+                    
+                    predictionData.features.forEach((feature, index) => {
+                        const coords = feature.geometry.coordinates;
+                        const lat = coords[1];
+                        const lng = coords[0];
+                        
+                        bounds.push([lat, lng]);
+                        
+                        // Create prediction marker (different style)
+                        const marker = L.circleMarker([lat, lng], {
+                            radius: 10,
+                            fillColor: '#FF6B35',
+                            color: '#fff',
+                            weight: 2,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        }).addTo(predictionMap);
+                        
+                        // Add popup
+                        marker.bindPopup(`
+                            <strong>🔮 Predicted Location</strong><br>
+                            <strong>Species:</strong> ${speciesName}<br>
+                            <strong>Year:</strong> 2025<br>
+                            <strong>Prediction #:</strong> ${index + 1}<br>
+                            <strong>Coordinates:</strong> ${lat.toFixed(4)}, ${lng.toFixed(4)}
+                        `);
+                    });
+                    
+                    // Fit map to show all predictions
+                    if (bounds.length > 0) {
+                        predictionMap.fitBounds(bounds, { padding: [20, 20] });
+                    }
+                } else {
+                    // No predictions
+                    L.marker([22.3193, 114.1694]).addTo(predictionMap)
+                        .bindPopup(`<strong>${speciesName}</strong><br>No predictions generated for 2025`)
+                        .openPopup();
+                }
+                
+            } catch (error) {
+                console.error('Prediction failed:', error);
+                predictionInfo.innerHTML = `
+                    <div class="prediction-title">❌ Prediction Failed</div>
+                    <p>Unable to generate 2025 predictions for this species.</p>
+                    <p>This may be due to insufficient historical data or model limitations.</p>
+                `;
+            } finally {
+                predictBtn.disabled = false;
+                predictBtn.textContent = '🔮 Predict 2025';
+            }
+        }
+        
+        // Load stats and species list when page loads
+        loadStats();
+        loadSpeciesList();
+    </script>
+</body>
+</html>
