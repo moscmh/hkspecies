@@ -52,19 +52,9 @@ async def load_data():
     with open(data_dir / "data_summary.json") as f:
         data_summary = json.load(f)
     
-    # Initialize species predictor
-    try:
-        spec = importlib.util.spec_from_file_location("species_inference", "species_inference.py")
-        species_inference = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(species_inference)
-        species_predictor = species_inference.Species()
-        species_predictor.prepare_data()
-        species_predictor.get_species_names()
-        species_predictor.species_layer(species_predictor.species_df)
-        print("Species predictor loaded successfully")
-    except Exception as e:
-        print(f"Warning: Could not load species predictor: {e}")
-        species_predictor = None
+    # Initialize species predictor (lazy loading for memory optimization)
+    species_predictor = None
+    print("Species predictor will be loaded on first prediction request")
 
 @app.get("/")
 async def root():
@@ -262,11 +252,24 @@ async def get_map_bounds():
 @app.get("/api/species/{species_name}/predict-2025")
 async def predict_species_2025(species_name: str):
     """Predict 2025 occurrence locations for a specific species"""
+    global species_predictor
+    
     if species_name not in species_index:
         raise HTTPException(status_code=404, detail="Species not found")
     
+    # Lazy load species predictor
     if species_predictor is None:
-        raise HTTPException(status_code=503, detail="Prediction model not available")
+        try:
+            spec = importlib.util.spec_from_file_location("species_inference", "species_inference.py")
+            species_inference = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(species_inference)
+            species_predictor = species_inference.Species()
+            species_predictor.prepare_data()
+            species_predictor.get_species_names()
+            species_predictor.species_layer(species_predictor.species_df)
+            print("Species predictor loaded successfully")
+        except Exception as e:
+            raise HTTPException(status_code=503, detail=f"Prediction model not available: {str(e)}")
     
     try:
         # Check if species exists in predictor data
