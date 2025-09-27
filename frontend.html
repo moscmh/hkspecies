@@ -73,9 +73,7 @@
     </div>
 
     <script>
-        const API_BASE = window.location.hostname === 'localhost' ? 
-            'http://localhost:8000/api' : 
-            'http://localhost:8000/api';
+        const API_BASE = `${window.location.protocol}//${window.location.host}/api`;
         
         // Load summary stats and species list on page load
         async function loadStats() {
