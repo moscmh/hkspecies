@@ -265,6 +265,26 @@ async def get_families():
     data_summary = get_data_summary()
     return {"families": data_summary.get("families", [])}
 
+@app.get("/api/species/{species_name}/predict-2025")
+async def predict_species_2025(species_name: str):
+    """Predict 2025 occurrences for a species using neural network"""
+    try:
+        from species_inference import predict_species_locations_2025
+        
+        # Run prediction
+        prediction_result = predict_species_locations_2025(species_name)
+        
+        if not prediction_result:
+            raise HTTPException(status_code=404, detail="No predictions generated - insufficient historical data")
+        
+        return prediction_result
+        
+    except ImportError:
+        raise HTTPException(status_code=500, detail="Prediction model not available")
+    except Exception as e:
+        logger.error(f"Prediction failed for {species_name}: {e}")
+        raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
+
 @app.get("/api/status")
 async def get_status():
     """Get API status and memory info"""
