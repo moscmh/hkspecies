@@ -13,6 +13,7 @@ import pandas as pd
 import geopandas as gpd
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 import uvicorn
 
 # Configure logging
@@ -90,12 +91,8 @@ def get_districts():
     return _districts_cache
 
 @app.get("/")
-async def root():
-    return {
-        "message": "Hong Kong Species API - Railway Deployment", 
-        "version": "1.0.0",
-        "memory_optimized": True
-    }
+async def serve_frontend():
+    return FileResponse("frontend.html")
 
 @app.get("/health")
 async def health_check():
@@ -298,8 +295,3 @@ if __name__ == "__main__":
         access_log=False
     )
 
-from fastapi.responses import FileResponse
-
-@app.get("/")
-async def serve_frontend():
-    return FileResponse("frontend.html")
