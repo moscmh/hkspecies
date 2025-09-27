@@ -224,64 +224,58 @@ def main():
     centroids = species_instance.inference_model(a_species, trained_model)
     species_instance.visualise(a_species, centroids)
 
+# Global predictor instance - loaded once at startup
+_global_predictor = None
+
+def get_global_predictor():
+    """Get or initialize the global predictor instance"""
+    global _global_predictor
+    if _global_predictor is None:
+        print("🔮 Initializing prediction model...")
+        _global_predictor = Species()
+        _global_predictor.prepare_data()
+        _global_predictor.create_grid()
+        _global_predictor.get_species_names()
+        _global_predictor.species_layer(_global_predictor.species_df)
+        print(f"✅ Prediction model ready with {len(_global_predictor.species_names)} species")
+    return _global_predictor
+
 def predict_species_locations_2025(species_name):
-    """Fast prediction using historical patterns"""
+    """Neural network prediction using pre-loaded data"""
     try:
+        # Use global predictor instance
+        predictor = get_global_predictor()
+        
+        # Check if species exists
+        if species_name not in predictor.species_names:
+            return None
+        
+        # Train model for the specific species (fast with pre-loaded data)
+        trained_model = predictor.train_model(species_name)
+        
+        # Get predictions using neural network
+        centroids = predictor.inference_model(species_name, trained_model)
+        
+        if not centroids:
+            return None
+        
+        # Convert coordinates to WGS84 for web display
         import geopandas as gpd
-        import pandas as pd
-        import numpy as np
         from shapely.geometry import Point
         
-        # Load species data directly
-        df = gpd.read_parquet("processed/species_locations.parquet")
-        species_data = df[df['scientific_name'] == species_name].copy()
-        
-        if species_data.empty:
-            return None
-        
-        # Get recent occurrences (2020-2024) for better predictions
-        species_data['year'] = pd.to_datetime(species_data['date']).dt.year
-        recent_data = species_data[species_data['year'] >= 2020]
-        
-        if recent_data.empty:
-            recent_data = species_data  # Use all data if no recent data
-        
-        # Convert to WGS84 for web display
-        recent_data = recent_data.to_crs('EPSG:4326')
-        
-        # Get centroids of recent occurrences
-        centroids = recent_data.geometry.centroid
-        
-        # Create predictions based on recent patterns
-        # Add some spatial variation to simulate 2025 predictions
-        np.random.seed(42)  # For reproducible results
-        
-        predictions = []
-        for i, centroid in enumerate(centroids.head(10)):  # Limit to 10 predictions
-            # Add small random offset to simulate new locations
-            offset_x = np.random.normal(0, 0.01)  # Small offset in degrees
-            offset_y = np.random.normal(0, 0.01)
-            
-            pred_x = centroid.x + offset_x
-            pred_y = centroid.y + offset_y
-            
-            # Keep within Hong Kong bounds
-            pred_x = max(113.83, min(114.45, pred_x))
-            pred_y = max(22.15, min(22.58, pred_y))
-            
-            predictions.append((pred_x, pred_y))
-        
-        if not predictions:
-            return None
+        # Create GeoDataFrame with predictions
+        points = [Point(x, y) for x, y in centroids]
+        gdf = gpd.GeoDataFrame(geometry=points, crs=predictor.hkmap.crs)
+        gdf_wgs84 = gdf.to_crs('EPSG:4326')
         
         # Convert to GeoJSON format
         features = []
-        for i, (x, y) in enumerate(predictions):
+        for i, point in enumerate(gdf_wgs84.geometry):
             features.append({
                 "type": "Feature",
                 "geometry": {
                     "type": "Point",
-                    "coordinates": [x, y]
+                    "coordinates": [point.x, point.y]
                 },
                 "properties": {
                     "species_name": species_name,
@@ -295,8 +289,8 @@ def predict_species_locations_2025(species_name):
             "features": features,
             "prediction_info": {
                 "species_name": species_name,
-                "predicted_locations": len(predictions),
-                "model_type": "Statistical Pattern Analysis",
+                "predicted_locations": len(centroids),
+                "model_type": "Neural Network",
                 "prediction_year": 2025
             }
         }

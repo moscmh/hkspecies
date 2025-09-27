@@ -40,6 +40,15 @@ _species_index = None
 _data_summary = None
 _districts_cache = None
 
+# Initialize predictor at startup
+logger.info("🔮 Initializing prediction model at startup...")
+try:
+    from species_inference import get_global_predictor
+    get_global_predictor()  # Pre-load all prediction data
+    logger.info("✅ Prediction model initialized successfully")
+except Exception as e:
+    logger.error(f"❌ Failed to initialize prediction model: {e}")
+
 def get_species_index():
     """Lazy load species index"""
     global _species_index
@@ -271,18 +280,21 @@ async def predict_species_2025(species_name: str):
     try:
         from species_inference import predict_species_locations_2025
         
-        # Run prediction
+        logger.info(f"🔮 Running prediction for {species_name}")
+        
+        # Run prediction (fast with pre-loaded data)
         prediction_result = predict_species_locations_2025(species_name)
         
         if not prediction_result:
-            raise HTTPException(status_code=404, detail="No predictions generated - insufficient historical data")
+            raise HTTPException(status_code=404, detail="No predictions generated - species not found or insufficient data")
         
+        logger.info(f"✅ Prediction completed for {species_name}: {prediction_result['prediction_info']['predicted_locations']} locations")
         return prediction_result
         
     except ImportError:
         raise HTTPException(status_code=500, detail="Prediction model not available")
     except Exception as e:
-        logger.error(f"Prediction failed for {species_name}: {e}")
+        logger.error(f"❌ Prediction failed for {species_name}: {e}")
         raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
 
 @app.get("/api/status")
