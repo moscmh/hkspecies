@@ -224,5 +224,67 @@ def main():
     centroids = species_instance.inference_model(a_species, trained_model)
     species_instance.visualise(a_species, centroids)
 
+def predict_species_locations_2025(species_name):
+    """Predict 2025 locations for a specific species"""
+    try:
+        # Initialize Species class
+        species_instance = Species()
+        
+        # Prepare data
+        species_instance.prepare_data()
+        
+        # Create grid
+        species_instance.create_grid()
+        
+        # Get species names
+        species_instance.get_species_names()
+        
+        # Check if species exists
+        if species_name not in species_instance.species_names:
+            return None
+        
+        # Create species layers
+        species_instance.species_layer(species_instance.species_df)
+        
+        # Train model for the specific species
+        trained_model = species_instance.train_model(species_name)
+        
+        # Get predictions
+        centroids = species_instance.inference_model(species_name, trained_model)
+        
+        if not centroids:
+            return None
+        
+        # Convert to GeoJSON format
+        features = []
+        for i, (x, y) in enumerate(centroids):
+            features.append({
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [x, y]
+                },
+                "properties": {
+                    "species_name": species_name,
+                    "prediction_year": 2025,
+                    "prediction_id": i + 1
+                }
+            })
+        
+        return {
+            "type": "FeatureCollection",
+            "features": features,
+            "prediction_info": {
+                "species_name": species_name,
+                "predicted_locations": len(centroids),
+                "model_type": "Neural Network",
+                "prediction_year": 2025
+            }
+        }
+        
+    except Exception as e:
+        print(f"Prediction error for {species_name}: {e}")
+        return None
+
 if __name__ == "__main__":
     main()
