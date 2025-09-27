@@ -1,5 +1,5 @@
 """
-Memory-optimized FastAPI backend for Railway deployment
+Memory-optimized FastAPI backend with frontend serving
 """
 
 import os
@@ -13,6 +13,7 @@ import pandas as pd
 import geopandas as gpd
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 import uvicorn
 
 # Configure logging
@@ -22,7 +23,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI(
     title="Hong Kong Species API", 
     version="1.0.0",
-    description="Memory-optimized API for Hong Kong species data"
+    description="Memory-optimized API for Hong Kong species data with web interface"
 )
 
 # Enable CORS
@@ -89,17 +90,15 @@ def get_districts():
             _districts_cache = gpd.GeoDataFrame()
     return _districts_cache
 
+# Serve frontend
 @app.get("/")
-async def root():
-    return {
-        "message": "Hong Kong Species API - Railway Deployment", 
-        "version": "1.0.0",
-        "memory_optimized": True
-    }
+async def serve_frontend():
+    """Serve the main frontend page"""
+    return FileResponse("frontend.html")
 
 @app.get("/health")
 async def health_check():
-    """Health check endpoint for Railway"""
+    """Health check endpoint"""
     return {"status": "healthy", "service": "hk-species-api"}
 
 @app.get("/api/summary")
@@ -203,87 +202,63 @@ async def get_species_map_data(species_name: str):
         logger.error(f"Error processing map data for {species_name}: {e}")
         raise HTTPException(status_code=500, detail="Error processing map data")
 
-@app.get("/api/districts")
-async def get_districts_list():
-    """Get list of all districts"""
-    districts = get_districts()
+@app.get("/api/species/{species_name}/predict-2025")
+async def predict_species_2025(species_name: str):
+    """Predict 2025 occurrence locations for a specific species"""
+    species_index = get_species_index()
     
-    district_list = []
-    for _, district in districts.iterrows():
-        district_list.append({
-            "name_en": district.get("name_en", "Unknown"),
-            "name_tc": district.get("name_tc", "Unknown"),
-            "area_code": district.get("area_code", "Unknown")
-        })
-    
-    return {"districts": district_list}
-
-@app.get("/api/districts/map")
-async def get_districts_map():
-    """Get GeoJSON map data for Hong Kong districts"""
-    districts = get_districts()
-    
-    if districts.empty:
-        raise HTTPException(status_code=404, detail="Districts data not available")
+    if species_name not in species_index:
+        raise HTTPException(status_code=404, detail="Species not found")
     
     try:
-        districts_copy = districts.copy()
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("species_inference", "species_inference.py")
+        species_inference = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(species_inference)
         
-        for col in districts_copy.columns:
-            if districts_copy[col].dtype == 'datetime64[ns]':
-                districts_copy[col] = districts_copy[col].dt.strftime('%Y-%m-%d')
+        species_predictor = species_inference.Species()
+        species_predictor.prepare_data()
+        species_predictor.get_species_names()
+        species_predictor.species_layer(species_predictor.species_df)
         
-        districts_wgs84 = districts_copy.to_crs('EPSG:4326')
-        geojson = json.loads(districts_wgs84.to_json())
+        if species_name not in species_predictor.species_names:
+            raise HTTPException(status_code=404, detail="Species not available for prediction")
         
-        del districts_copy, districts_wgs84
-        gc.collect()
+        trained_model = species_predictor.train_model(species_name)
+        predicted_centroids = species_predictor.inference_model(species_name, trained_model)
         
-        return {"type": "FeatureCollection", "features": geojson["features"]}
+        features = []
+        for i, (x, y) in enumerate(predicted_centroids):
+            lat = 22.3193 + (y - 820000) / 111000
+            lng = 114.1694 + (x - 836000) / (111000 * 0.9135)
+            
+            features.append({
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [lng, lat]
+                },
+                "properties": {
+                    "species_name": species_name,
+                    "prediction_id": i,
+                    "year": 2025,
+                    "confidence": "predicted"
+                }
+            })
+        
+        return {
+            "type": "FeatureCollection",
+            "features": features,
+            "prediction_info": {
+                "species_name": species_name,
+                "predicted_locations": len(predicted_centroids),
+                "prediction_year": 2025,
+                "model_type": "neural_network"
+            }
+        }
         
     except Exception as e:
-        logger.error(f"Error processing districts map data: {e}")
-        raise HTTPException(status_code=500, detail="Error processing districts map data")
-
-@app.get("/api/map/bounds")
-async def get_map_bounds():
-    """Get Hong Kong map bounds for initial map view"""
-    return {
-        "bounds": {
-            "north": 22.58,
-            "south": 22.15,
-            "east": 114.45,
-            "west": 113.83
-        },
-        "center": {
-            "lat": 22.3193,
-            "lng": 114.1694
-        },
-        "zoom": 10
-    }
-
-@app.get("/api/families")
-async def get_families():
-    """Get list of all species families"""
-    data_summary = get_data_summary()
-    return {"families": data_summary.get("families", [])}
-
-@app.get("/api/status")
-async def get_status():
-    """Get API status and memory info"""
-    import psutil
-    import os
-    
-    process = psutil.Process(os.getpid())
-    memory_info = process.memory_info()
-    
-    return {
-        "status": "running",
-        "memory_usage_mb": round(memory_info.rss / 1024 / 1024, 2),
-        "species_loaded": len(get_species_index()),
-        "data_summary_loaded": bool(_data_summary),
-        "districts_loaded": bool(_districts_cache)
-    }
+        raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
@@ -297,9 +272,3 @@ if __name__ == "__main__":
         workers=1,
         access_log=False
     )
-
-from fastapi.responses import FileResponse
-
-@app.get("/")
-async def serve_frontend():
-    return FileResponse("frontend.html")
