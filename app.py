@@ -1,13 +1,12 @@
 """
-Memory-optimized FastAPI backend for Railway deployment
+Clean FastAPI backend for Hong Kong Species data
 """
 
 import os
 import gc
 import json
 import logging
-from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional
 
 import pandas as pd
 import geopandas as gpd
@@ -23,7 +22,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI(
     title="Hong Kong Species API", 
     version="1.0.0",
-    description="Memory-optimized API for Hong Kong species data"
+    description="API for Hong Kong species data"
 )
 
 # Enable CORS
@@ -39,15 +38,11 @@ app.add_middleware(
 _species_index = None
 _data_summary = None
 _districts_cache = None
+_global_predictor = None
 
-# Initialize predictor at startup
-logger.info("🔮 Initializing prediction model at startup...")
-try:
-    from species_inference import get_global_predictor
-    get_global_predictor()  # Pre-load all prediction data
-    logger.info("✅ Prediction model initialized successfully")
-except Exception as e:
-    logger.error(f"❌ Failed to initialize prediction model: {e}")
+# Prediction model - initialize on demand to save memory
+_global_predictor = None
+logger.info("⚠️ Prediction model will initialize on first use to save memory")
 
 def get_species_index():
     """Lazy load species index"""
@@ -105,7 +100,6 @@ async def serve_frontend():
 
 @app.get("/health")
 async def health_check():
-    """Health check endpoint for Railway"""
     return {"status": "healthy", "service": "hk-species-api"}
 
 @app.get("/api/summary")
@@ -115,7 +109,7 @@ async def get_summary():
 
 @app.get("/api/species/list")
 async def get_all_species(limit: int = Query(100, le=500)):
-    """Get list of all available species (with limit for memory optimization)"""
+    """Get list of all available species"""
     species_index = get_species_index()
     
     species_list = []
@@ -209,6 +203,36 @@ async def get_species_map_data(species_name: str):
         logger.error(f"Error processing map data for {species_name}: {e}")
         raise HTTPException(status_code=500, detail="Error processing map data")
 
+@app.get("/api/species/{species_name}/predict-2025")
+async def predict_species_2025(species_name: str):
+    """Predict 2025 occurrences for a species using neural network"""
+    global _global_predictor
+    
+    if _global_predictor is None:
+        try:
+            from species_inference import get_global_predictor
+            _global_predictor = get_global_predictor()
+        except Exception as e:
+            raise HTTPException(status_code=503, detail=f"Prediction model initialization failed: {str(e)}")
+    
+    try:
+        from species_inference import fast_predict_with_global_predictor
+        
+        logger.info(f"🔮 Running prediction for {species_name}")
+        
+        # Use pre-loaded global predictor for fast prediction
+        prediction_result = fast_predict_with_global_predictor(_global_predictor, species_name)
+        
+        if not prediction_result:
+            raise HTTPException(status_code=404, detail="No predictions generated - species not found or insufficient data")
+        
+        logger.info(f"✅ Prediction completed for {species_name}: {prediction_result['prediction_info']['predicted_locations']} locations")
+        return prediction_result
+        
+    except Exception as e:
+        logger.error(f"❌ Prediction failed for {species_name}: {e}")
+        raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
+
 @app.get("/api/districts")
 async def get_districts_list():
     """Get list of all districts"""
@@ -274,28 +298,24 @@ async def get_families():
     data_summary = get_data_summary()
     return {"families": data_summary.get("families", [])}
 
-@app.get("/api/species/{species_name}/predict-2025")
-async def predict_species_2025(species_name: str):
-    """Predict 2025 occurrences for a species using neural network"""
+@app.get("/api/cache/info")
+async def get_cache_info():
+    """Get prediction model cache information"""
     try:
-        from species_inference import predict_species_locations_2025
-        
-        logger.info(f"🔮 Running prediction for {species_name}")
-        
-        # Run prediction (fast with pre-loaded data)
-        prediction_result = predict_species_locations_2025(species_name)
-        
-        if not prediction_result:
-            raise HTTPException(status_code=404, detail="No predictions generated - species not found or insufficient data")
-        
-        logger.info(f"✅ Prediction completed for {species_name}: {prediction_result['prediction_info']['predicted_locations']} locations")
-        return prediction_result
-        
-    except ImportError:
-        raise HTTPException(status_code=500, detail="Prediction model not available")
+        from species_inference import get_cache_info
+        return get_cache_info()
     except Exception as e:
-        logger.error(f"❌ Prediction failed for {species_name}: {e}")
-        raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
+        return {"error": str(e)}
+
+@app.post("/api/cache/clear")
+async def clear_cache():
+    """Clear prediction model cache to free memory"""
+    try:
+        from species_inference import clear_model_cache
+        clear_model_cache()
+        return {"message": "Cache cleared successfully"}
+    except Exception as e:
+        return {"error": str(e)}
 
 @app.get("/api/status")
 async def get_status():
@@ -306,12 +326,21 @@ async def get_status():
     process = psutil.Process(os.getpid())
     memory_info = process.memory_info()
     
+    # Get cache info
+    try:
+        from species_inference import get_cache_info
+        cache_info = get_cache_info()
+    except:
+        cache_info = {"cached_models": 0}
+    
     return {
         "status": "running",
         "memory_usage_mb": round(memory_info.rss / 1024 / 1024, 2),
         "species_loaded": len(get_species_index()),
         "data_summary_loaded": bool(_data_summary),
-        "districts_loaded": bool(_districts_cache)
+        "districts_loaded": bool(_districts_cache),
+        "prediction_model_ready": _global_predictor is not None,
+        "cached_models": cache_info.get("cached_models", 0)
     }
 
 if __name__ == "__main__":
@@ -326,4 +355,3 @@ if __name__ == "__main__":
         workers=1,
         access_log=False
     )
-

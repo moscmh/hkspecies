@@ -131,6 +131,37 @@ class Species:
 
         return self.model
 
+    def train_model_fast(self, a_species):
+        """Faster training with optimized parameters"""
+        # Initialize the network
+        self.model = Net()
+
+        # Specify loss function and optimizer with better learning rate
+        criterion = nn.MSELoss()  # Use MSE for faster convergence
+        optimizer = torch.optim.Adam(self.model.parameters(), lr=0.001)  # Adam optimizer
+
+        # Define device (CPU is often faster for small models)
+        device = torch.device('cpu')
+
+        # Specify species for training
+        species_layer = self.species_layers[a_species]
+        X = torch.tensor(species_layer[:23, :, :]).to(torch.float32)
+        y = torch.tensor(species_layer[1:, :, :]).reshape(23, -1).to(torch.float32)
+
+        # Reduced epochs for faster training
+        n_epochs = 3
+        self.model.train()
+        
+        for epoch in range(n_epochs):
+            data, target = X.to(device), y.to(device)
+            optimizer.zero_grad()
+            output = self.model(data)
+            loss = criterion(output, target)
+            loss.backward()
+            optimizer.step()
+
+        return self.model
+
     def inference_model(self, a_species, model):
         # model.eval()
         # with torch.no_grad():
@@ -226,6 +257,7 @@ def main():
 
 # Global predictor instance - loaded once at startup
 _global_predictor = None
+_trained_models_cache = {}
 
 def get_global_predictor():
     """Get or initialize the global predictor instance"""
@@ -239,6 +271,71 @@ def get_global_predictor():
         _global_predictor.species_layer(_global_predictor.species_df)
         print(f"✅ Prediction model ready with {len(_global_predictor.species_names)} species")
     return _global_predictor
+
+def fast_predict_with_global_predictor(predictor, species_name):
+    """Fast prediction using pre-loaded predictor with model caching"""
+    global _trained_models_cache
+    
+    try:
+        # Check if species exists
+        if species_name not in predictor.species_names:
+            return None
+        
+        # Check if model is already trained and cached
+        if species_name not in _trained_models_cache:
+            print(f"🎨 Training model for {species_name}...")
+            trained_model = predictor.train_model_fast(species_name)
+            _trained_models_cache[species_name] = trained_model
+            print(f"✅ Model cached for {species_name}")
+        else:
+            print(f"💾 Using cached model for {species_name}")
+            trained_model = _trained_models_cache[species_name]
+        
+        # Get predictions using cached model
+        centroids = predictor.inference_model(species_name, trained_model)
+        
+        if not centroids:
+            return None
+        
+        # Convert coordinates to WGS84 for web display
+        import geopandas as gpd
+        from shapely.geometry import Point
+        
+        # Create GeoDataFrame with predictions
+        points = [Point(x, y) for x, y in centroids]
+        gdf = gpd.GeoDataFrame(geometry=points, crs=predictor.hkmap.crs)
+        gdf_wgs84 = gdf.to_crs('EPSG:4326')
+        
+        # Convert to GeoJSON format
+        features = []
+        for i, point in enumerate(gdf_wgs84.geometry):
+            features.append({
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [point.x, point.y]
+                },
+                "properties": {
+                    "species_name": species_name,
+                    "prediction_year": 2025,
+                    "prediction_id": i + 1
+                }
+            })
+        
+        return {
+            "type": "FeatureCollection",
+            "features": features,
+            "prediction_info": {
+                "species_name": species_name,
+                "predicted_locations": len(centroids),
+                "model_type": "Neural Network (Cached)",
+                "prediction_year": 2025
+            }
+        }
+        
+    except Exception as e:
+        print(f"Prediction error for {species_name}: {e}")
+        return None
 
 def predict_species_locations_2025(species_name):
     """Neural network prediction using pre-loaded data"""
@@ -298,6 +395,20 @@ def predict_species_locations_2025(species_name):
     except Exception as e:
         print(f"Prediction error for {species_name}: {e}")
         return None
+
+def clear_model_cache():
+    """Clear cached models to free memory"""
+    global _trained_models_cache
+    _trained_models_cache.clear()
+    print("🗑️ Model cache cleared")
+
+def get_cache_info():
+    """Get information about cached models"""
+    global _trained_models_cache
+    return {
+        "cached_models": len(_trained_models_cache),
+        "species_list": list(_trained_models_cache.keys())
+    }
 
 if __name__ == "__main__":
     main()
