@@ -11,7 +11,7 @@ After=network.target
 Type=simple
 User=ubuntu
 WorkingDirectory=/home/ubuntu/hkspecies
-ExecStart=/usr/bin/python3 app.py
+ExecStart=/usr/bin/python3.11 app.py
 Restart=always
 RestartSec=10
 

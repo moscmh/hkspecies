@@ -8,7 +8,7 @@ pkill -f "python.*app.py"
 sleep 2
 
 # Start new process
-nohup python app.py > app.log 2>&1 &
+nohup python3.11 app.py > app.log 2>&1 &
 
 echo "✅ Application restarted!"
 echo "📋 Check status: ps aux | grep python"
