@@ -1,0 +1,16 @@
+# Create this file as /etc/systemd/system/hkspecies.service
+
+[Unit]
+Description=Hong Kong Species API
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/hkspecies
+Environment=PATH=/home/ubuntu/hkspecies/venv/bin
+ExecStart=/home/ubuntu/hkspecies/venv/bin/python app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
