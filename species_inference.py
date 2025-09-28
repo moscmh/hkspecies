@@ -277,6 +277,13 @@ def fast_predict_with_global_predictor(predictor, species_name):
     global _trained_models_cache
     
     try:
+        # Import memory utilities
+        from memory_optimizer import MemoryMonitor, clear_memory
+        monitor = MemoryMonitor()
+        
+        # Check memory before prediction
+        monitor.check_memory()
+        
         # Check if species exists
         if species_name not in predictor.species_names:
             return None
@@ -287,6 +294,9 @@ def fast_predict_with_global_predictor(predictor, species_name):
             trained_model = predictor.train_model_fast(species_name)
             _trained_models_cache[species_name] = trained_model
             print(f"✅ Model cached for {species_name}")
+            
+            # Clear memory after training
+            clear_memory()
         else:
             print(f"💾 Using cached model for {species_name}")
             trained_model = _trained_models_cache[species_name]
@@ -322,6 +332,9 @@ def fast_predict_with_global_predictor(predictor, species_name):
                 }
             })
         
+        # Final memory check
+        monitor.check_memory()
+        
         return {
             "type": "FeatureCollection",
             "features": features,
@@ -335,6 +348,8 @@ def fast_predict_with_global_predictor(predictor, species_name):
         
     except Exception as e:
         print(f"Prediction error for {species_name}: {e}")
+        # Clear memory on error
+        clear_memory()
         return None
 
 def predict_species_locations_2025(species_name):
