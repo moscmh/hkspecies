@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33909009350987,
+          22.260574845160345
+        ]
+      },
+      "properties": {
+        "species_name": "Taractrocera maevius",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Taractrocera maevius",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

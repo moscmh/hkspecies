@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1168240404909,
+          22.386242182261263
+        ]
+      },
+      "properties": {
+        "species_name": "Callosciurus erythraeus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11678803641257,
+          22.469972685135435
+        ]
+      },
+      "properties": {
+        "species_name": "Callosciurus erythraeus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14862237020476,
+          22.260653420979644
+        ]
+      },
+      "properties": {
+        "species_name": "Callosciurus erythraeus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14860555323762,
+          22.344385255112755
+        ]
+      },
+      "properties": {
+        "species_name": "Callosciurus erythraeus",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14860133594935,
+          22.365318079026896
+        ]
+      },
+      "properties": {
+        "species_name": "Callosciurus erythraeus",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14859711343559,
+          22.386250849013777
+        ]
+      },
+      "properties": {
+        "species_name": "Callosciurus erythraeus",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037125565475,
+          22.428118658612206
+        ]
+      },
+      "properties": {
+        "species_name": "Callosciurus erythraeus",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21210644523313,
+          22.239718945254637
+        ]
+      },
+      "properties": {
+        "species_name": "Callosciurus erythraeus",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Callosciurus erythraeus",
+    "predicted_locations": 8,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

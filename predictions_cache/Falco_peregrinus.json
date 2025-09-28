@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0213884410646,
+          22.4908413983775
+        ]
+      },
+      "properties": {
+        "species_name": "Falco peregrinus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05316664672749,
+          22.511801328887614
+        ]
+      },
+      "properties": {
+        "species_name": "Falco peregrinus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Falco peregrinus",
+    "predicted_locations": 2,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

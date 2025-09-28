@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92641066843261,
+          22.260462899125095
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92637341033182,
+          22.281395738435535
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98992722914929,
+          22.239615361433202
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98989945035083,
+          22.260548343833925
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11678803641257,
+          22.469972685135435
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14858441450686,
+          22.449048835013503
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14857592236352,
+          22.490913888649015
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14857166842417,
+          22.511846334238573
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18036703008482,
+          22.260655830209807
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037125565475,
+          22.428118658612206
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21211168915495,
+          22.26065203734401
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21216446042847,
+          22.469979996602344
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27568939707636,
+          22.38622310827617
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27571901456957,
+          22.42808843120656
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33930840423383,
+          22.44896953922718
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus hellerii",
+        "prediction_year": 2025,
+        "prediction_id": 15
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Xiphophorus hellerii",
+    "predicted_locations": 15,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

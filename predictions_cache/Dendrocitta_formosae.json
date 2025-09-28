@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037231615071,
+          22.469983826051013
+        ]
+      },
+      "properties": {
+        "species_name": "Dendrocitta formosae",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.180372847016,
+          22.490916328602815
+        ]
+      },
+      "properties": {
+        "species_name": "Dendrocitta formosae",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21217508734468,
+          22.511844940211542
+        ]
+      },
+      "properties": {
+        "species_name": "Dendrocitta formosae",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24391634985945,
+          22.386239404612187
+        ]
+      },
+      "properties": {
+        "species_name": "Dendrocitta formosae",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Dendrocitta formosae",
+    "predicted_locations": 4,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

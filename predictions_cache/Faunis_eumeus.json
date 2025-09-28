@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98961982766679,
+          22.469875204476182
+        ]
+      },
+      "properties": {
+        "species_name": "Faunis eumeus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18036703008482,
+          22.260655830209807
+        ]
+      },
+      "properties": {
+        "species_name": "Faunis eumeus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037231615071,
+          22.469983826051013
+        ]
+      },
+      "properties": {
+        "species_name": "Faunis eumeus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24391634985945,
+          22.386239404612187
+        ]
+      },
+      "properties": {
+        "species_name": "Faunis eumeus",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2439767842967,
+          22.511834823908362
+        ]
+      },
+      "properties": {
+        "species_name": "Faunis eumeus",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Faunis eumeus",
+    "predicted_locations": 5,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11680606021714,
+          22.428107541796482
+        ]
+      },
+      "properties": {
+        "species_name": "Luciola curtithorax",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2438563362238,
+          22.260642042387477
+        ]
+      },
+      "properties": {
+        "species_name": "Luciola curtithorax",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Luciola curtithorax",
+    "predicted_locations": 2,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

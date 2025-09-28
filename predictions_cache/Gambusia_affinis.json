@@ -1,0 +1,491 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.89466640495647,
+          22.260410874014926
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92648505109074,
+          22.218597059188106
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92641066843261,
+          22.260462899125095
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92637341033182,
+          22.281395738435535
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98989945035083,
+          22.260548343833925
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9896479403814,
+          22.44894276146645
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05327797081414,
+          22.38620612648986
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05322240863107,
+          22.4490039711372
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08503724756382,
+          22.407159965817
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1168240404909,
+          22.386242182261263
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11679705375985,
+          22.449040140510316
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11676996901909,
+          22.511837611960893
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14862237020476,
+          22.260653420979644
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14860555323762,
+          22.344385255112755
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14860133594935,
+          22.365318079026896
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14858017105658,
+          22.46998138889412
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14857166842417,
+          22.511846334238573
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18036703008482,
+          22.260655830209807
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037231615071,
+          22.469983826051013
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037337829327,
+          22.511848776990046
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.180374442085,
+          22.553713511112605
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21211168915495,
+          22.26065203734401
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21216446042847,
+          22.469979996602344
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21217508734468,
+          22.511844940211542
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21218040991224,
+          22.53277733072807
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24384637474324,
+          22.23970896039106
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2438563362238,
+          22.260642042387477
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2439767842967,
+          22.511834823908362
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27568939707636,
+          22.38622310827617
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27577845786772,
+          22.51181842809491
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.307501546738,
+          22.428065848085197
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30758009677609,
+          22.51179575279468
+        ]
+      },
+      "properties": {
+        "species_name": "Gambusia affinis",
+        "prediction_year": 2025,
+        "prediction_id": 32
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Gambusia affinis",
+    "predicted_locations": 32,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

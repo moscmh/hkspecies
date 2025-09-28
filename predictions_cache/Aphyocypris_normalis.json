@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8629688895082,
+          22.23941986913578
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037072602344,
+          22.407185993804486
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.180374442085,
+          22.553713511112605
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21217508734468,
+          22.511844940211542
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2439767842967,
+          22.511834823908362
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24398689773403,
+          22.532767204293254
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27571901456957,
+          22.42808843120656
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.307501546738,
+          22.428065848085197
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30758009677609,
+          22.51179575279468
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33925969058328,
+          22.407104429404114
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33928403308605,
+          22.428037011350625
+        ]
+      },
+      "properties": {
+        "species_name": "Aphyocypris normalis",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Aphyocypris normalis",
+    "predicted_locations": 11,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

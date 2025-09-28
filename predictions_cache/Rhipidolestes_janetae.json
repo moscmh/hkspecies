@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.95815502062763,
+          22.26050872242026
+        ]
+      },
+      "properties": {
+        "species_name": "Rhipidolestes janetae",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11681505579175,
+          22.407174889033552
+        ]
+      },
+      "properties": {
+        "species_name": "Rhipidolestes janetae",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Rhipidolestes janetae",
+    "predicted_locations": 2,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

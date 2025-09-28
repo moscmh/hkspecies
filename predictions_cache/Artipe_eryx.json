@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98961982766679,
+          22.469875204476182
+        ]
+      },
+      "properties": {
+        "species_name": "Artipe eryx",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33923537670624,
+          22.386171793427373
+        ]
+      },
+      "properties": {
+        "species_name": "Artipe eryx",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Artipe eryx",
+    "predicted_locations": 2,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

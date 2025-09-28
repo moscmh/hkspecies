@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08517392245707,
+          22.197830631047303
+        ]
+      },
+      "properties": {
+        "species_name": "Plestiodon quadrilineatus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Plestiodon quadrilineatus",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

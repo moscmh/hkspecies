@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98992722914929,
+          22.239615361433202
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98961982766679,
+          22.469875204476182
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02143514676698,
+          22.448976496320146
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02141180784598,
+          22.46990897442264
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0213884410646,
+          22.4908413983775
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05320384354084,
+          22.469936477873212
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05318525624463,
+          22.490868930469905
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05316664672749,
+          22.511801328887614
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08496829135966,
+          22.51182261016992
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08495445044167,
+          22.53275497656258
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11676091895826,
+          22.53276999408207
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21217508734468,
+          22.511844940211542
+        ]
+      },
+      "properties": {
+        "species_name": "Gallinula chloropus",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Gallinula chloropus",
+    "predicted_locations": 12,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

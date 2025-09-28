@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.89470833583715,
+          22.239478035232164
+        ]
+      },
+      "properties": {
+        "species_name": "Pseudogastromyzon myersi",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92644788200907,
+          22.239530006029298
+        ]
+      },
+      "properties": {
+        "species_name": "Pseudogastromyzon myersi",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92641066843261,
+          22.260462899125095
+        ]
+      },
+      "properties": {
+        "species_name": "Pseudogastromyzon myersi",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11679705375985,
+          22.449040140510316
+        ]
+      },
+      "properties": {
+        "species_name": "Pseudogastromyzon myersi",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1485886527178,
+          22.42811622704679
+        ]
+      },
+      "properties": {
+        "species_name": "Pseudogastromyzon myersi",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14858441450686,
+          22.449048835013503
+        ]
+      },
+      "properties": {
+        "species_name": "Pseudogastromyzon myersi",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037125565475,
+          22.428118658612206
+        ]
+      },
+      "properties": {
+        "species_name": "Pseudogastromyzon myersi",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24391634985945,
+          22.386239404612187
+        ]
+      },
+      "properties": {
+        "species_name": "Pseudogastromyzon myersi",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30752114971133,
+          22.448998405453754
+        ]
+      },
+      "properties": {
+        "species_name": "Pseudogastromyzon myersi",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Pseudogastromyzon myersi",
+    "predicted_locations": 9,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

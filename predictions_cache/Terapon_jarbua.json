@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.89466640495647,
+          22.260410874014926
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92637341033182,
+          22.281395738435535
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98989945035083,
+          22.260548343833925
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9898437928573,
+          22.302414147316284
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21216446042847,
+          22.469979996602344
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24398689773403,
+          22.532767204293254
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27571901456957,
+          22.42808843120656
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27577845786772,
+          22.51181842809491
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30752114971133,
+          22.448998405453754
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30758009677609,
+          22.51179575279468
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33930840423383,
+          22.44896953922718
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37103735737045,
+          22.40706937503671
+        ]
+      },
+      "properties": {
+        "species_name": "Terapon jarbua",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Terapon jarbua",
+    "predicted_locations": 12,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

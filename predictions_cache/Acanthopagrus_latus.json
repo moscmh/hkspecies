@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.89466640495647,
+          22.260410874014926
+        ]
+      },
+      "properties": {
+        "species_name": "Acanthopagrus latus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98992722914929,
+          22.239615361433202
+        ]
+      },
+      "properties": {
+        "species_name": "Acanthopagrus latus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24398689773403,
+          22.532767204293254
+        ]
+      },
+      "properties": {
+        "species_name": "Acanthopagrus latus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27571901456957,
+          22.42808843120656
+        ]
+      },
+      "properties": {
+        "species_name": "Acanthopagrus latus",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27573384933757,
+          22.449021011609698
+        ]
+      },
+      "properties": {
+        "species_name": "Acanthopagrus latus",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30752114971133,
+          22.448998405453754
+        ]
+      },
+      "properties": {
+        "species_name": "Acanthopagrus latus",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33923537670624,
+          22.386171793427373
+        ]
+      },
+      "properties": {
+        "species_name": "Acanthopagrus latus",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33930840423383,
+          22.44896953922718
+        ]
+      },
+      "properties": {
+        "species_name": "Acanthopagrus latus",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37103735737045,
+          22.40706937503671
+        ]
+      },
+      "properties": {
+        "species_name": "Acanthopagrus latus",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Acanthopagrus latus",
+    "predicted_locations": 9,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11676996901909,
+          22.511837611960893
+        ]
+      },
+      "properties": {
+        "species_name": "Potamarcha congener",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037231615071,
+          22.469983826051013
+        ]
+      },
+      "properties": {
+        "species_name": "Potamarcha congener",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Potamarcha congener",
+    "predicted_locations": 2,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

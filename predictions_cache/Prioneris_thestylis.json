@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24392639299735,
+          22.407172109652254
+        ]
+      },
+      "properties": {
+        "species_name": "Prioneris thestylis",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Prioneris thestylis",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

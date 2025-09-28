@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92637341033182,
+          22.281395738435535
+        ]
+      },
+      "properties": {
+        "species_name": "Glossogobius olivaceus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02150499655446,
+          22.386178737523664
+        ]
+      },
+      "properties": {
+        "species_name": "Glossogobius olivaceus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27571901456957,
+          22.42808843120656
+        ]
+      },
+      "properties": {
+        "species_name": "Glossogobius olivaceus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Glossogobius olivaceus",
+    "predicted_locations": 3,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

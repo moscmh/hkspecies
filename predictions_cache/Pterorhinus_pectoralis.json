@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05327797081414,
+          22.38620612648986
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.180372847016,
+          22.490916328602815
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24391634985945,
+          22.386239404612187
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2439767842967,
+          22.511834823908362
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Pterorhinus pectoralis",
+    "predicted_locations": 4,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

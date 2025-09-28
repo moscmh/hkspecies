@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14863492823089,
+          22.19785398109577
+        ]
+      },
+      "properties": {
+        "species_name": "Onychargia atrocyana",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037231615071,
+          22.469983826051013
+        ]
+      },
+      "properties": {
+        "species_name": "Onychargia atrocyana",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30758009677609,
+          22.51179575279468
+        ]
+      },
+      "properties": {
+        "species_name": "Onychargia atrocyana",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Onychargia atrocyana",
+    "predicted_locations": 3,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

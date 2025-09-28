@@ -1,0 +1,476 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8629688895082,
+          22.23941986913578
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98995497467838,
+          22.21868232531273
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98992722914929,
+          22.239615361433202
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9898437928573,
+          22.302414147316284
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9896479403814,
+          22.44894276146645
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02143514676698,
+          22.448976496320146
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02141180784598,
+          22.46990897442264
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05327797081414,
+          22.38620612648986
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05320384354084,
+          22.469936477873212
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05318525624463,
+          22.490868930469905
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08502348940414,
+          22.42809260287409
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11686880110797,
+          22.281577839650545
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11681505579175,
+          22.407174889033552
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11680606021714,
+          22.428107541796482
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11679705375985,
+          22.449040140510316
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11676996901909,
+          22.511837611960893
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11676091895826,
+          22.53276999408207
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14862237020476,
+          22.260653420979644
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14858441450686,
+          22.449048835013503
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14857166842417,
+          22.511846334238573
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037125565475,
+          22.428118658612206
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037231615071,
+          22.469983826051013
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.180372847016,
+          22.490916328602815
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037390998282,
+          22.532781171173166
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21214327935617,
+          22.38624946018849
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21216446042847,
+          22.469979996602344
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21217508734468,
+          22.511844940211542
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2439767842967,
+          22.511834823908362
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27571901456957,
+          22.42808843120656
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27573384933757,
+          22.449021011609698
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.307501546738,
+          22.428065848085197
+        ]
+      },
+      "properties": {
+        "species_name": "Phylloscopus inornatus",
+        "prediction_year": 2025,
+        "prediction_id": 31
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Phylloscopus inornatus",
+    "predicted_locations": 31,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

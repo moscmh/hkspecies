@@ -1,0 +1,296 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92648505109074,
+          22.218597059188106
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92641066843261,
+          22.260462899125095
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.085050989205,
+          22.386227274746002
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08503724756382,
+          22.407159965817
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11681505579175,
+          22.407174889033552
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14859711343559,
+          22.386250849013777
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14859288569289,
+          22.407183565033662
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1485886527178,
+          22.42811622704679
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037125565475,
+          22.428118658612206
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.180372847016,
+          22.490916328602815
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21211168915495,
+          22.26065203734401
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21213272513423,
+          22.344383868018685
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21213799922243,
+          22.365316691067385
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2438962986425,
+          22.344373832660825
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24391634985945,
+          22.386239404612187
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2439767842967,
+          22.511834823908362
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30748196676294,
+          22.4071332366553
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.307501546738,
+          22.428065848085197
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30752114971133,
+          22.448998405453754
+        ]
+      },
+      "properties": {
+        "species_name": "Pygoluciola qingyu",
+        "prediction_year": 2025,
+        "prediction_id": 19
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Pygoluciola qingyu",
+    "predicted_locations": 19,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

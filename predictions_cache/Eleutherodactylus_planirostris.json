@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92637341033182,
+          22.281395738435535
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92633610767699,
+          22.302328523920625
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9899826869602,
+          22.19774923551251
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98961982766679,
+          22.469875204476182
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02143514676698,
+          22.448976496320146
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02141180784598,
+          22.46990897442264
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11689552743444,
+          22.218778588518564
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11676996901909,
+          22.511837611960893
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14862237020476,
+          22.260653420979644
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.148618173784,
+          22.28158646020473
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18036703008482,
+          22.260655830209807
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1803686116016,
+          22.32345479491128
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21211168915495,
+          22.26065203734401
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21214856553954,
+          22.407182175342253
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27568939707636,
+          22.38622310827617
+        ]
+      },
+      "properties": {
+        "species_name": "Eleutherodactylus planirostris",
+        "prediction_year": 2025,
+        "prediction_id": 15
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Eleutherodactylus planirostris",
+    "predicted_locations": 15,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

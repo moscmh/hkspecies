@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24391634985945,
+          22.386239404612187
+        ]
+      },
+      "properties": {
+        "species_name": "Caltoris cahira",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Caltoris cahira",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

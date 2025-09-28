@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2439767842967,
+          22.511834823908362
+        ]
+      },
+      "properties": {
+        "species_name": "Dicaeum ignipectus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Dicaeum ignipectus",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

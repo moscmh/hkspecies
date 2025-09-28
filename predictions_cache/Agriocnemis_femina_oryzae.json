@@ -1,0 +1,116 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9896479403814,
+          22.44894276146645
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98961982766679,
+          22.469875204476182
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05327797081414,
+          22.38620612648986
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037337829327,
+          22.511848776990046
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21217508734468,
+          22.511844940211542
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2439767842967,
+          22.511834823908362
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.307501546738,
+          22.428065848085197
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Agriocnemis femina oryzae",
+    "predicted_locations": 7,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14859711343559,
+          22.386250849013777
+        ]
+      },
+      "properties": {
+        "species_name": "Notocrypta curvifascia",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18036703008482,
+          22.260655830209807
+        ]
+      },
+      "properties": {
+        "species_name": "Notocrypta curvifascia",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037231615071,
+          22.469983826051013
+        ]
+      },
+      "properties": {
+        "species_name": "Notocrypta curvifascia",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Notocrypta curvifascia",
+    "predicted_locations": 3,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

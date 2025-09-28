@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.89466640495647,
+          22.260410874014926
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98992722914929,
+          22.239615361433202
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18036703008482,
+          22.260655830209807
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30752114971133,
+          22.448998405453754
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30758009677609,
+          22.51179575279468
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33923537670624,
+          22.386171793427373
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33930840423383,
+          22.44896953922718
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37100828664697,
+          22.386136774988373
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Lutjanus argentimaculatus",
+    "predicted_locations": 8,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

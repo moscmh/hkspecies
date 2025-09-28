@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.89470833583715,
+          22.239478035232164
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92641066843261,
+          22.260462899125095
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02150499655446,
+          22.386178737523664
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05329644722875,
+          22.365273403593328
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05325947225286,
+          22.407138795405828
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08503724756382,
+          22.407159965817
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.180374442085,
+          22.553713511112605
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30752114971133,
+          22.448998405453754
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33923537670624,
+          22.386171793427373
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33930840423383,
+          22.44896953922718
+        ]
+      },
+      "properties": {
+        "species_name": "Myotis pilosus",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Myotis pilosus",
+    "predicted_locations": 10,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

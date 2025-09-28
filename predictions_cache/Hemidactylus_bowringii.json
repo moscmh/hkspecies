@@ -1,0 +1,386 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8629688895082,
+          22.23941986913578
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.86292224138973,
+          22.26035264716523
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92648505109074,
+          22.218597059188106
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.95818751684087,
+          22.239575781451784
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9899826869602,
+          22.19774923551251
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98961982766679,
+          22.469875204476182
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02143514676698,
+          22.448976496320146
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02141180784598,
+          22.46990897442264
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05322240863107,
+          22.4490039711372
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05318525624463,
+          22.490868930469905
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08496829135966,
+          22.51182261016992
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.116904414579,
+          22.19784539745305
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11689552743444,
+          22.218778588518564
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11688662947918,
+          22.239711725933283
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1168240404909,
+          22.386242182261263
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11680606021714,
+          22.428107541796482
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11678803641257,
+          22.469972685135435
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11676996901909,
+          22.511837611960893
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11676091895826,
+          22.53276999408207
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14863492823089,
+          22.19785398109577
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.180372847016,
+          22.490916328602815
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21217508734468,
+          22.511844940211542
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24380664508348,
+          22.155976095890946
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2438962986425,
+          22.344373832660825
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27568939707636,
+          22.38622310827617
+        ]
+      },
+      "properties": {
+        "species_name": "Hemidactylus bowringii",
+        "prediction_year": 2025,
+        "prediction_id": 25
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Hemidactylus bowringii",
+    "predicted_locations": 25,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

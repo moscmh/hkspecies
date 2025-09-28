@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92648505109074,
+          22.218597059188106
+        ]
+      },
+      "properties": {
+        "species_name": "Eutropis longicaudata",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98961982766679,
+          22.469875204476182
+        ]
+      },
+      "properties": {
+        "species_name": "Eutropis longicaudata",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1168240404909,
+          22.386242182261263
+        ]
+      },
+      "properties": {
+        "species_name": "Eutropis longicaudata",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14862237020476,
+          22.260653420979644
+        ]
+      },
+      "properties": {
+        "species_name": "Eutropis longicaudata",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14859711343559,
+          22.386250849013777
+        ]
+      },
+      "properties": {
+        "species_name": "Eutropis longicaudata",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18036703008482,
+          22.260655830209807
+        ]
+      },
+      "properties": {
+        "species_name": "Eutropis longicaudata",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Eutropis longicaudata",
+    "predicted_locations": 6,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

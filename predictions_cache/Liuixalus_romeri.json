@@ -1,0 +1,386 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.86301548190686,
+          22.218487037327925
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8629688895082,
+          22.23941986913578
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.86292224138973,
+          22.26035264716523
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.89470833583715,
+          22.239478035232164
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.89466640495647,
+          22.260410874014926
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92648505109074,
+          22.218597059188106
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92644788200907,
+          22.239530006029298
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92641066843261,
+          22.260462899125095
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92637341033182,
+          22.281395738435535
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92633610767699,
+          22.302328523920625
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.95818751684087,
+          22.239575781451784
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98995497467838,
+          22.21868232531273
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98989945035083,
+          22.260548343833925
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98987163826088,
+          22.28148127247494
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9898437928573,
+          22.302414147316284
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02162085739678,
+          22.28151472695132
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05327797081414,
+          22.38620612648986
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.116904414579,
+          22.19784539745305
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11688662947918,
+          22.239711725933283
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14863492823089,
+          22.19785398109577
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037125565475,
+          22.428118658612206
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.180372847016,
+          22.490916328602815
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21211168915495,
+          22.26065203734401
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24380664508348,
+          22.155976095890946
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27568939707636,
+          22.38622310827617
+        ]
+      },
+      "properties": {
+        "species_name": "Liuixalus romeri",
+        "prediction_year": 2025,
+        "prediction_id": 25
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Liuixalus romeri",
+    "predicted_locations": 25,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

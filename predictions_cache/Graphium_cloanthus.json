@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14859711343559,
+          22.386250849013777
+        ]
+      },
+      "properties": {
+        "species_name": "Graphium cloanthus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037072602344,
+          22.407185993804486
+        ]
+      },
+      "properties": {
+        "species_name": "Graphium cloanthus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037125565475,
+          22.428118658612206
+        ]
+      },
+      "properties": {
+        "species_name": "Graphium cloanthus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Graphium cloanthus",
+    "predicted_locations": 3,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

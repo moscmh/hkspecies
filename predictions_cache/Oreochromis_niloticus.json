@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98992722914929,
+          22.239615361433202
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05322240863107,
+          22.4490039711372
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08503724756382,
+          22.407159965817
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11676091895826,
+          22.53276999408207
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14860555323762,
+          22.344385255112755
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14858441450686,
+          22.449048835013503
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14858017105658,
+          22.46998138889412
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14857166842417,
+          22.511846334238573
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18037337829327,
+          22.511848776990046
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27568939707636,
+          22.38622310827617
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27577845786772,
+          22.51181842809491
+        ]
+      },
+      "properties": {
+        "species_name": "Oreochromis niloticus",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Oreochromis niloticus",
+    "predicted_locations": 11,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

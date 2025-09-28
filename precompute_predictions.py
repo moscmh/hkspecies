@@ -82,8 +82,8 @@ def load_predictions_cache():
         print(f"✅ Loaded {len(cache)} pre-computed predictions")
         return cache
     else:
-        print("⚠️ No prediction cache found, generating...")
-        return precompute_all_predictions()
+        print("❌ No prediction cache found! Please ensure predictions_cache/ folder is available.")
+        return {}
 
 def get_cached_prediction(species_name):
     """Get prediction from cache"""

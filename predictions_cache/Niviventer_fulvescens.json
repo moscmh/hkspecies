@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8629688895082,
+          22.23941986913578
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92644788200907,
+          22.239530006029298
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.92641066843261,
+          22.260462899125095
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.95815502062763,
+          22.26050872242026
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.95812248550645,
+          22.28144160961714
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02150499655446,
+          22.386178737523664
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05327797081414,
+          22.38620612648986
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11680606021714,
+          22.428107541796482
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14859288569289,
+          22.407183565033662
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21211168915495,
+          22.26065203734401
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24383642489673,
+          22.218775824703208
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2439767842967,
+          22.511834823908362
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33923537670624,
+          22.386171793427373
+        ]
+      },
+      "properties": {
+        "species_name": "Niviventer fulvescens",
+        "prediction_year": 2025,
+        "prediction_id": 13
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Niviventer fulvescens",
+    "predicted_locations": 13,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

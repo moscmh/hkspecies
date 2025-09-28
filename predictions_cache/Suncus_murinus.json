@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.95818751684087,
+          22.239575781451784
+        ]
+      },
+      "properties": {
+        "species_name": "Suncus murinus",
+        "prediction_year": 2025,
+        "prediction_id": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98992722914929,
+          22.239615361433202
+        ]
+      },
+      "properties": {
+        "species_name": "Suncus murinus",
+        "prediction_year": 2025,
+        "prediction_id": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05318525624463,
+          22.490868930469905
+        ]
+      },
+      "properties": {
+        "species_name": "Suncus murinus",
+        "prediction_year": 2025,
+        "prediction_id": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14859711343559,
+          22.386250849013777
+        ]
+      },
+      "properties": {
+        "species_name": "Suncus murinus",
+        "prediction_year": 2025,
+        "prediction_id": 4
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Suncus murinus",
+    "predicted_locations": 4,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}
