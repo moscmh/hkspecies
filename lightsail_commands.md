@@ -9,10 +9,9 @@ ssh -i ~/.ssh/LightsailDefaultKey-us-east-1.pem ubuntu@YOUR_INSTANCE_IP
 sudo apt update && sudo apt install -y nginx
 
 # 3. Clone your repository
-cd /var/www
-sudo git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git hkspecies
-sudo chown -R ubuntu:ubuntu /var/www/hkspecies
-cd /var/www/hkspecies
+cd ~
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git hkspecies
+cd ~/hkspecies
 
 # 4. Install Python dependencies
 python3.11 -m pip install fastapi uvicorn[standard] geopandas pandas torch torchvision numpy scikit-learn
@@ -46,7 +45,7 @@ curl http://localhost:8000
 ## Update App
 ```bash
 # Pull latest changes
-cd /var/www/hkspecies
+cd ~/hkspecies
 git pull origin main
 
 # Restart service

@@ -14,7 +14,7 @@ After=network.target
 [Service]
 User=ubuntu
 Group=ubuntu
-WorkingDirectory=/var/www/hkspecies
+WorkingDirectory=/home/ubuntu/hkspecies
 Environment="PATH=/usr/bin:/bin"
 ExecStart=/usr/bin/python3.11 -m uvicorn app:app --host 0.0.0.0 --port 8000
 Restart=always
