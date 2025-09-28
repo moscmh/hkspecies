@@ -205,33 +205,35 @@ async def get_species_map_data(species_name: str):
 
 @app.get("/api/species/{species_name}/predict-2025")
 async def predict_species_2025(species_name: str):
-    """Predict 2025 occurrences for a species using neural network"""
-    global _global_predictor
+    """Get pre-computed 2025 predictions for a specific species"""
+    species_index = get_species_index()
     
-    if _global_predictor is None:
-        try:
-            from species_inference import get_global_predictor
-            _global_predictor = get_global_predictor()
-        except Exception as e:
-            raise HTTPException(status_code=503, detail=f"Prediction model initialization failed: {str(e)}")
+    if species_name not in species_index:
+        raise HTTPException(status_code=404, detail="Species not found")
     
     try:
-        from species_inference import fast_predict_with_global_predictor
+        from precompute_predictions import get_cached_prediction
         
-        logger.info(f"🔮 Running prediction for {species_name}")
+        logger.info(f"📂 Getting cached prediction for {species_name}")
         
-        # Use pre-loaded global predictor for fast prediction
-        prediction_result = fast_predict_with_global_predictor(_global_predictor, species_name)
+        # Get pre-computed prediction
+        prediction = get_cached_prediction(species_name)
         
-        if not prediction_result:
-            raise HTTPException(status_code=404, detail="No predictions generated - species not found or insufficient data")
+        if prediction is None:
+            raise HTTPException(
+                status_code=404, 
+                detail=f"No 2025 predictions available for {species_name}. This species may have insufficient historical data for prediction modeling."
+            )
         
-        logger.info(f"✅ Prediction completed for {species_name}: {prediction_result['prediction_info']['predicted_locations']} locations")
-        return prediction_result
+        logger.info(f"✅ Returned cached prediction for {species_name}: {prediction['prediction_info']['predicted_locations']} locations")
+        return prediction
         
     except Exception as e:
-        logger.error(f"❌ Prediction failed for {species_name}: {e}")
-        raise HTTPException(status_code=500, detail=f"Prediction failed: {str(e)}")
+        logger.error(f"❌ Prediction error for {species_name}: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail="Prediction service temporarily unavailable"
+        )
 
 @app.get("/api/districts")
 async def get_districts_list():
