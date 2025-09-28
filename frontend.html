@@ -169,7 +169,46 @@
         
         // Show all species
         async function showAllSpecies() {
-            await displaySpeciesResults('');
+            const resultsDiv = document.getElementById('results');
+            const speciesListDiv = document.getElementById('speciesList');
+            
+            resultsDiv.style.display = 'block';
+            speciesListDiv.innerHTML = '<div class="loading">Loading all species...</div>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/species/list?limit=500`);
+                
+                if (!response.ok) {
+                    throw new Error('Failed to load species');
+                }
+                
+                const data = await response.json();
+                
+                // Create species cards with photos
+                const speciesCards = await Promise.all(data.species.map(async species => {
+                    const photoUrl = await getSpeciesPhoto(species.scientific_name);
+                    return `
+                        <div class="species-card" onclick="showSpeciesDetails('${species.scientific_name}')">
+                            ${photoUrl ? `<img src="${photoUrl}" alt="${species.scientific_name}" class="species-photo" onerror="this.style.display='none'">` : '<div class="species-photo"></div>'}
+                            <div class="species-content">
+                                <div class="species-name">${species.scientific_name}</div>
+                                <div class="species-info">
+                                    Family: ${species.family} • 
+                                    ${species.occurrences_count} occurrences
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }));
+                
+                speciesListDiv.innerHTML = `
+                    <h3>All Species (${data.species.length} of ${data.total_available})</h3>
+                    ${speciesCards.join('')}
+                `;
+                
+            } catch (error) {
+                speciesListDiv.innerHTML = '<div class="loading">Failed to load species list</div>';
+            }
         }
         
         // Display species search results
