@@ -21,3 +21,6 @@ Thumbs.db
 
 # Don't ignore predictions cache - we want it in GitHub
 # predictions_cache/
+
+# Media
+media/
