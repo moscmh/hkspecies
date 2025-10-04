@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.98961982766679,
-          22.469875204476182
-        ]
-      },
-      "properties": {
-        "species_name": "Euchrysops cnejus",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Euchrysops cnejus",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9aa406ad33f208ceca78e996ff666848d42ef2895e2a4880a225e4da757e3537
+size 1874

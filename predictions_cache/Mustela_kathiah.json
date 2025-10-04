@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.24398689773403,
-          22.532767204293254
-        ]
-      },
-      "properties": {
-        "species_name": "Mustela kathiah",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Mustela kathiah",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1b7c29c565a032e1434bb1502cd25d1055a1d964212e1d567ad26ae459fb6e1
+size 1051

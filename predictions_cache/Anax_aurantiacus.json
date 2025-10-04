@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.8629688895082,
-          22.23941986913578
-        ]
-      },
-      "properties": {
-        "species_name": "Anax aurantiacus",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Anax aurantiacus",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:004a5622512fde97852207dfb5fc40e3010ebd7647fa4aafb2af0fb9c5b004de
+size 1053

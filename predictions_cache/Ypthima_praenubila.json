@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.18036703008482,
-          22.260655830209807
-        ]
-      },
-      "properties": {
-        "species_name": "Ypthima praenubila",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Ypthima praenubila",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a745ea45a8e8390e5028ce25eac5a800450444bf4d8949ce5d4cd3c6a39e0a86
+size 1052

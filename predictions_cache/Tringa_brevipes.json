@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.02141180784598,
-          22.46990897442264
-        ]
-      },
-      "properties": {
-        "species_name": "Tringa brevipes",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Tringa brevipes",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c9b059d26327b4741912fb6271ed49b93e74b504e33566c449167de763b18a6
+size 1051

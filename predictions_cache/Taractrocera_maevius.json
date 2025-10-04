@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.33909009350987,
-          22.260574845160345
-        ]
-      },
-      "properties": {
-        "species_name": "Taractrocera maevius",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Taractrocera maevius",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9b9cd5ab14fe220175ac7132135a162276af256ffa8a7e24f234f63b79467ed
+size 226

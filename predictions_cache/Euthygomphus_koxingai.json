@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.180372847016,
-          22.490916328602815
-        ]
-      },
-      "properties": {
-        "species_name": "Euthygomphus koxingai",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Euthygomphus koxingai",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:104f2662cb0ded0dbc1c0bdeda6be185890e97bdc6ea548a1f700850d8530780
+size 1063

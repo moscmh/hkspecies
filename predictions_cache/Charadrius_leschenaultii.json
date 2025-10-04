@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.02141180784598,
-          22.46990897442264
-        ]
-      },
-      "properties": {
-        "species_name": "Charadrius leschenaultii",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Charadrius leschenaultii",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d869db36d9994655002dbd188cfeecca95f1c65ba19c24099a407aada9aaa24d
+size 1069

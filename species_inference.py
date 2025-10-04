@@ -189,9 +189,7 @@ class Species:
             for j in range(20):  # x-axis (columns)
                 if predicted_grid[i, j] >= 1:
                     grid_ids.append((j, 19-i))  # Fix: j=x_bin, 19-i=y_bin (flip y-axis)
-                    # Replace negative values with 0
-                    likelihood_val = max(0, predicted_grid[i, j])
-                    likelihood_values.append(likelihood_val)
+                    likelihood_values.append(predicted_grid[i, j])
 
         # Convert grid_ids to centroids and grid bounds
         centroids = []
@@ -202,14 +200,13 @@ class Species:
             y_center = (self.y_bins[y_bin] + self.y_bins[y_bin + 1]) / 2
             centroids.append((x_center, y_center))
             
-            # Store actual grid cell bounds with likelihood (ensure non-negative)
-            likelihood_val = max(0, likelihood_values[idx])
+            # Store actual grid cell bounds with likelihood
             grid_bounds.append({
                 'x_min': self.x_bins[x_bin],
                 'x_max': self.x_bins[x_bin + 1],
                 'y_min': self.y_bins[y_bin],
                 'y_max': self.y_bins[y_bin + 1],
-                'likelihood': likelihood_val
+                'likelihood': likelihood_values[idx]
             })
 
         return centroids, grid_bounds
@@ -368,7 +365,7 @@ def fast_predict_with_global_predictor(predictor, species_name):
                     "prediction_year": 2025,
                     "prediction_id": i + 1,
                     "feature_type": "grid_box",
-                    "likelihood": float(max(0, bounds.get('likelihood', 0.0)))
+                    "likelihood": float(bounds.get('likelihood', 1.0)) if bounds.get('likelihood', 1.0) > 0 else 0.0
                 }
             })
         

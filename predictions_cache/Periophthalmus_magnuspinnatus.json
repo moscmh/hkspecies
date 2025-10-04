@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.98961982766679,
-          22.469875204476182
-        ]
-      },
-      "properties": {
-        "species_name": "Periophthalmus magnuspinnatus",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Periophthalmus magnuspinnatus",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ace2f1ac9bce99161256e786243b9ae095646ab16c5650dacc7a5d2e7f2aad7
+size 1073

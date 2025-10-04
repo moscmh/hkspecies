@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.053333333677,
-          22.32340779601777
-        ]
-      },
-      "properties": {
-        "species_name": "Calotes mystaceus",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Calotes mystaceus",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dee4f40c4fb6ccc458a6eb58451b3e5ec71f436b3ef26fc2dd02dd329aa6ebac
+size 1053

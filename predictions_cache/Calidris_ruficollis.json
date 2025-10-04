@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.02141180784598,
-          22.46990897442264
-        ]
-      },
-      "properties": {
-        "species_name": "Calidris ruficollis",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Calidris ruficollis",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d3a23c6b5819d00644c9ac905feae8b21d751c9783f0eb7f6b71bafb5b714c0
+size 1887

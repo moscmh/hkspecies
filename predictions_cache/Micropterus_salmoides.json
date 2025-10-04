@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.180372847016,
-          22.490916328602815
-        ]
-      },
-      "properties": {
-        "species_name": "Micropterus salmoides",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Micropterus salmoides",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2aa8e0d57178588cf34f2ea7cbf7742dcf38941d82af1151347ec9749cf1fd9
+size 227

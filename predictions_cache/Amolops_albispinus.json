@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.92641066843261,
-          22.260462899125095
-        ]
-      },
-      "properties": {
-        "species_name": "Amolops albispinus",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Amolops albispinus",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbca42ff4d20bdf7e82788b2486bd2b3835cedd9f5964862a3da750729107a88
+size 1057

@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.18037231615071,
-          22.469983826051013
-        ]
-      },
-      "properties": {
-        "species_name": "Sieboldius alexanderi",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Sieboldius alexanderi",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0152bbf3ac4a7041086e791494709d91fecbfe1b45b44741ee71eccb366f67df
+size 1058

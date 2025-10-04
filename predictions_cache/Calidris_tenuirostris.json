@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.0213884410646,
-          22.4908413983775
-        ]
-      },
-      "properties": {
-        "species_name": "Calidris tenuirostris",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Calidris tenuirostris",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d771e5bae787da9c36845123a43ed45cfa184b6da08463327102322f58c2661
+size 227

@@ -1,26 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          114.02141180784598,
-          22.46990897442264
-        ]
-      },
-      "properties": {
-        "species_name": "Glareola maldivarum",
-        "prediction_year": 2025,
-        "prediction_id": 1
-      }
-    }
-  ],
-  "prediction_info": {
-    "species_name": "Glareola maldivarum",
-    "predicted_locations": 1,
-    "model_type": "Neural Network (Cached)",
-    "prediction_year": 2025
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ce2bf0ea72e3bfd37e8845c3c4f28a1379dbb8a3c4a7b2ffe648193a8c827d9
+size 225
