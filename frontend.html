@@ -486,35 +486,42 @@
                     attribution: '© OpenStreetMap contributors'
                 }).addTo(predictionMap);
                 
-                // Add prediction markers
+                // Add prediction grid boxes
                 if (predictionData.features && predictionData.features.length > 0) {
                     const bounds = [];
                     
                     predictionData.features.forEach((feature, index) => {
-                        const coords = feature.geometry.coordinates;
-                        const lat = coords[1];
-                        const lng = coords[0];
-                        
-                        bounds.push([lat, lng]);
-                        
-                        // Create prediction marker (different style)
-                        const marker = L.circleMarker([lat, lng], {
-                            radius: 10,
-                            fillColor: '#FF6B35',
-                            color: '#fff',
-                            weight: 2,
-                            opacity: 1,
-                            fillOpacity: 0.8
-                        }).addTo(predictionMap);
-                        
-                        // Add popup
-                        marker.bindPopup(`
-                            <strong>🔮 Predicted Location</strong><br>
-                            <strong>Species:</strong> ${speciesName}<br>
-                            <strong>Year:</strong> 2025<br>
-                            <strong>Prediction #:</strong> ${index + 1}<br>
-                            <strong>Coordinates:</strong> ${lat.toFixed(4)}, ${lng.toFixed(4)}
-                        `);
+                        if (feature.geometry.type === 'Polygon') {
+                            // Create grid box with likelihood-based styling
+                            const coords = feature.geometry.coordinates[0];
+                            const likelihood = feature.properties.likelihood || 1.0;
+                            
+                            // Color intensity based on likelihood
+                            const intensity = Math.min(likelihood / 5.0, 1.0); // Normalize to 0-1
+                            const fillOpacity = 0.2 + (intensity * 0.5); // 0.2 to 0.7 opacity
+                            
+                            const polygon = L.polygon(coords.map(coord => [coord[1], coord[0]]), {
+                                fillColor: '#FF6B35',
+                                color: '#FF6B35',
+                                weight: 2,
+                                opacity: 0.8,
+                                fillOpacity: fillOpacity
+                            }).addTo(predictionMap);
+                            
+                            // Add bounds for map fitting
+                            const center = polygon.getBounds().getCenter();
+                            bounds.push([center.lat, center.lng]);
+                            
+                            // Add popup for grid box with likelihood
+                            polygon.bindPopup(`
+                                <strong>📦 Predicted Grid Cell</strong><br>
+                                <strong>Species:</strong> ${speciesName}<br>
+                                <strong>Year:</strong> 2025<br>
+                                <strong>Prediction #:</strong> ${index + 1}<br>
+                                <strong>Likelihood:</strong> ${likelihood.toFixed(2)}<br>
+                                <strong>Type:</strong> Neural network grid prediction
+                            `);
+                        }
                     });
                     
                     // Fit map to show all predictions
@@ -522,10 +529,11 @@
                         predictionMap.fitBounds(bounds, { padding: [20, 20] });
                     }
                 } else {
-                    // No predictions
-                    L.marker([22.3193, 114.1694]).addTo(predictionMap)
-                        .bindPopup(`<strong>${speciesName}</strong><br>No predictions generated for 2025`)
-                        .openPopup();
+                    // No predictions - show message
+                    const noDataDiv = document.createElement('div');
+                    noDataDiv.style.cssText = 'position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255,255,255,0.9); padding: 20px; border-radius: 8px; text-align: center; z-index: 1000;';
+                    noDataDiv.innerHTML = `<strong>${speciesName}</strong><br>No predictions generated for 2025<br><small>Insufficient historical data</small>`;
+                    document.getElementById('predictionMap').appendChild(noDataDiv);
                 }
                 
             } catch (error) {

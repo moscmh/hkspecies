@@ -107,7 +107,7 @@ class Species:
 
         # Specify species for training and inference
         species_layer = self.species_layers[a_species]
-        X = torch.tensor(species_layer[:23, :, :]).to(torch.float32)
+        X = torch.tensor(species_layer[:23, :, :]).reshape(23, -1).to(torch.float32)  # Flatten X like Y
         y = torch.tensor(species_layer[1:, :, :]).reshape(23, -1).to(torch.float32)
 
         # Number of epochs for training
@@ -145,7 +145,7 @@ class Species:
 
         # Specify species for training
         species_layer = self.species_layers[a_species]
-        X = torch.tensor(species_layer[:23, :, :]).to(torch.float32)
+        X = torch.tensor(species_layer[:23, :, :]).reshape(23, -1).to(torch.float32)  # Flatten X like Y
         y = torch.tensor(species_layer[1:, :, :]).reshape(23, -1).to(torch.float32)
 
         # Reduced epochs for faster training
@@ -182,22 +182,37 @@ class Species:
             predicted_grid = test_output.cpu().numpy().reshape(20, 20)
             predicted_grid = np.round(predicted_grid)
 
-        # Get the grid_id of each cell with value >= 1
+        # Get the grid_id of each cell with value >= 1 (fixed y-axis indexing)
         grid_ids = []
-        for i in range(20):
-            for j in range(20):
+        likelihood_values = []
+        for i in range(20):  # y-axis (rows)
+            for j in range(20):  # x-axis (columns)
                 if predicted_grid[i, j] >= 1:
-                    grid_ids.append((i, j))
+                    grid_ids.append((j, 19-i))  # Fix: j=x_bin, 19-i=y_bin (flip y-axis)
+                    # Replace negative values with 0
+                    likelihood_val = max(0, predicted_grid[i, j])
+                    likelihood_values.append(likelihood_val)
 
-        # Convert grid_ids to centroids
+        # Convert grid_ids to centroids and grid bounds
         centroids = []
-        for grid in grid_ids:
+        grid_bounds = []
+        for idx, grid in enumerate(grid_ids):
             x_bin, y_bin = grid
             x_center = (self.x_bins[x_bin] + self.x_bins[x_bin + 1]) / 2
             y_center = (self.y_bins[y_bin] + self.y_bins[y_bin + 1]) / 2
             centroids.append((x_center, y_center))
+            
+            # Store actual grid cell bounds with likelihood (ensure non-negative)
+            likelihood_val = max(0, likelihood_values[idx])
+            grid_bounds.append({
+                'x_min': self.x_bins[x_bin],
+                'x_max': self.x_bins[x_bin + 1],
+                'y_min': self.y_bins[y_bin],
+                'y_max': self.y_bins[y_bin + 1],
+                'likelihood': likelihood_val
+            })
 
-        return centroids
+        return centroids, grid_bounds
     
     def visualise(self, species, centroids):
         # Visualise the centroids on the map
@@ -302,10 +317,12 @@ def fast_predict_with_global_predictor(predictor, species_name):
             trained_model = _trained_models_cache[species_name]
         
         # Get predictions using cached model
-        centroids = predictor.inference_model(species_name, trained_model)
+        result = predictor.inference_model(species_name, trained_model)
         
-        if not centroids:
+        if not result:
             return None
+            
+        centroids, grid_bounds = result
         
         # Convert coordinates to WGS84 for web display
         import geopandas as gpd
@@ -316,19 +333,42 @@ def fast_predict_with_global_predictor(predictor, species_name):
         gdf = gpd.GeoDataFrame(geometry=points, crs=predictor.hkmap.crs)
         gdf_wgs84 = gdf.to_crs('EPSG:4326')
         
-        # Convert to GeoJSON format
+        # Convert to GeoJSON format with grid boxes only
         features = []
         for i, point in enumerate(gdf_wgs84.geometry):
+            # Get actual grid bounds from model
+            bounds = grid_bounds[i]
+            
+            # Convert grid bounds to WGS84
+            from shapely.geometry import box
+            grid_box = box(bounds['x_min'], bounds['y_min'], bounds['x_max'], bounds['y_max'])
+            grid_gdf = gpd.GeoDataFrame([1], geometry=[grid_box], crs=predictor.hkmap.crs)
+            grid_wgs84 = grid_gdf.to_crs('EPSG:4326')
+            
+            # Get polygon coordinates
+            poly_coords = list(grid_wgs84.geometry.iloc[0].exterior.coords)
+            min_x, min_y = poly_coords[0]
+            max_x, max_y = poly_coords[2]
+            
+            # Add grid box feature with likelihood
             features.append({
                 "type": "Feature",
                 "geometry": {
-                    "type": "Point",
-                    "coordinates": [point.x, point.y]
+                    "type": "Polygon",
+                    "coordinates": [[
+                        [min_x, min_y],
+                        [max_x, min_y],
+                        [max_x, max_y],
+                        [min_x, max_y],
+                        [min_x, min_y]
+                    ]]
                 },
                 "properties": {
                     "species_name": species_name,
                     "prediction_year": 2025,
-                    "prediction_id": i + 1
+                    "prediction_id": i + 1,
+                    "feature_type": "grid_box",
+                    "likelihood": float(max(0, bounds.get('likelihood', 0.0)))
                 }
             })
         
