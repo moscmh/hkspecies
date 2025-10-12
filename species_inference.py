@@ -395,35 +395,26 @@ def get_global_predictor():
     return _global_predictor
 
 def fast_predict_with_global_predictor(predictor, species_name):
-    """Fast prediction using pre-loaded predictor with model caching"""
-    global _trained_models_cache
-    
+    """Fast prediction using precomputed cache"""
     try:
-        # Import memory utilities
-        from memory_optimizer import MemoryMonitor, clear_memory
-        monitor = MemoryMonitor()
+        # First try to get precomputed prediction from cache
+        from precompute_predictions import get_cached_prediction
         
-        # Check memory before prediction
-        monitor.check_memory()
+        print(f"📂 Loading cached prediction for {species_name}...")
+        prediction = get_cached_prediction(species_name)
         
-        # Check if species exists
+        if prediction:
+            print(f"✅ Using cached prediction for {species_name}")
+            return prediction
+        
+        # Fallback: generate real-time prediction if no cache
+        print(f"⚠️ No cache found, generating real-time prediction for {species_name}...")
+        
         if species_name not in predictor.species_names:
             return None
         
-        # Check if model is already trained and cached
-        if species_name not in _trained_models_cache:
-            print(f"🎨 Training model for {species_name}...")
-            trained_model = predictor.train_model_fast(species_name)
-            _trained_models_cache[species_name] = trained_model
-            print(f"✅ Model cached for {species_name}")
-            
-            # Clear memory after training
-            clear_memory()
-        else:
-            print(f"💾 Using cached model for {species_name}")
-            trained_model = _trained_models_cache[species_name]
-        
-        # Get predictions using cached model
+        # Train model and generate prediction
+        trained_model = predictor.train_model_fast(species_name)
         result = predictor.inference_model(species_name, trained_model)
         
         if not result:
@@ -431,23 +422,13 @@ def fast_predict_with_global_predictor(predictor, species_name):
             
         centroids, grid_bounds = result
         
-        # Convert coordinates to WGS84 for web display
+        # Convert to GeoJSON format
         import geopandas as gpd
-        from shapely.geometry import Point
+        from shapely.geometry import Point, box
         
-        # Create GeoDataFrame with predictions
-        points = [Point(x, y) for x, y in centroids]
-        gdf = gpd.GeoDataFrame(geometry=points, crs=predictor.hkmap.crs)
-        gdf_wgs84 = gdf.to_crs('EPSG:4326')
-        
-        # Convert to GeoJSON format with grid boxes only
         features = []
-        for i, point in enumerate(gdf_wgs84.geometry):
-            # Get actual grid bounds from model
-            bounds = grid_bounds[i]
-            
+        for i, (centroid, bounds) in enumerate(zip(centroids, grid_bounds)):
             # Convert grid bounds to WGS84
-            from shapely.geometry import box
             grid_box = box(bounds['x_min'], bounds['y_min'], bounds['x_max'], bounds['y_max'])
             grid_gdf = gpd.GeoDataFrame([1], geometry=[grid_box], crs=predictor.hkmap.crs)
             grid_wgs84 = grid_gdf.to_crs('EPSG:4326')
@@ -457,17 +438,12 @@ def fast_predict_with_global_predictor(predictor, species_name):
             min_x, min_y = poly_coords[0]
             max_x, max_y = poly_coords[2]
             
-            # Add grid box feature with likelihood
             features.append({
                 "type": "Feature",
                 "geometry": {
                     "type": "Polygon",
                     "coordinates": [[
-                        [min_x, min_y],
-                        [max_x, min_y],
-                        [max_x, max_y],
-                        [min_x, max_y],
-                        [min_x, min_y]
+                        [min_x, min_y], [max_x, min_y], [max_x, max_y], [min_x, max_y], [min_x, min_y]
                     ]]
                 },
                 "properties": {
@@ -475,12 +451,9 @@ def fast_predict_with_global_predictor(predictor, species_name):
                     "prediction_year": 2025,
                     "prediction_id": i + 1,
                     "feature_type": "grid_box",
-                    "likelihood": float(bounds.get('likelihood', 1.0)) if bounds.get('likelihood', 1.0) > 0 else 0.0
+                    "likelihood": float(bounds.get('likelihood', 1.0))
                 }
             })
-        
-        # Final memory check
-        monitor.check_memory()
         
         return {
             "type": "FeatureCollection",
@@ -488,15 +461,13 @@ def fast_predict_with_global_predictor(predictor, species_name):
             "prediction_info": {
                 "species_name": species_name,
                 "predicted_locations": len(centroids),
-                "model_type": "Neural Network (Cached)",
+                "model_type": "Real-time Neural Network",
                 "prediction_year": 2025
             }
         }
         
     except Exception as e:
         print(f"Prediction error for {species_name}: {e}")
-        # Clear memory on error
-        clear_memory()
         return None
 
 def predict_species_locations_2025(species_name):
