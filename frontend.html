@@ -504,35 +504,46 @@
         async function predict2025(speciesName) {
             const predictionInfo = document.getElementById('predictionInfo');
             const predictionMapContainer = document.getElementById('predictionMap');
-            const predictBtn = document.querySelector('.predict-btn');
+            const predictBtn = document.getElementById('predictBtn'); // Fixed selector
             
             // Show loading state
             predictionInfo.style.display = 'block';
             predictionInfo.innerHTML = `
                 <div class="prediction-title">🔮 Predicting 2025 Occurrences</div>
-                <div>Training neural network model... This may take a moment.</div>
+                <div>Loading cached predictions...</div>
             `;
             
-            predictBtn.disabled = true;
-            predictBtn.textContent = '⏳ Predicting...';
+            if (predictBtn) {
+                predictBtn.disabled = true;
+                predictBtn.textContent = '⏳ Loading...';
+            }
             
             try {
+                console.log('Fetching predictions for:', speciesName);
                 const response = await fetch(`${API_BASE}/species/${encodeURIComponent(speciesName)}/predict-2025`);
                 
                 if (!response.ok) {
-                    throw new Error('Prediction failed');
+                    const errorText = await response.text();
+                    console.error('API Error:', response.status, errorText);
+                    throw new Error(`Prediction failed: ${response.status}`);
                 }
                 
                 const predictionData = await response.json();
-                console.log('Prediction data:', predictionData);
+                console.log('Full prediction response:', predictionData);
+                
+                // Check if we have valid prediction data
+                if (!predictionData || (!predictionData.features && !predictionData.prediction_info)) {
+                    throw new Error('No prediction data received');
+                }
                 
                 // Show prediction info
+                const info = predictionData.prediction_info || {};
                 predictionInfo.innerHTML = `
                     <div class="prediction-title">🔮 2025 Prediction Results</div>
-                    <p><strong>Species:</strong> ${predictionData.prediction_info.species_name}</p>
-                    <p><strong>Predicted Locations:</strong> ${predictionData.prediction_info.predicted_locations}</p>
-                    <p><strong>Model:</strong> Neural Network (Grid-based)</p>
-                    <p><strong>Note:</strong> Predictions based on historical occurrence patterns (2001-2024)</p>
+                    <p><strong>Species:</strong> ${info.species_name || speciesName}</p>
+                    <p><strong>Predicted Locations:</strong> ${info.predicted_locations || (predictionData.features ? predictionData.features.length : 0)}</p>
+                    <p><strong>Model:</strong> CNN-LSTM Neural Network</p>
+                    <p><strong>Status:</strong> Loaded from cache</p>
                 `;
                 
                 // Show prediction map
@@ -552,22 +563,24 @@
                 
                 // Add prediction grid boxes
                 if (predictionData.features && predictionData.features.length > 0) {
+                    console.log(`Processing ${predictionData.features.length} prediction features`);
                     const bounds = [];
                     
                     predictionData.features.forEach((feature, index) => {
-                        if (feature.geometry.type === 'Polygon') {
-                            // Create grid box with likelihood-based styling
+                        if (feature.geometry && feature.geometry.type === 'Polygon') {
                             const coords = feature.geometry.coordinates[0];
-                            const likelihood = feature.properties.likelihood || 1.0;
+                            const likelihood = feature.properties?.likelihood || 0.5;
                             
-                            // Color intensity based on likelihood
-                            const intensity = Math.min(likelihood / 5.0, 1.0); // Normalize to 0-1
-                            const fillOpacity = 0.2 + (intensity * 0.5); // 0.2 to 0.7 opacity
+                            console.log(`Feature ${index}: likelihood = ${likelihood}`);
+                            
+                            // Better likelihood visualization (0-1 range)
+                            const intensity = Math.max(0.1, Math.min(likelihood, 1.0));
+                            const fillOpacity = 0.3 + (intensity * 0.4); // 0.3 to 0.7 opacity
                             
                             const polygon = L.polygon(coords.map(coord => [coord[1], coord[0]]), {
                                 fillColor: '#FF6B35',
-                                color: '#FF6B35',
-                                weight: 2,
+                                color: '#FF4500',
+                                weight: 1,
                                 opacity: 0.8,
                                 fillOpacity: fillOpacity
                             }).addTo(predictionMap);
@@ -576,14 +589,14 @@
                             const center = polygon.getBounds().getCenter();
                             bounds.push([center.lat, center.lng]);
                             
-                            // Add popup for grid box with likelihood
+                            // Add popup with detailed info
                             polygon.bindPopup(`
                                 <strong>📦 Predicted Grid Cell</strong><br>
                                 <strong>Species:</strong> ${speciesName}<br>
                                 <strong>Year:</strong> 2025<br>
-                                <strong>Prediction #:</strong> ${index + 1}<br>
-                                <strong>Likelihood:</strong> ${likelihood.toFixed(2)}<br>
-                                <strong>Type:</strong> Neural network grid prediction
+                                <strong>Grid #:</strong> ${index + 1}<br>
+                                <strong>Likelihood:</strong> ${(likelihood * 100).toFixed(1)}%<br>
+                                <strong>Model:</strong> CNN-LSTM
                             `);
                         }
                     });
@@ -592,24 +605,29 @@
                     if (bounds.length > 0) {
                         predictionMap.fitBounds(bounds, { padding: [20, 20] });
                     }
+                    
+                    console.log(`Successfully added ${bounds.length} prediction polygons to map`);
                 } else {
+                    console.log('No prediction features found in response');
                     // No predictions - show message
                     const noDataDiv = document.createElement('div');
                     noDataDiv.style.cssText = 'position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255,255,255,0.9); padding: 20px; border-radius: 8px; text-align: center; z-index: 1000;';
-                    noDataDiv.innerHTML = `<strong>${speciesName}</strong><br>No predictions generated for 2025<br><small>Insufficient historical data</small>`;
+                    noDataDiv.innerHTML = `<strong>${speciesName}</strong><br>No predictions available for 2025<br><small>Check console for details</small>`;
                     document.getElementById('predictionMap').appendChild(noDataDiv);
                 }
                 
             } catch (error) {
-                console.error('Prediction failed:', error);
+                console.error('Prediction error:', error);
                 predictionInfo.innerHTML = `
-                    <div class="prediction-title">❌ Prediction Failed</div>
-                    <p>Unable to generate 2025 predictions for this species.</p>
-                    <p>This may be due to insufficient historical data or model limitations.</p>
+                    <div class="prediction-title">❌ Prediction Error</div>
+                    <p>Failed to load predictions: ${error.message}</p>
+                    <p>Check browser console for details.</p>
                 `;
             } finally {
-                predictBtn.disabled = false;
-                predictBtn.textContent = '🔮 Predict 2025';
+                if (predictBtn) {
+                    predictBtn.disabled = false;
+                    predictBtn.textContent = '🔮 Predict 2025';
+                }
             }
         }
         
