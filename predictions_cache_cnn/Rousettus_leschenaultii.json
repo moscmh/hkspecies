@@ -1,0 +1,270 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22805668197616,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.45950946428585
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Rousettus leschenaultii",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10093183156366,
+              22.396701865210943
+            ],
+            [
+              114.06914028778708,
+              22.396701865210943
+            ],
+            [
+              114.06914028778708,
+              22.41761648165527
+            ],
+            [
+              114.10093183156366,
+              22.41761648165527
+            ],
+            [
+              114.10093183156366,
+              22.396701865210943
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Rousettus leschenaultii",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19625819233086,
+              22.396718513330452
+            ],
+            [
+              114.16448087972255,
+              22.396718513330452
+            ],
+            [
+              114.16448087972255,
+              22.41765189918511
+            ],
+            [
+              114.19625819233086,
+              22.41765189918511
+            ],
+            [
+              114.19625819233086,
+              22.396718513330452
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Rousettus leschenaultii",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03740190660761,
+              22.375726864137413
+            ],
+            [
+              114.00560571637018,
+              22.375726864137413
+            ],
+            [
+              114.00560571637018,
+              22.39662902132953
+            ],
+            [
+              114.03740190660761,
+              22.39662902132953
+            ],
+            [
+              114.03740190660761,
+              22.375726864137413
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Rousettus leschenaultii",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10094318789106,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.37576913849178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Rousettus leschenaultii",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22802598781163,
+              22.37577883680389
+            ],
+            [
+              114.19625819233086,
+              22.37577883680389
+            ],
+            [
+              114.19625819233086,
+              22.396718513330452
+            ],
+            [
+              114.22802598781163,
+              22.396718513330452
+            ],
+            [
+              114.22802598781163,
+              22.37577883680389
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Rousettus leschenaultii",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10095453053516,
+              22.354836357820812
+            ],
+            [
+              114.0691725279992,
+              22.354836357820812
+            ],
+            [
+              114.0691725279992,
+              22.375751120064827
+            ],
+            [
+              114.10095453053516,
+              22.375751120064827
+            ],
+            [
+              114.10095453053516,
+              22.354836357820812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Rousettus leschenaultii",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Rousettus leschenaultii",
+    "predicted_locations": 7,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

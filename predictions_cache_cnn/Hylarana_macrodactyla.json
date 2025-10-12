@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00586052781638,
+              22.187300091447632
+            ],
+            [
+              113.97410250264265,
+              22.187300091447632
+            ],
+            [
+              113.97410250264265,
+              22.2081968014192
+            ],
+            [
+              114.00586052781638,
+              22.2081968014192
+            ],
+            [
+              114.00586052781638,
+              22.187300091447632
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hylarana macrodactyla",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Hylarana macrodactyla",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

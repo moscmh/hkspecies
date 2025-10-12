@@ -1,0 +1,344 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19627277127812,
+              22.501381426633824
+            ],
+            [
+              114.16447159118317,
+              22.501381426633824
+            ],
+            [
+              114.16447159118317,
+              22.522314544129564
+            ],
+            [
+              114.19627277127812,
+              22.522314544129564
+            ],
+            [
+              114.19627277127812,
+              22.501381426633824
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.2916706400918,
+              22.50134167851244
+            ],
+            [
+              114.25988387732176,
+              22.50134167851244
+            ],
+            [
+              114.25988387732176,
+              22.522293604165302
+            ],
+            [
+              114.2916706400918,
+              22.522293604165302
+            ],
+            [
+              114.2916706400918,
+              22.50134167851244
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0055286768589,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.45942664884336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00555438734581,
+              22.43849416041848
+            ],
+            [
+              113.97373911625505,
+              22.43849416041848
+            ],
+            [
+              113.97373911625505,
+              22.459389764829414
+            ],
+            [
+              114.00555438734581,
+              22.459389764829414
+            ],
+            [
+              114.00555438734581,
+              22.43849416041848
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32338181249452,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.417585919425292
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03738104208212,
+              22.396659546552932
+            ],
+            [
+              114.00558006717606,
+              22.396659546552932
+            ],
+            [
+              114.00558006717606,
+              22.41756161790062
+            ],
+            [
+              114.03738104208212,
+              22.41756161790062
+            ],
+            [
+              114.03738104208212,
+              22.396659546552932
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00578440463454,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.250099335182842
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00580980947458,
+              22.22916630761894
+            ],
+            [
+              113.97404229976452,
+              22.22916630761894
+            ],
+            [
+              113.97404229976452,
+              22.250062833839433
+            ],
+            [
+              114.00580980947458,
+              22.250062833839433
+            ],
+            [
+              114.00580980947458,
+              22.22916630761894
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Agriocnemis femina oryzae",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Agriocnemis femina oryzae",
+    "predicted_locations": 9,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

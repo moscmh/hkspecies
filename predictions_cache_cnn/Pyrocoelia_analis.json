@@ -1,0 +1,307 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10087484435778,
+              22.50136468813981
+            ],
+            [
+              114.06905934846714,
+              22.50136468813981
+            ],
+            [
+              114.06905934846714,
+              22.522278939294843
+            ],
+            [
+              114.10087484435778,
+              22.522278939294843
+            ],
+            [
+              114.10087484435778,
+              22.50136468813981
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pyrocoelia analis",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06909178233815,
+              22.480414118666452
+            ],
+            [
+              114.03727634450094,
+              22.480414118666452
+            ],
+            [
+              114.03727634450094,
+              22.50132214777166
+            ],
+            [
+              114.06909178233815,
+              22.50132214777166
+            ],
+            [
+              114.06909178233815,
+              22.480414118666452
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pyrocoelia analis",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0055286768589,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.45942664884336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pyrocoelia analis",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03731829859107,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.459457269614727
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pyrocoelia analis",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pyrocoelia analis",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.97376959768843,
+              22.438457314721337
+            ],
+            [
+              113.94194962804184,
+              22.438457314721337
+            ],
+            [
+              113.94194962804184,
+              22.459346617626544
+            ],
+            [
+              113.97376959768843,
+              22.459346617626544
+            ],
+            [
+              113.97376959768843,
+              22.438457314721337
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pyrocoelia analis",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03733923809055,
+              22.438524749331304
+            ],
+            [
+              114.0055286768589,
+              22.438524749331304
+            ],
+            [
+              114.0055286768589,
+              22.45942664884336
+            ],
+            [
+              114.03733923809055,
+              22.45942664884336
+            ],
+            [
+              114.03733923809055,
+              22.438524749331304
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pyrocoelia analis",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29156732672845,
+              22.37574626070146
+            ],
+            [
+              114.25980908607166,
+              22.37574626070146
+            ],
+            [
+              114.25980908607166,
+              22.39669839206848
+            ],
+            [
+              114.29156732672845,
+              22.39669839206848
+            ],
+            [
+              114.29156732672845,
+              22.37574626070146
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pyrocoelia analis",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Pyrocoelia analis",
+    "predicted_locations": 8,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

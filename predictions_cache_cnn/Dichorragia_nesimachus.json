@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19625819233086,
+              22.396718513330452
+            ],
+            [
+              114.16448087972255,
+              22.396718513330452
+            ],
+            [
+              114.16448087972255,
+              22.41765189918511
+            ],
+            [
+              114.19625819233086,
+              22.41765189918511
+            ],
+            [
+              114.19625819233086,
+              22.396718513330452
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Dichorragia nesimachus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Dichorragia nesimachus",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

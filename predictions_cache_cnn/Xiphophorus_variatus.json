@@ -1,0 +1,455 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19627277127812,
+              22.501381426633824
+            ],
+            [
+              114.16447159118317,
+              22.501381426633824
+            ],
+            [
+              114.16447159118317,
+              22.522314544129564
+            ],
+            [
+              114.19627277127812,
+              22.522314544129564
+            ],
+            [
+              114.19627277127812,
+              22.501381426633824
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.13267414099104,
+              22.48044964854685
+            ],
+            [
+              114.13267414099104,
+              22.501376543929673
+            ],
+            [
+              114.16447531384645,
+              22.501376543929673
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16447717155276,
+              22.459517119518342
+            ],
+            [
+              114.1326807834982,
+              22.459517119518342
+            ],
+            [
+              114.1326807834982,
+              22.480444075074466
+            ],
+            [
+              114.16447717155276,
+              22.480444075074466
+            ],
+            [
+              114.16447717155276,
+              22.459517119518342
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35516188975285,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.417553972255877
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35513518172638,
+              22.396621380449297
+            ],
+            [
+              114.32338181249452,
+              22.396621380449297
+            ],
+            [
+              114.32338181249452,
+              22.417585919425292
+            ],
+            [
+              114.35513518172638,
+              22.417585919425292
+            ],
+            [
+              114.35513518172638,
+              22.396621380449297
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13271387505074,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.37578091939196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22801833645117,
+              22.354846044962255
+            ],
+            [
+              114.19625528624357,
+              22.354846044962255
+            ],
+            [
+              114.19625528624357,
+              22.375785768551765
+            ],
+            [
+              114.22801833645117,
+              22.375785768551765
+            ],
+            [
+              114.22801833645117,
+              22.354846044962255
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94230026680334,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.25002013380511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00578440463454,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.250099335182842
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Xiphophorus variatus",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Xiphophorus variatus",
+    "predicted_locations": 12,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

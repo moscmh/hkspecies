@@ -29,8 +29,62 @@ def precompute_all_predictions():
         try:
             print(f"🔮 [{i+1}/{total_species}] Processing {species_name}...")
             
-            # Generate prediction
-            prediction = fast_predict_with_global_predictor(predictor, species_name)
+            # Train CNN-LSTM model and generate prediction
+            print(f"🎨 Training CNN-LSTM model for {species_name}...")
+            trained_model = predictor.train_model_fast(species_name)
+            
+            # Get predictions using CNN-LSTM model
+            result = predictor.inference_model(species_name, trained_model)
+            
+            if not result:
+                prediction = None
+            else:
+                centroids, grid_bounds = result
+                
+                # Convert to GeoJSON format
+                import geopandas as gpd
+                from shapely.geometry import Point, box
+                
+                # Create features with grid boxes and likelihood values
+                features = []
+                for i, (centroid, bounds) in enumerate(zip(centroids, grid_bounds)):
+                    # Convert grid bounds to WGS84
+                    grid_box = box(bounds['x_min'], bounds['y_min'], bounds['x_max'], bounds['y_max'])
+                    grid_gdf = gpd.GeoDataFrame([1], geometry=[grid_box], crs=predictor.hkmap.crs)
+                    grid_wgs84 = grid_gdf.to_crs('EPSG:4326')
+                    
+                    # Get polygon coordinates
+                    poly_coords = list(grid_wgs84.geometry.iloc[0].exterior.coords)
+                    min_x, min_y = poly_coords[0]
+                    max_x, max_y = poly_coords[2]
+                    
+                    features.append({
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Polygon",
+                            "coordinates": [[
+                                [min_x, min_y], [max_x, min_y], [max_x, max_y], [min_x, max_y], [min_x, min_y]
+                            ]]
+                        },
+                        "properties": {
+                            "species_name": species_name,
+                            "prediction_year": 2025,
+                            "prediction_id": i + 1,
+                            "feature_type": "grid_box",
+                            "likelihood": float(bounds.get('likelihood', 1.0)) if bounds.get('likelihood', 1.0) > 0 else 0.0
+                        }
+                    })
+                
+                prediction = {
+                    "type": "FeatureCollection",
+                    "features": features,
+                    "prediction_info": {
+                        "species_name": species_name,
+                        "predicted_locations": len(centroids),
+                        "model_type": "CNN-LSTM",
+                        "prediction_year": 2025
+                    }
+                }
             
             if prediction:
                 # Save individual prediction file
@@ -46,7 +100,7 @@ def precompute_all_predictions():
                 
         except Exception as e:
             print(f"❌ Error processing {species_name}: {e}")
-            continue
+            prediction = None
     
     # Save master cache file
     cache_file = predictions_dir / "all_predictions.json"

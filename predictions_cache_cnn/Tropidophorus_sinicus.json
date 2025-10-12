@@ -1,0 +1,381 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.3551886292371,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.438486510007362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270066260488,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.417646343787624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.3233598641556,
+              22.396653294912344
+            ],
+            [
+              114.29160168380756,
+              22.396653294912344
+            ],
+            [
+              114.29160168380756,
+              22.417611616229124
+            ],
+            [
+              114.3233598641556,
+              22.417611616229124
+            ],
+            [
+              114.3233598641556,
+              22.396653294912344
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10094318789106,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.37576913849178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25979667171741,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.375765667514177
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25977188651011,
+              22.333900056587446
+            ],
+            [
+              114.22801833645117,
+              22.333900056587446
+            ],
+            [
+              114.22801833645117,
+              22.354846044962255
+            ],
+            [
+              114.25977188651011,
+              22.354846044962255
+            ],
+            [
+              114.25977188651011,
+              22.333900056587446
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91055831693807,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.249971235141825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449561606102,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.25018885999391
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19623791744914,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.25018816839196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94233510085739,
+              22.229087189093764
+            ],
+            [
+              113.91055831693807,
+              22.229087189093764
+            ],
+            [
+              113.91055831693807,
+              22.249971235141825
+            ],
+            [
+              113.94233510085739,
+              22.249971235141825
+            ],
+            [
+              113.94233510085739,
+              22.229087189093764
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tropidophorus sinicus",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Tropidophorus sinicus",
+    "predicted_locations": 10,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

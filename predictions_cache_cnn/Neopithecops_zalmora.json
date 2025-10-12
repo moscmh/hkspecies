@@ -1,0 +1,270 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25988387732176,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.522293604165302
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Neopithecops zalmora",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Neopithecops zalmora",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03731829859107,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.459457269614727
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Neopithecops zalmora",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.3233598641556,
+              22.396653294912344
+            ],
+            [
+              114.29160168380756,
+              22.396653294912344
+            ],
+            [
+              114.29160168380756,
+              22.417611616229124
+            ],
+            [
+              114.3233598641556,
+              22.417611616229124
+            ],
+            [
+              114.3233598641556,
+              22.396653294912344
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Neopithecops zalmora",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94226539104699,
+              22.270953024758175
+            ],
+            [
+              113.91047907779232,
+              22.270953024758175
+            ],
+            [
+              113.91047907779232,
+              22.29183686103461
+            ],
+            [
+              113.94226539104699,
+              22.29183686103461
+            ],
+            [
+              113.94226539104699,
+              22.270953024758175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Neopithecops zalmora",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94230026680334,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.25002013380511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Neopithecops zalmora",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94236989323686,
+              22.208154190664175
+            ],
+            [
+              113.91059786552002,
+              22.208154190664175
+            ],
+            [
+              113.91059786552002,
+              22.229038341516034
+            ],
+            [
+              113.94236989323686,
+              22.229038341516034
+            ],
+            [
+              113.94236989323686,
+              22.208154190664175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Neopithecops zalmora",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Neopithecops zalmora",
+    "predicted_locations": 7,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

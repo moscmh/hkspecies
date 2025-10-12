@@ -1,0 +1,455 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.16446972622305,
+              22.52231384689893
+            ],
+            [
+              114.16446972622305,
+              22.543246910604605
+            ],
+            [
+              114.19627569678528,
+              22.543246910604605
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16447902684425,
+              22.438584536384546
+            ],
+            [
+              114.13268741793262,
+              22.438584536384546
+            ],
+            [
+              114.13268741793262,
+              22.459511552072637
+            ],
+            [
+              114.16447902684425,
+              22.459511552072637
+            ],
+            [
+              114.16447902684425,
+              22.438584536384546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270066260488,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.417646343787624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32338181249452,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.417585919425292
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0691725279992,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.375751120064827
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.10098847645888,
+              22.271116415005288
+            ],
+            [
+              114.10098847645888,
+              22.292037692495025
+            ],
+            [
+              114.13274676545531,
+              22.292037692495025
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449378243213,
+              22.27112192828764
+            ],
+            [
+              114.13274020343425,
+              22.27112192828764
+            ],
+            [
+              114.13274020343425,
+              22.292049423540263
+            ],
+            [
+              114.16449378243213,
+              22.292049423540263
+            ],
+            [
+              114.16449378243213,
+              22.27112192828764
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449561606102,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.25018885999391
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Pterorhinus chinensis",
+    "predicted_locations": 12,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

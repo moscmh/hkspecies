@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13266749040581,
+              22.522308958598664
+            ],
+            [
+              114.10085195337207,
+              22.522308958598664
+            ],
+            [
+              114.10085195337207,
+              22.543229438260028
+            ],
+            [
+              114.13266749040581,
+              22.543229438260028
+            ],
+            [
+              114.13266749040581,
+              22.522308958598664
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Paracercion calamorum dyeri",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19627277127812,
+              22.501381426633824
+            ],
+            [
+              114.16447159118317,
+              22.501381426633824
+            ],
+            [
+              114.16447159118317,
+              22.522314544129564
+            ],
+            [
+              114.19627277127812,
+              22.522314544129564
+            ],
+            [
+              114.19627277127812,
+              22.501381426633824
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Paracercion calamorum dyeri",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Paracercion calamorum dyeri",
+    "predicted_locations": 2,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

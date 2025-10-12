@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32338181249452,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.417585919425292
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Polyura nepenthes",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Polyura nepenthes",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270066260488,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.417646343787624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35516188975285,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.417553972255877
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0691725279992,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.375751120064827
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25979667171741,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.375765667514177
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449561606102,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.25018885999391
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Pterorhinus pectoralis",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Pterorhinus pectoralis",
+    "predicted_locations": 6,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "prediction_info": {
+    "species_name": "Paraleptuca splendida",
+    "predicted_locations": 0,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0055286768589,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.45942664884336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gynacantha subinterrupta",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03731829859107,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.459457269614727
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gynacantha subinterrupta",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Gynacantha subinterrupta",
+    "predicted_locations": 2,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

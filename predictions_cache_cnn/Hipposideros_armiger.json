@@ -1,0 +1,825 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.1962786255369,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.54324621293982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22805668197616,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.45950946428585
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16447902684425,
+              22.438584536384546
+            ],
+            [
+              114.13268741793262,
+              22.438584536384546
+            ],
+            [
+              114.13268741793262,
+              22.459511552072637
+            ],
+            [
+              114.16447902684425,
+              22.459511552072637
+            ],
+            [
+              114.16447902684425,
+              22.438584536384546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32340378664642,
+              22.4385184898927
+            ],
+            [
+              114.29163612155905,
+              22.4385184898927
+            ],
+            [
+              114.29163612155905,
+              22.459476755605262
+            ],
+            [
+              114.32340378664642,
+              22.459476755605262
+            ],
+            [
+              114.32340378664642,
+              22.4385184898927
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.3551886292371,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.438486510007362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270066260488,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.417646343787624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35516188975285,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.417553972255877
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.037360152582,
+              22.396683827858546
+            ],
+            [
+              114.037360152582,
+              22.41759217496415
+            ],
+            [
+              114.0691564175599,
+              22.41759217496415
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10093183156366,
+              22.396701865210943
+            ],
+            [
+              114.06914028778708,
+              22.396701865210943
+            ],
+            [
+              114.06914028778708,
+              22.41761648165527
+            ],
+            [
+              114.10093183156366,
+              22.41761648165527
+            ],
+            [
+              114.10093183156366,
+              22.396701865210943
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 13,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03740190660761,
+              22.375726864137413
+            ],
+            [
+              114.00560571637018,
+              22.375726864137413
+            ],
+            [
+              114.00560571637018,
+              22.39662902132953
+            ],
+            [
+              114.03740190660761,
+              22.39662902132953
+            ],
+            [
+              114.03740190660761,
+              22.375726864137413
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 14,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10094318789106,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.37576913849178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 15,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35510850513654,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.37568873462734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 16,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06918861911788,
+              22.35481835831386
+            ],
+            [
+              114.03740190660761,
+              22.35481835831386
+            ],
+            [
+              114.03740190660761,
+              22.375726864137413
+            ],
+            [
+              114.06918861911788,
+              22.375726864137413
+            ],
+            [
+              114.06918861911788,
+              22.35481835831386
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 17,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94230026680334,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.25002013380511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 18,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.97404229976452,
+              22.250062833839433
+            ],
+            [
+              113.94226539104699,
+              22.250062833839433
+            ],
+            [
+              113.94226539104699,
+              22.270953024758175
+            ],
+            [
+              113.97404229976452,
+              22.270953024758175
+            ],
+            [
+              113.97404229976452,
+              22.250062833839433
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 19,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00578440463454,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.250099335182842
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 20,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91059786552002,
+              22.229038341516034
+            ],
+            [
+              113.87881646135558,
+              22.229038341516034
+            ],
+            [
+              113.87881646135558,
+              22.249916137920565
+            ],
+            [
+              113.91059786552002,
+              22.249916137920565
+            ],
+            [
+              113.91059786552002,
+              22.229038341516034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 21,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87890493455392,
+              22.20805041196941
+            ],
+            [
+              113.84712368868487,
+              22.20805041196941
+            ],
+            [
+              113.84712368868487,
+              22.22892207008457
+            ],
+            [
+              113.87890493455392,
+              22.22892207008457
+            ],
+            [
+              113.87890493455392,
+              22.20805041196941
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros armiger",
+        "prediction_year": 2025,
+        "prediction_id": 22,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Hipposideros armiger",
+    "predicted_locations": 22,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

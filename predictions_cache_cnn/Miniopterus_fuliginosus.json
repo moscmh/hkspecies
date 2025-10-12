@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.1962786255369,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.54324621293982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus fuliginosus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Miniopterus fuliginosus",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

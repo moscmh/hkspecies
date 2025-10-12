@@ -1,0 +1,344 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32346986415382,
+              22.501315876624663
+            ],
+            [
+              114.29168792968522,
+              22.501315876624663
+            ],
+            [
+              114.29168792968522,
+              22.522274058691117
+            ],
+            [
+              114.32346986415382,
+              22.522274058691117
+            ],
+            [
+              114.32346986415382,
+              22.501315876624663
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.3551886292371,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.438486510007362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.38691043666333,
+              22.39658322212118
+            ],
+            [
+              114.35516188975285,
+              22.39658322212118
+            ],
+            [
+              114.35516188975285,
+              22.417553972255877
+            ],
+            [
+              114.38691043666333,
+              22.417553972255877
+            ],
+            [
+              114.38691043666333,
+              22.39658322212118
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35510850513654,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.37568873462734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.38687900606902,
+              22.375650615448716
+            ],
+            [
+              114.35513518172638,
+              22.375650615448716
+            ],
+            [
+              114.35513518172638,
+              22.396621380449297
+            ],
+            [
+              114.38687900606902,
+              22.396621380449297
+            ],
+            [
+              114.38687900606902,
+              22.375650615448716
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91055831693807,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.249971235141825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19623791744914,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.25018816839196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25972248982752,
+              22.25016818857612
+            ],
+            [
+              114.22798781955252,
+              22.25016818857612
+            ],
+            [
+              114.22798781955252,
+              22.271114338904287
+            ],
+            [
+              114.25972248982752,
+              22.271114338904287
+            ],
+            [
+              114.25972248982752,
+              22.25016818857612
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00580980947458,
+              22.22916630761894
+            ],
+            [
+              113.97404229976452,
+              22.22916630761894
+            ],
+            [
+              113.97404229976452,
+              22.250062833839433
+            ],
+            [
+              114.00580980947458,
+              22.250062833839433
+            ],
+            [
+              114.00580980947458,
+              22.22916630761894
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Lutjanus argentimaculatus",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Lutjanus argentimaculatus",
+    "predicted_locations": 9,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,1084 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06907557510179,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.501346556078293
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626110164926,
+              22.417651204122716
+            ],
+            [
+              114.16447902684425,
+              22.417651204122716
+            ],
+            [
+              114.16447902684425,
+              22.438584536384546
+            ],
+            [
+              114.19626110164926,
+              22.438584536384546
+            ],
+            [
+              114.19626110164926,
+              22.417651204122716
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.037360152582,
+              22.396683827858546
+            ],
+            [
+              114.037360152582,
+              22.41759217496415
+            ],
+            [
+              114.0691564175599,
+              22.41759217496415
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10093183156366,
+              22.396701865210943
+            ],
+            [
+              114.06914028778708,
+              22.396701865210943
+            ],
+            [
+              114.06914028778708,
+              22.41761648165527
+            ],
+            [
+              114.10093183156366,
+              22.41761648165527
+            ],
+            [
+              114.10093183156366,
+              22.396701865210943
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270727285345,
+              22.396713658583774
+            ],
+            [
+              114.10092046154388,
+              22.396713658583774
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.13270727285345,
+              22.417634537938564
+            ],
+            [
+              114.13270727285345,
+              22.396713658583774
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25979667171741,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.375765667514177
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29156732672845,
+              22.37574626070146
+            ],
+            [
+              114.25980908607166,
+              22.37574626070146
+            ],
+            [
+              114.25980908607166,
+              22.39669839206848
+            ],
+            [
+              114.29156732672845,
+              22.39669839206848
+            ],
+            [
+              114.29156732672845,
+              22.37574626070146
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22801833645117,
+              22.354846044962255
+            ],
+            [
+              114.19625528624357,
+              22.354846044962255
+            ],
+            [
+              114.19625528624357,
+              22.375785768551765
+            ],
+            [
+              114.22801833645117,
+              22.375785768551765
+            ],
+            [
+              114.22801833645117,
+              22.354846044962255
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25978427186682,
+              22.35483288900724
+            ],
+            [
+              114.22802598781163,
+              22.35483288900724
+            ],
+            [
+              114.22802598781163,
+              22.37577883680389
+            ],
+            [
+              114.25978427186682,
+              22.37577883680389
+            ],
+            [
+              114.25978427186682,
+              22.35483288900724
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25977188651011,
+              22.333900056587446
+            ],
+            [
+              114.22801833645117,
+              22.333900056587446
+            ],
+            [
+              114.22801833645117,
+              22.354846044962255
+            ],
+            [
+              114.25977188651011,
+              22.354846044962255
+            ],
+            [
+              114.25977188651011,
+              22.333900056587446
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 13,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94223047356056,
+              22.291885861912995
+            ],
+            [
+              113.91043938716547,
+              22.291885861912995
+            ],
+            [
+              113.91043938716547,
+              22.312769593221606
+            ],
+            [
+              113.94223047356056,
+              22.312769593221606
+            ],
+            [
+              113.94223047356056,
+              22.291885861912995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 14,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.10098847645888,
+              22.271116415005288
+            ],
+            [
+              114.10098847645888,
+              22.292037692495025
+            ],
+            [
+              114.13274676545531,
+              22.292037692495025
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 15,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91055831693807,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.249971235141825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 16,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.97404229976452,
+              22.250062833839433
+            ],
+            [
+              113.94226539104699,
+              22.250062833839433
+            ],
+            [
+              113.94226539104699,
+              22.270953024758175
+            ],
+            [
+              113.97404229976452,
+              22.270953024758175
+            ],
+            [
+              113.97404229976452,
+              22.250062833839433
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 17,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00578440463454,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.250099335182842
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 18,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06926878535211,
+              22.250153741593763
+            ],
+            [
+              114.03750585519894,
+              22.250153741593763
+            ],
+            [
+              114.03750585519894,
+              22.271062643387726
+            ],
+            [
+              114.06926878535211,
+              22.271062643387726
+            ],
+            [
+              114.06926878535211,
+              22.250153741593763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 19,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449561606102,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.25018885999391
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 20,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87886072440276,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.2289833018197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 21,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94233510085739,
+              22.229087189093764
+            ],
+            [
+              113.91055831693807,
+              22.229087189093764
+            ],
+            [
+              113.91055831693807,
+              22.249971235141825
+            ],
+            [
+              113.94233510085739,
+              22.249971235141825
+            ],
+            [
+              113.94233510085739,
+              22.229087189093764
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 22,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.97407241923545,
+              22.229129844482042
+            ],
+            [
+              113.94230026680334,
+              22.229129844482042
+            ],
+            [
+              113.94230026680334,
+              22.25002013380511
+            ],
+            [
+              113.97407241923545,
+              22.25002013380511
+            ],
+            [
+              113.97407241923545,
+              22.229129844482042
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 23,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.2279726141457,
+              22.229248163218287
+            ],
+            [
+              114.19623791744914,
+              22.229248163218287
+            ],
+            [
+              114.19623791744914,
+              22.25018816839196
+            ],
+            [
+              114.2279726141457,
+              22.25018816839196
+            ],
+            [
+              114.2279726141457,
+              22.229248163218287
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 24,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91063736681662,
+              22.20810539415733
+            ],
+            [
+              113.87886072440276,
+              22.20810539415733
+            ],
+            [
+              113.87886072440276,
+              22.2289833018197
+            ],
+            [
+              113.91063736681662,
+              22.2289833018197
+            ],
+            [
+              113.91063736681662,
+              22.20810539415733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 25,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94236989323686,
+              22.208154190664175
+            ],
+            [
+              113.91059786552002,
+              22.208154190664175
+            ],
+            [
+              113.91059786552002,
+              22.229038341516034
+            ],
+            [
+              113.94236989323686,
+              22.229038341516034
+            ],
+            [
+              113.94236989323686,
+              22.208154190664175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 26,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13276640342389,
+              22.208317067065494
+            ],
+            [
+              114.10102229956017,
+              22.208317067065494
+            ],
+            [
+              114.10102229956017,
+              22.229238543036615
+            ],
+            [
+              114.13276640342389,
+              22.229238543036615
+            ],
+            [
+              114.13276640342389,
+              22.208317067065494
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 27,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13277293339947,
+              22.187383843773766
+            ],
+            [
+              114.10103354667562,
+              22.187383843773766
+            ],
+            [
+              114.10103354667562,
+              22.208305385818353
+            ],
+            [
+              114.13277293339947,
+              22.208305385818353
+            ],
+            [
+              114.13277293339947,
+              22.187383843773766
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 28,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16450110255887,
+              22.187389333027575
+            ],
+            [
+              114.13276640342389,
+              22.187389333027575
+            ],
+            [
+              114.13276640342389,
+              22.208317067065494
+            ],
+            [
+              114.16450110255887,
+              22.208317067065494
+            ],
+            [
+              114.16450110255887,
+              22.187389333027575
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gekko chinensis",
+        "prediction_year": 2025,
+        "prediction_id": 29,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Gekko chinensis",
+    "predicted_locations": 29,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

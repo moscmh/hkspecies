@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Euthygomphus koxingai",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Euthygomphus koxingai",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

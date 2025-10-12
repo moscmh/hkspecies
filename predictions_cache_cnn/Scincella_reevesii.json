@@ -1,0 +1,270 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06907557510179,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.501346556078293
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Scincella reevesii",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10087484435778,
+              22.50136468813981
+            ],
+            [
+              114.06905934846714,
+              22.50136468813981
+            ],
+            [
+              114.06905934846714,
+              22.522278939294843
+            ],
+            [
+              114.10087484435778,
+              22.522278939294843
+            ],
+            [
+              114.10087484435778,
+              22.50136468813981
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Scincella reevesii",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13267414099104,
+              22.501376543929673
+            ],
+            [
+              114.10086340573865,
+              22.501376543929673
+            ],
+            [
+              114.10086340573865,
+              22.52229709031461
+            ],
+            [
+              114.13267414099104,
+              22.52229709031461
+            ],
+            [
+              114.13267414099104,
+              22.501376543929673
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Scincella reevesii",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03731829859107,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.459457269614727
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Scincella reevesii",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00555438734581,
+              22.43849416041848
+            ],
+            [
+              113.97373911625505,
+              22.43849416041848
+            ],
+            [
+              113.97373911625505,
+              22.459389764829414
+            ],
+            [
+              114.00555438734581,
+              22.459389764829414
+            ],
+            [
+              114.00555438734581,
+              22.43849416041848
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Scincella reevesii",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06912413866779,
+              22.43854908141529
+            ],
+            [
+              114.03731829859107,
+              22.43854908141529
+            ],
+            [
+              114.03731829859107,
+              22.459457269614727
+            ],
+            [
+              114.06912413866779,
+              22.459457269614727
+            ],
+            [
+              114.06912413866779,
+              22.43854908141529
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Scincella reevesii",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94223047356056,
+              22.291885861912995
+            ],
+            [
+              113.91043938716547,
+              22.291885861912995
+            ],
+            [
+              113.91043938716547,
+              22.312769593221606
+            ],
+            [
+              113.94223047356056,
+              22.312769593221606
+            ],
+            [
+              113.94223047356056,
+              22.291885861912995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Scincella reevesii",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Scincella reevesii",
+    "predicted_locations": 7,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

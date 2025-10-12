@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Sphenomorphus indicus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Sphenomorphus indicus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Sphenomorphus indicus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270727285345,
+              22.396713658583774
+            ],
+            [
+              114.10092046154388,
+              22.396713658583774
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.13270727285345,
+              22.417634537938564
+            ],
+            [
+              114.13270727285345,
+              22.396713658583774
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Sphenomorphus indicus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0691725279992,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.375751120064827
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Sphenomorphus indicus",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Sphenomorphus indicus",
+    "predicted_locations": 5,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

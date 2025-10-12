@@ -1,0 +1,566 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32351404520959,
+              22.543180530157734
+            ],
+            [
+              114.29172256959455,
+              22.543180530157734
+            ],
+            [
+              114.29172256959455,
+              22.56413865630072
+            ],
+            [
+              114.32351404520959,
+              22.56413865630072
+            ],
+            [
+              114.32351404520959,
+              22.543180530157734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.45074863868862,
+              22.543014221437506
+            ],
+            [
+              114.4189766344024,
+              22.543014221437506
+            ],
+            [
+              114.4189766344024,
+              22.56399735976701
+            ],
+            [
+              114.45074863868862,
+              22.56399735976701
+            ],
+            [
+              114.45074863868862,
+              22.543014221437506
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25988387732176,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.522293604165302
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.4507073610427,
+              22.522082091642773
+            ],
+            [
+              114.41894010729915,
+              22.522082091642773
+            ],
+            [
+              114.41894010729915,
+              22.543065232129095
+            ],
+            [
+              114.4507073610427,
+              22.543065232129095
+            ],
+            [
+              114.4507073610427,
+              22.522082091642773
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.2916706400918,
+              22.50134167851244
+            ],
+            [
+              114.25988387732176,
+              22.50134167851244
+            ],
+            [
+              114.25988387732176,
+              22.522293604165302
+            ],
+            [
+              114.2916706400918,
+              22.522293604165302
+            ],
+            [
+              114.2916706400918,
+              22.50134167851244
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29160168380756,
+              22.417611616229124
+            ],
+            [
+              114.25983395833018,
+              22.417611616229124
+            ],
+            [
+              114.25983395833018,
+              22.43856367916022
+            ],
+            [
+              114.29160168380756,
+              22.43856367916022
+            ],
+            [
+              114.29160168380756,
+              22.417611616229124
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94209038575758,
+              22.375616671751192
+            ],
+            [
+              113.91028015022688,
+              22.375616671751192
+            ],
+            [
+              113.91028015022688,
+              22.39649998264205
+            ],
+            [
+              113.94209038575758,
+              22.39649998264205
+            ],
+            [
+              113.94209038575758,
+              22.375616671751192
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35510850513654,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.37568873462734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91051872103934,
+              22.27090407499469
+            ],
+            [
+              113.8787277764325,
+              22.27090407499469
+            ],
+            [
+              113.8787277764325,
+              22.291781648713865
+            ],
+            [
+              113.91051872103934,
+              22.291781648713865
+            ],
+            [
+              113.91051872103934,
+              22.27090407499469
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94226539104699,
+              22.270953024758175
+            ],
+            [
+              113.91047907779232,
+              22.270953024758175
+            ],
+            [
+              113.91047907779232,
+              22.29183686103461
+            ],
+            [
+              113.94226539104699,
+              22.29183686103461
+            ],
+            [
+              113.94226539104699,
+              22.270953024758175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 2.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35494910458712,
+              22.250091727602605
+            ],
+            [
+              114.32322871522423,
+              22.250091727602605
+            ],
+            [
+              114.32322871522423,
+              22.27105641510495
+            ],
+            [
+              114.35494910458712,
+              22.27105641510495
+            ],
+            [
+              114.35494910458712,
+              22.250091727602605
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94236989323686,
+              22.208154190664175
+            ],
+            [
+              113.91059786552002,
+              22.208154190664175
+            ],
+            [
+              113.91059786552002,
+              22.229038341516034
+            ],
+            [
+              113.94236989323686,
+              22.229038341516034
+            ],
+            [
+              113.94236989323686,
+              22.208154190664175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 13,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.8789490918442,
+              22.187117468409795
+            ],
+            [
+              113.84717260762059,
+              22.187117468409795
+            ],
+            [
+              113.84717260762059,
+              22.20798924418015
+            ],
+            [
+              113.8789490918442,
+              22.20798924418015
+            ],
+            [
+              113.8789490918442,
+              22.187117468409795
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 14,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25966106892231,
+              22.145502145307578
+            ],
+            [
+              114.2279498722051,
+              22.145502145307578
+            ],
+            [
+              114.2279498722051,
+              22.166448497266302
+            ],
+            [
+              114.25966106892231,
+              22.166448497266302
+            ],
+            [
+              114.25966106892231,
+              22.145502145307578
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Chilades lajus",
+        "prediction_year": 2025,
+        "prediction_id": 15,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Chilades lajus",
+    "predicted_locations": 15,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

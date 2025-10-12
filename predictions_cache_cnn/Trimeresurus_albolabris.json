@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.1962786255369,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.54324621293982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Trimeresurus albolabris",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Trimeresurus albolabris",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13271387505074,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.37578091939196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Trimeresurus albolabris",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19623791744914,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.25018816839196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Trimeresurus albolabris",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13276640342389,
+              22.208317067065494
+            ],
+            [
+              114.10102229956017,
+              22.208317067065494
+            ],
+            [
+              114.10102229956017,
+              22.229238543036615
+            ],
+            [
+              114.13276640342389,
+              22.229238543036615
+            ],
+            [
+              114.13276640342389,
+              22.208317067065494
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Trimeresurus albolabris",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Trimeresurus albolabris",
+    "predicted_locations": 5,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

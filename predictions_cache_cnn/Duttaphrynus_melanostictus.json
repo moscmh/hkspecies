@@ -1,0 +1,2305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.1962786255369,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.54324621293982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.1962786255369,
+              22.522306866907556
+            ],
+            [
+              114.1962786255369,
+              22.54324621293982
+            ],
+            [
+              114.22807979592665,
+              22.54324621293982
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25988387732176,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.522293604165302
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06907557510179,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.501346556078293
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10087484435778,
+              22.50136468813981
+            ],
+            [
+              114.06905934846714,
+              22.50136468813981
+            ],
+            [
+              114.06905934846714,
+              22.522278939294843
+            ],
+            [
+              114.10087484435778,
+              22.522278939294843
+            ],
+            [
+              114.10087484435778,
+              22.50136468813981
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13267414099104,
+              22.501376543929673
+            ],
+            [
+              114.10086340573865,
+              22.501376543929673
+            ],
+            [
+              114.10086340573865,
+              22.52229709031461
+            ],
+            [
+              114.13267414099104,
+              22.52229709031461
+            ],
+            [
+              114.13267414099104,
+              22.501376543929673
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.2916706400918,
+              22.50134167851244
+            ],
+            [
+              114.25988387732176,
+              22.50134167851244
+            ],
+            [
+              114.25988387732176,
+              22.522293604165302
+            ],
+            [
+              114.2916706400918,
+              22.522293604165302
+            ],
+            [
+              114.2916706400918,
+              22.50134167851244
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32346986415382,
+              22.501315876624663
+            ],
+            [
+              114.29168792968522,
+              22.501315876624663
+            ],
+            [
+              114.29168792968522,
+              22.522274058691117
+            ],
+            [
+              114.32346986415382,
+              22.522274058691117
+            ],
+            [
+              114.32346986415382,
+              22.501315876624663
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10088626923867,
+              22.480432231775197
+            ],
+            [
+              114.06907557510179,
+              22.480432231775197
+            ],
+            [
+              114.06907557510179,
+              22.501346556078293
+            ],
+            [
+              114.10088626923867,
+              22.501346556078293
+            ],
+            [
+              114.10088626923867,
+              22.480432231775197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22806437772797,
+              22.480441985986754
+            ],
+            [
+              114.19627277127812,
+              22.480441985986754
+            ],
+            [
+              114.19627277127812,
+              22.501381426633824
+            ],
+            [
+              114.22806437772797,
+              22.501381426633824
+            ],
+            [
+              114.22806437772797,
+              22.480441985986754
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 13,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29165337072098,
+              22.48040924413729
+            ],
+            [
+              114.25987137573998,
+              22.48040924413729
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.29165337072098,
+              22.50136120416041
+            ],
+            [
+              114.29165337072098,
+              22.48040924413729
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 14,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0055286768589,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.45942664884336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 15,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03731829859107,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.459457269614727
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 16,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13268741793262,
+              22.459511552072637
+            ],
+            [
+              114.10088626923867,
+              22.459511552072637
+            ],
+            [
+              114.10088626923867,
+              22.480432231775197
+            ],
+            [
+              114.13268741793262,
+              22.480432231775197
+            ],
+            [
+              114.13268741793262,
+              22.459511552072637
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 17,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 18,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22805668197616,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.45950946428585
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 19,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00555438734581,
+              22.43849416041848
+            ],
+            [
+              113.97373911625505,
+              22.43849416041848
+            ],
+            [
+              113.97373911625505,
+              22.459389764829414
+            ],
+            [
+              114.00555438734581,
+              22.459389764829414
+            ],
+            [
+              114.00555438734581,
+              22.43849416041848
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 20,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13269404429975,
+              22.43857897496381
+            ],
+            [
+              114.10089768039055,
+              22.43857897496381
+            ],
+            [
+              114.10089768039055,
+              22.459499721260368
+            ],
+            [
+              114.13269404429975,
+              22.459499721260368
+            ],
+            [
+              114.13269404429975,
+              22.43857897496381
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 21,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32340378664642,
+              22.4385184898927
+            ],
+            [
+              114.29163612155905,
+              22.4385184898927
+            ],
+            [
+              114.29163612155905,
+              22.459476755605262
+            ],
+            [
+              114.32340378664642,
+              22.459476755605262
+            ],
+            [
+              114.32340378664642,
+              22.4385184898927
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 22,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.3551886292371,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.438486510007362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 23,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94202009075087,
+              22.417481752843447
+            ],
+            [
+              113.91020024665468,
+              22.417481752843447
+            ],
+            [
+              113.91020024665468,
+              22.438364853197672
+            ],
+            [
+              113.94202009075087,
+              22.438364853197672
+            ],
+            [
+              113.94202009075087,
+              22.417481752843447
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 24,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06914028778708,
+              22.41761648165527
+            ],
+            [
+              114.03733923809055,
+              22.41761648165527
+            ],
+            [
+              114.03733923809055,
+              22.438524749331304
+            ],
+            [
+              114.06914028778708,
+              22.438524749331304
+            ],
+            [
+              114.06914028778708,
+              22.41761648165527
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 25,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270066260488,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.417646343787624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 26,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29160168380756,
+              22.417611616229124
+            ],
+            [
+              114.25983395833018,
+              22.417611616229124
+            ],
+            [
+              114.25983395833018,
+              22.43856367916022
+            ],
+            [
+              114.29160168380756,
+              22.43856367916022
+            ],
+            [
+              114.29160168380756,
+              22.417611616229124
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 27,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32338181249452,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.417585919425292
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 28,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.037360152582,
+              22.396683827858546
+            ],
+            [
+              114.037360152582,
+              22.41759217496415
+            ],
+            [
+              114.0691564175599,
+              22.41759217496415
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 29,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10093183156366,
+              22.396701865210943
+            ],
+            [
+              114.06914028778708,
+              22.396701865210943
+            ],
+            [
+              114.06914028778708,
+              22.41761648165527
+            ],
+            [
+              114.10093183156366,
+              22.41761648165527
+            ],
+            [
+              114.10093183156366,
+              22.396701865210943
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 30,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270727285345,
+              22.396713658583774
+            ],
+            [
+              114.10092046154388,
+              22.396713658583774
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.13270727285345,
+              22.417634537938564
+            ],
+            [
+              114.13270727285345,
+              22.396713658583774
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 31,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16448273018919,
+              22.3967192079597
+            ],
+            [
+              114.13270066260488,
+              22.3967192079597
+            ],
+            [
+              114.13270066260488,
+              22.417646343787624
+            ],
+            [
+              114.16448273018919,
+              22.417646343787624
+            ],
+            [
+              114.16448273018919,
+              22.3967192079597
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 32,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03740190660761,
+              22.375726864137413
+            ],
+            [
+              114.00560571637018,
+              22.375726864137413
+            ],
+            [
+              114.00560571637018,
+              22.39662902132953
+            ],
+            [
+              114.03740190660761,
+              22.39662902132953
+            ],
+            [
+              114.03740190660761,
+              22.375726864137413
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 33,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0691725279992,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.375751120064827
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 34,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10094318789106,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.37576913849178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 35,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13271387505074,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.37578091939196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 36,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25979667171741,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.375765667514177
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 37,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.1644864238938,
+              22.354853663589846
+            ],
+            [
+              114.13271387505074,
+              22.354853663589846
+            ],
+            [
+              114.13271387505074,
+              22.37578091939196
+            ],
+            [
+              114.1644864238938,
+              22.37578091939196
+            ],
+            [
+              114.1644864238938,
+              22.354853663589846
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 38,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16448826713491,
+              22.33392081052491
+            ],
+            [
+              114.13272046920216,
+              22.33392081052491
+            ],
+            [
+              114.13272046920216,
+              22.35484812625191
+            ],
+            [
+              114.16448826713491,
+              22.35484812625191
+            ],
+            [
+              114.16448826713491,
+              22.33392081052491
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 39,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25977188651011,
+              22.333900056587446
+            ],
+            [
+              114.22801833645117,
+              22.333900056587446
+            ],
+            [
+              114.22801833645117,
+              22.354846044962255
+            ],
+            [
+              114.25977188651011,
+              22.354846044962255
+            ],
+            [
+              114.25977188651011,
+              22.333900056587446
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 40,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.2915159421334,
+              22.312947822821375
+            ],
+            [
+              114.25977188651011,
+              22.312947822821375
+            ],
+            [
+              114.25977188651011,
+              22.333900056587446
+            ],
+            [
+              114.2915159421334,
+              22.333900056587446
+            ],
+            [
+              114.2915159421334,
+              22.312947822821375
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 41,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00573350351486,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.29196522906725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 42,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94226539104699,
+              22.270953024758175
+            ],
+            [
+              113.91047907779232,
+              22.270953024758175
+            ],
+            [
+              113.91047907779232,
+              22.29183686103461
+            ],
+            [
+              113.94226539104699,
+              22.29183686103461
+            ],
+            [
+              113.94226539104699,
+              22.270953024758175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 43,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449378243213,
+              22.27112192828764
+            ],
+            [
+              114.13274020343425,
+              22.27112192828764
+            ],
+            [
+              114.13274020343425,
+              22.292049423540263
+            ],
+            [
+              114.16449378243213,
+              22.292049423540263
+            ],
+            [
+              114.16449378243213,
+              22.27112192828764
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 44,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87881646135558,
+              22.249916137920565
+            ],
+            [
+              113.84702567525491,
+              22.249916137920565
+            ],
+            [
+              113.84702567525491,
+              22.270787560550005
+            ],
+            [
+              113.87881646135558,
+              22.270787560550005
+            ],
+            [
+              113.87881646135558,
+              22.249916137920565
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 45,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91055831693807,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.249971235141825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 46,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94230026680334,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.25002013380511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 47,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00578440463454,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.250099335182842
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 48,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449561606102,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.25018885999391
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 49,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19623791744914,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.25018816839196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 50,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22798021243385,
+              22.25018127791613
+            ],
+            [
+              114.19624080419622,
+              22.25018127791613
+            ],
+            [
+              114.19624080419622,
+              22.271121236253713
+            ],
+            [
+              114.22798021243385,
+              22.271121236253713
+            ],
+            [
+              114.22798021243385,
+              22.25018127791613
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 51,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87886072440276,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.2289833018197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 52,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91059786552002,
+              22.229038341516034
+            ],
+            [
+              113.87881646135558,
+              22.229038341516034
+            ],
+            [
+              113.87881646135558,
+              22.249916137920565
+            ],
+            [
+              113.91059786552002,
+              22.249916137920565
+            ],
+            [
+              113.91059786552002,
+              22.229038341516034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 53,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.97407241923545,
+              22.229129844482042
+            ],
+            [
+              113.94230026680334,
+              22.229129844482042
+            ],
+            [
+              113.94230026680334,
+              22.25002013380511
+            ],
+            [
+              113.97407241923545,
+              22.25002013380511
+            ],
+            [
+              113.97407241923545,
+              22.229129844482042
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 54,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00580980947458,
+              22.22916630761894
+            ],
+            [
+              113.97404229976452,
+              22.22916630761894
+            ],
+            [
+              113.97404229976452,
+              22.250062833839433
+            ],
+            [
+              114.00580980947458,
+              22.250062833839433
+            ],
+            [
+              114.00580980947458,
+              22.22916630761894
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 55,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25971017679444,
+              22.229235087189632
+            ],
+            [
+              114.22798021243385,
+              22.229235087189632
+            ],
+            [
+              114.22798021243385,
+              22.25018127791613
+            ],
+            [
+              114.25971017679444,
+              22.25018127791613
+            ],
+            [
+              114.25971017679444,
+              22.229235087189632
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 56,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87890493455392,
+              22.20805041196941
+            ],
+            [
+              113.84712368868487,
+              22.20805041196941
+            ],
+            [
+              113.84712368868487,
+              22.22892207008457
+            ],
+            [
+              113.87890493455392,
+              22.22892207008457
+            ],
+            [
+              113.87890493455392,
+              22.20805041196941
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 57,
+        "feature_type": "grid_box",
+        "likelihood": 2.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91063736681662,
+              22.20810539415733
+            ],
+            [
+              113.87886072440276,
+              22.20810539415733
+            ],
+            [
+              113.87886072440276,
+              22.2289833018197
+            ],
+            [
+              113.91063736681662,
+              22.2289833018197
+            ],
+            [
+              113.91063736681662,
+              22.20810539415733
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 58,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94236989323686,
+              22.208154190664175
+            ],
+            [
+              113.91059786552002,
+              22.208154190664175
+            ],
+            [
+              113.91059786552002,
+              22.229038341516034
+            ],
+            [
+              113.94236989323686,
+              22.229038341516034
+            ],
+            [
+              113.94236989323686,
+              22.208154190664175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 59,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13276640342389,
+              22.208317067065494
+            ],
+            [
+              114.10102229956017,
+              22.208317067065494
+            ],
+            [
+              114.10102229956017,
+              22.229238543036615
+            ],
+            [
+              114.13276640342389,
+              22.229238543036615
+            ],
+            [
+              114.13276640342389,
+              22.208317067065494
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 60,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00586052781638,
+              22.187300091447632
+            ],
+            [
+              113.97410250264265,
+              22.187300091447632
+            ],
+            [
+              113.97410250264265,
+              22.2081968014192
+            ],
+            [
+              114.00586052781638,
+              22.2081968014192
+            ],
+            [
+              114.00586052781638,
+              22.187300091447632
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 61,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13277293339947,
+              22.187383843773766
+            ],
+            [
+              114.10103354667562,
+              22.187383843773766
+            ],
+            [
+              114.10103354667562,
+              22.208305385818353
+            ],
+            [
+              114.13277293339947,
+              22.208305385818353
+            ],
+            [
+              114.13277293339947,
+              22.187383843773766
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Duttaphrynus melanostictus",
+        "prediction_year": 2025,
+        "prediction_id": 62,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Duttaphrynus melanostictus",
+    "predicted_locations": 62,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32346986415382,
+              22.501315876624663
+            ],
+            [
+              114.29168792968522,
+              22.501315876624663
+            ],
+            [
+              114.29168792968522,
+              22.522274058691117
+            ],
+            [
+              114.32346986415382,
+              22.522274058691117
+            ],
+            [
+              114.32346986415382,
+              22.501315876624663
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Bathygobius fuscus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32340378664642,
+              22.4385184898927
+            ],
+            [
+              114.29163612155905,
+              22.4385184898927
+            ],
+            [
+              114.29163612155905,
+              22.459476755605262
+            ],
+            [
+              114.32340378664642,
+              22.459476755605262
+            ],
+            [
+              114.32340378664642,
+              22.4385184898927
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Bathygobius fuscus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.3551886292371,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.438486510007362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Bathygobius fuscus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29160168380756,
+              22.417611616229124
+            ],
+            [
+              114.25983395833018,
+              22.417611616229124
+            ],
+            [
+              114.25983395833018,
+              22.43856367916022
+            ],
+            [
+              114.29160168380756,
+              22.43856367916022
+            ],
+            [
+              114.29160168380756,
+              22.417611616229124
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Bathygobius fuscus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Bathygobius fuscus",
+    "predicted_locations": 4,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

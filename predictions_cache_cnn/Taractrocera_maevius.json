@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35494910458712,
+              22.250091727602605
+            ],
+            [
+              114.32322871522423,
+              22.250091727602605
+            ],
+            [
+              114.32322871522423,
+              22.27105641510495
+            ],
+            [
+              114.35494910458712,
+              22.27105641510495
+            ],
+            [
+              114.35494910458712,
+              22.250091727602605
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Taractrocera maevius",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Taractrocera maevius",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

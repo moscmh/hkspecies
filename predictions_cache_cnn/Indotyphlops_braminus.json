@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0055286768589,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.45942664884336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Indotyphlops braminus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13271387505074,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.37578091939196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Indotyphlops braminus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94223047356056,
+              22.291885861912995
+            ],
+            [
+              113.91043938716547,
+              22.291885861912995
+            ],
+            [
+              113.91043938716547,
+              22.312769593221606
+            ],
+            [
+              113.94223047356056,
+              22.312769593221606
+            ],
+            [
+              113.94223047356056,
+              22.291885861912995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Indotyphlops braminus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19623791744914,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.25018816839196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Indotyphlops braminus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87890493455392,
+              22.20805041196941
+            ],
+            [
+              113.84712368868487,
+              22.20805041196941
+            ],
+            [
+              113.84712368868487,
+              22.22892207008457
+            ],
+            [
+              113.87890493455392,
+              22.22892207008457
+            ],
+            [
+              113.87890493455392,
+              22.20805041196941
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Indotyphlops braminus",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00586052781638,
+              22.187300091447632
+            ],
+            [
+              113.97410250264265,
+              22.187300091447632
+            ],
+            [
+              113.97410250264265,
+              22.2081968014192
+            ],
+            [
+              114.00586052781638,
+              22.2081968014192
+            ],
+            [
+              114.00586052781638,
+              22.187300091447632
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Indotyphlops braminus",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Indotyphlops braminus",
+    "predicted_locations": 6,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

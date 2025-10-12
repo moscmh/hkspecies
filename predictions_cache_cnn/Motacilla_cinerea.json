@@ -1,0 +1,381 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06907557510179,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.501346556078293
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10087484435778,
+              22.50136468813981
+            ],
+            [
+              114.06905934846714,
+              22.50136468813981
+            ],
+            [
+              114.06905934846714,
+              22.522278939294843
+            ],
+            [
+              114.10087484435778,
+              22.522278939294843
+            ],
+            [
+              114.10087484435778,
+              22.50136468813981
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13267414099104,
+              22.501376543929673
+            ],
+            [
+              114.10086340573865,
+              22.501376543929673
+            ],
+            [
+              114.10086340573865,
+              22.52229709031461
+            ],
+            [
+              114.13267414099104,
+              22.52229709031461
+            ],
+            [
+              114.13267414099104,
+              22.501376543929673
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0055286768589,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.45942664884336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22805668197616,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.45950946428585
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13269404429975,
+              22.43857897496381
+            ],
+            [
+              114.10089768039055,
+              22.43857897496381
+            ],
+            [
+              114.10089768039055,
+              22.459499721260368
+            ],
+            [
+              114.13269404429975,
+              22.459499721260368
+            ],
+            [
+              114.13269404429975,
+              22.43857897496381
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270066260488,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.417646343787624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87886072440276,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.2289833018197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Motacilla cinerea",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Motacilla cinerea",
+    "predicted_locations": 10,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

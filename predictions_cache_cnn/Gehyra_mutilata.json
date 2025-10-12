@@ -1,0 +1,159 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19623791744914,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.25018816839196
+            ],
+            [
+              114.16449378243213,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.27112192828764
+            ],
+            [
+              114.19623791744914,
+              22.25018816839196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gehyra mutilata",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13275986544484,
+              22.229250236727967
+            ],
+            [
+              114.10101103882492,
+              22.229250236727967
+            ],
+            [
+              114.10101103882492,
+              22.250171646582114
+            ],
+            [
+              114.13275986544484,
+              22.250171646582114
+            ],
+            [
+              114.13275986544484,
+              22.229250236727967
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gehyra mutilata",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13276640342389,
+              22.208317067065494
+            ],
+            [
+              114.10102229956017,
+              22.208317067065494
+            ],
+            [
+              114.10102229956017,
+              22.229238543036615
+            ],
+            [
+              114.13276640342389,
+              22.229238543036615
+            ],
+            [
+              114.13276640342389,
+              22.208317067065494
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gehyra mutilata",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16450110255887,
+              22.187389333027575
+            ],
+            [
+              114.13276640342389,
+              22.187389333027575
+            ],
+            [
+              114.13276640342389,
+              22.208317067065494
+            ],
+            [
+              114.16450110255887,
+              22.208317067065494
+            ],
+            [
+              114.16450110255887,
+              22.187389333027575
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Gehyra mutilata",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Gehyra mutilata",
+    "predicted_locations": 4,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

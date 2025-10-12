@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06907557510179,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.501346556078293
+            ],
+            [
+              114.03725532987667,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.52225450556592
+            ],
+            [
+              114.06907557510179,
+              22.501346556078293
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Ctenopharyngodon idella",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Ctenopharyngodon idella",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

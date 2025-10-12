@@ -1,0 +1,307 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32351404520959,
+              22.543180530157734
+            ],
+            [
+              114.29172256959455,
+              22.543180530157734
+            ],
+            [
+              114.29172256959455,
+              22.56413865630072
+            ],
+            [
+              114.32351404520959,
+              22.56413865630072
+            ],
+            [
+              114.32351404520959,
+              22.543180530157734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Papilio clytia",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0055286768589,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.45942664884336
+            ],
+            [
+              113.9737085984921,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.4803221607937
+            ],
+            [
+              114.0055286768589,
+              22.45942664884336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Papilio clytia",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Papilio clytia",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22805668197616,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.45950946428585
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Papilio clytia",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03733923809055,
+              22.438524749331304
+            ],
+            [
+              114.0055286768589,
+              22.438524749331304
+            ],
+            [
+              114.0055286768589,
+              22.45942664884336
+            ],
+            [
+              114.03733923809055,
+              22.45942664884336
+            ],
+            [
+              114.03733923809055,
+              22.438524749331304
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Papilio clytia",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94209038575758,
+              22.375616671751192
+            ],
+            [
+              113.91028015022688,
+              22.375616671751192
+            ],
+            [
+              113.91028015022688,
+              22.39649998264205
+            ],
+            [
+              113.94209038575758,
+              22.39649998264205
+            ],
+            [
+              113.94209038575758,
+              22.375616671751192
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Papilio clytia",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25977188651011,
+              22.333900056587446
+            ],
+            [
+              114.22801833645117,
+              22.333900056587446
+            ],
+            [
+              114.22801833645117,
+              22.354846044962255
+            ],
+            [
+              114.25977188651011,
+              22.354846044962255
+            ],
+            [
+              114.25977188651011,
+              22.333900056587446
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Papilio clytia",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25966106892231,
+              22.145502145307578
+            ],
+            [
+              114.2279498722051,
+              22.145502145307578
+            ],
+            [
+              114.2279498722051,
+              22.166448497266302
+            ],
+            [
+              114.25966106892231,
+              22.166448497266302
+            ],
+            [
+              114.25966106892231,
+              22.145502145307578
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Papilio clytia",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Papilio clytia",
+    "predicted_locations": 8,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

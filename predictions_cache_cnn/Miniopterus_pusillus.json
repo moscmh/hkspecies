@@ -1,0 +1,603 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.1962786255369,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.54324621293982
+            ],
+            [
+              114.16446785884182,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.56417922281605
+            ],
+            [
+              114.1962786255369,
+              22.54324621293982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.3551886292371,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.438486510007362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.037360152582,
+              22.396683827858546
+            ],
+            [
+              114.037360152582,
+              22.41759217496415
+            ],
+            [
+              114.0691564175599,
+              22.41759217496415
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19625819233086,
+              22.396718513330452
+            ],
+            [
+              114.16448087972255,
+              22.396718513330452
+            ],
+            [
+              114.16448087972255,
+              22.41765189918511
+            ],
+            [
+              114.19625819233086,
+              22.41765189918511
+            ],
+            [
+              114.19625819233086,
+              22.396718513330452
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35513518172638,
+              22.396621380449297
+            ],
+            [
+              114.32338181249452,
+              22.396621380449297
+            ],
+            [
+              114.32338181249452,
+              22.417585919425292
+            ],
+            [
+              114.35513518172638,
+              22.417585919425292
+            ],
+            [
+              114.35513518172638,
+              22.396621380449297
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03740190660761,
+              22.375726864137413
+            ],
+            [
+              114.00560571637018,
+              22.375726864137413
+            ],
+            [
+              114.00560571637018,
+              22.39662902132953
+            ],
+            [
+              114.03740190660761,
+              22.39662902132953
+            ],
+            [
+              114.03740190660761,
+              22.375726864137413
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35510850513654,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.37568873462734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06918861911788,
+              22.35481835831386
+            ],
+            [
+              114.03740190660761,
+              22.35481835831386
+            ],
+            [
+              114.03740190660761,
+              22.375726864137413
+            ],
+            [
+              114.06918861911788,
+              22.375726864137413
+            ],
+            [
+              114.06918861911788,
+              22.35481835831386
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91055831693807,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.249971235141825
+            ],
+            [
+              113.87877214537725,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.270848920231966
+            ],
+            [
+              113.91055831693807,
+              22.249971235141825
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94230026680334,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.25002013380511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 13,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00578440463454,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.250099335182842
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 14,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87886072440276,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.2289833018197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 15,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91059786552002,
+              22.229038341516034
+            ],
+            [
+              113.87881646135558,
+              22.229038341516034
+            ],
+            [
+              113.87881646135558,
+              22.249916137920565
+            ],
+            [
+              113.91059786552002,
+              22.249916137920565
+            ],
+            [
+              113.91059786552002,
+              22.229038341516034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Miniopterus pusillus",
+        "prediction_year": 2025,
+        "prediction_id": 16,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Miniopterus pusillus",
+    "predicted_locations": 16,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

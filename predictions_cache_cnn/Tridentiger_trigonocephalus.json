@@ -1,0 +1,159 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25988387732176,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.522293604165302
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tridentiger trigonocephalus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35510850513654,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.37568873462734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tridentiger trigonocephalus",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00573350351486,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.29196522906725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tridentiger trigonocephalus",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94226539104699,
+              22.270953024758175
+            ],
+            [
+              113.91047907779232,
+              22.270953024758175
+            ],
+            [
+              113.91047907779232,
+              22.29183686103461
+            ],
+            [
+              113.94226539104699,
+              22.29183686103461
+            ],
+            [
+              113.94226539104699,
+              22.270953024758175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Tridentiger trigonocephalus",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Tridentiger trigonocephalus",
+    "predicted_locations": 4,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

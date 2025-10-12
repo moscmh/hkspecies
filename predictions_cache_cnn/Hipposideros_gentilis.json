@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22805668197616,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.45950946428585
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35516188975285,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.417553972255877
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19625819233086,
+              22.396718513330452
+            ],
+            [
+              114.16448087972255,
+              22.396718513330452
+            ],
+            [
+              114.16448087972255,
+              22.41765189918511
+            ],
+            [
+              114.19625819233086,
+              22.41765189918511
+            ],
+            [
+              114.19625819233086,
+              22.396718513330452
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22803364803836,
+              22.396711574696784
+            ],
+            [
+              114.19626110164926,
+              22.396711574696784
+            ],
+            [
+              114.19626110164926,
+              22.417651204122716
+            ],
+            [
+              114.22803364803836,
+              22.417651204122716
+            ],
+            [
+              114.22803364803836,
+              22.396711574696784
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35513518172638,
+              22.396621380449297
+            ],
+            [
+              114.32338181249452,
+              22.396621380449297
+            ],
+            [
+              114.32338181249452,
+              22.417585919425292
+            ],
+            [
+              114.35513518172638,
+              22.417585919425292
+            ],
+            [
+              114.35513518172638,
+              22.396621380449297
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10094318789106,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.37576913849178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35510850513654,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.37568873462734
+            ],
+            [
+              114.3233598641556,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.396653294912344
+            ],
+            [
+              114.35510850513654,
+              22.37568873462734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00573350351486,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.29196522906725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.94230026680334,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.25002013380511
+            ],
+            [
+              113.91051872103934,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.27090407499469
+            ],
+            [
+              113.94230026680334,
+              22.25002013380511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 13,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.97404229976452,
+              22.250062833839433
+            ],
+            [
+              113.94226539104699,
+              22.250062833839433
+            ],
+            [
+              113.94226539104699,
+              22.270953024758175
+            ],
+            [
+              113.97404229976452,
+              22.270953024758175
+            ],
+            [
+              113.97404229976452,
+              22.250062833839433
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 14,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00578440463454,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.250099335182842
+            ],
+            [
+              113.97401214420583,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.270995769451385
+            ],
+            [
+              114.00578440463454,
+              22.250099335182842
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 15,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22798021243385,
+              22.25018127791613
+            ],
+            [
+              114.19624080419622,
+              22.25018127791613
+            ],
+            [
+              114.19624080419622,
+              22.271121236253713
+            ],
+            [
+              114.22798021243385,
+              22.271121236253713
+            ],
+            [
+              114.22798021243385,
+              22.25018127791613
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 16,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.91059786552002,
+              22.229038341516034
+            ],
+            [
+              113.87881646135558,
+              22.229038341516034
+            ],
+            [
+              113.87881646135558,
+              22.249916137920565
+            ],
+            [
+              113.91059786552002,
+              22.249916137920565
+            ],
+            [
+              113.91059786552002,
+              22.229038341516034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 17,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22796502468212,
+              22.208314994850728
+            ],
+            [
+              114.19623503391776,
+              22.208314994850728
+            ],
+            [
+              114.19623503391776,
+              22.22925504682254
+            ],
+            [
+              114.22796502468212,
+              22.22925504682254
+            ],
+            [
+              114.22796502468212,
+              22.208314994850728
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Hipposideros gentilis",
+        "prediction_year": 2025,
+        "prediction_id": 18,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Hipposideros gentilis",
+    "predicted_locations": 18,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,1195 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.16446972622305,
+              22.52231384689893
+            ],
+            [
+              114.16446972622305,
+              22.543246910604605
+            ],
+            [
+              114.19627569678528,
+              22.543246910604605
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.1962786255369,
+              22.522306866907556
+            ],
+            [
+              114.1962786255369,
+              22.54324621293982
+            ],
+            [
+              114.22807979592665,
+              22.54324621293982
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25988387732176,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.522293604165302
+            ],
+            [
+              114.22808751838555,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.543239226048318
+            ],
+            [
+              114.25988387732176,
+              22.522293604165302
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13267414099104,
+              22.501376543929673
+            ],
+            [
+              114.10086340573865,
+              22.501376543929673
+            ],
+            [
+              114.10086340573865,
+              22.52229709031461
+            ],
+            [
+              114.13267414099104,
+              22.52229709031461
+            ],
+            [
+              114.13267414099104,
+              22.501376543929673
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.480448952184034
+            ],
+            [
+              114.16447345372377,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.50138212343045
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.03731829859107,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.459457269614727
+            ],
+            [
+              114.00550293569478,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.480359083135582
+            ],
+            [
+              114.03731829859107,
+              22.459457269614727
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.45951642358917
+            ],
+            [
+              114.16447531384645,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.48044964854685
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22805668197616,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.45950946428585
+            ],
+            [
+              114.19626984901316,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.480448952184034
+            ],
+            [
+              114.22805668197616,
+              22.45950946428585
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13269404429975,
+              22.43857897496381
+            ],
+            [
+              114.10089768039055,
+              22.43857897496381
+            ],
+            [
+              114.10089768039055,
+              22.459499721260368
+            ],
+            [
+              114.13269404429975,
+              22.459499721260368
+            ],
+            [
+              114.13269404429975,
+              22.43857897496381
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16447902684425,
+              22.438584536384546
+            ],
+            [
+              114.13268741793262,
+              22.438584536384546
+            ],
+            [
+              114.13268741793262,
+              22.459511552072637
+            ],
+            [
+              114.16447902684425,
+              22.459511552072637
+            ],
+            [
+              114.16447902684425,
+              22.438584536384546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29161889259244,
+              22.438544212955982
+            ],
+            [
+              114.25984641625402,
+              22.438544212955982
+            ],
+            [
+              114.25984641625402,
+              22.459496241618265
+            ],
+            [
+              114.29161889259244,
+              22.459496241618265
+            ],
+            [
+              114.29161889259244,
+              22.438544212955982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 13,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.417634537938564
+            ],
+            [
+              114.06912413866779,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.43854908141529
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 14,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270066260488,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.417646343787624
+            ],
+            [
+              114.10090907782255,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.43856715663493
+            ],
+            [
+              114.13270066260488,
+              22.417646343787624
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 15,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29160168380756,
+              22.417611616229124
+            ],
+            [
+              114.25983395833018,
+              22.417611616229124
+            ],
+            [
+              114.25983395833018,
+              22.43856367916022
+            ],
+            [
+              114.29160168380756,
+              22.43856367916022
+            ],
+            [
+              114.29160168380756,
+              22.417611616229124
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 16,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32338181249452,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.417585919425292
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 17,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35516188975285,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.417553972255877
+            ],
+            [
+              114.32340378664642,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.4385184898927
+            ],
+            [
+              114.35516188975285,
+              22.417553972255877
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 18,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13270727285345,
+              22.396713658583774
+            ],
+            [
+              114.10092046154388,
+              22.396713658583774
+            ],
+            [
+              114.10092046154388,
+              22.417634537938564
+            ],
+            [
+              114.13270727285345,
+              22.417634537938564
+            ],
+            [
+              114.13270727285345,
+              22.396713658583774
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 19,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0691725279992,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.375751120064827
+            ],
+            [
+              114.03738104208212,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.396659546552932
+            ],
+            [
+              114.0691725279992,
+              22.375751120064827
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 20,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13271387505074,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.37578091939196
+            ],
+            [
+              114.10093183156366,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.396701865210943
+            ],
+            [
+              114.13271387505074,
+              22.37578091939196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 21,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16448457824575,
+              22.375786462748042
+            ],
+            [
+              114.13270727285345,
+              22.375786462748042
+            ],
+            [
+              114.13270727285345,
+              22.396713658583774
+            ],
+            [
+              114.16448457824575,
+              22.396713658583774
+            ],
+            [
+              114.16448457824575,
+              22.375786462748042
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 22,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25979667171741,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.375765667514177
+            ],
+            [
+              114.22803364803836,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.396711574696784
+            ],
+            [
+              114.25979667171741,
+              22.375765667514177
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 23,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.38687900606902,
+              22.375650615448716
+            ],
+            [
+              114.35513518172638,
+              22.375650615448716
+            ],
+            [
+              114.35513518172638,
+              22.396621380449297
+            ],
+            [
+              114.38687900606902,
+              22.396621380449297
+            ],
+            [
+              114.38687900606902,
+              22.375650615448716
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 24,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00573350351486,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.29196522906725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 25,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00575896932136,
+              22.271032309012263
+            ],
+            [
+              113.97398195253541,
+              22.271032309012263
+            ],
+            [
+              113.97398195253541,
+              22.29192865127792
+            ],
+            [
+              114.00575896932136,
+              22.29192865127792
+            ],
+            [
+              114.00575896932136,
+              22.271032309012263
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 26,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.10098847645888,
+              22.271116415005288
+            ],
+            [
+              114.10098847645888,
+              22.292037692495025
+            ],
+            [
+              114.13274676545531,
+              22.292037692495025
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 27,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449378243213,
+              22.27112192828764
+            ],
+            [
+              114.13274020343425,
+              22.27112192828764
+            ],
+            [
+              114.13274020343425,
+              22.292049423540263
+            ],
+            [
+              114.16449378243213,
+              22.292049423540263
+            ],
+            [
+              114.16449378243213,
+              22.27112192828764
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 28,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449561606102,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.25018885999391
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.271116415005288
+            ],
+            [
+              114.16449561606102,
+              22.25018885999391
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 29,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87886072440276,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.2289833018197
+            ],
+            [
+              113.84707471124263,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.24985484222121
+            ],
+            [
+              113.87886072440276,
+              22.2289833018197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 30,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00580980947458,
+              22.22916630761894
+            ],
+            [
+              113.97404229976452,
+              22.22916630761894
+            ],
+            [
+              113.97404229976452,
+              22.250062833839433
+            ],
+            [
+              114.00580980947458,
+              22.250062833839433
+            ],
+            [
+              114.00580980947458,
+              22.22916630761894
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 31,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.0058351838618,
+              22.20823322636053
+            ],
+            [
+              113.97407241923545,
+              22.20823322636053
+            ],
+            [
+              113.97407241923545,
+              22.229129844482042
+            ],
+            [
+              114.0058351838618,
+              22.229129844482042
+            ],
+            [
+              114.0058351838618,
+              22.20823322636053
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Aethopyga christinae",
+        "prediction_year": 2025,
+        "prediction_id": 32,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Aethopyga christinae",
+    "predicted_locations": 32,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

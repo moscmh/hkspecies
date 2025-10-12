@@ -1,0 +1,788 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32349194173165,
+              22.522248230513092
+            ],
+            [
+              114.2917052395149,
+              22.522248230513092
+            ],
+            [
+              114.2917052395149,
+              22.54320638463372
+            ],
+            [
+              114.32349194173165,
+              22.54320638463372
+            ],
+            [
+              114.32349194173165,
+              22.522248230513092
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.38706814629779,
+              22.501245444287274
+            ],
+            [
+              114.35529590217571,
+              22.501245444287274
+            ],
+            [
+              114.35529590217571,
+              22.5222161196684
+            ],
+            [
+              114.38706814629779,
+              22.5222161196684
+            ],
+            [
+              114.38706814629779,
+              22.501245444287274
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22804899511462,
+              22.438576888477467
+            ],
+            [
+              114.19626692998817,
+              22.438576888477467
+            ],
+            [
+              114.19626692998817,
+              22.45951642358917
+            ],
+            [
+              114.22804899511462,
+              22.45951642358917
+            ],
+            [
+              114.22804899511462,
+              22.438576888477467
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29161889259244,
+              22.438544212955982
+            ],
+            [
+              114.25984641625402,
+              22.438544212955982
+            ],
+            [
+              114.25984641625402,
+              22.459496241618265
+            ],
+            [
+              114.29161889259244,
+              22.459496241618265
+            ],
+            [
+              114.29161889259244,
+              22.438544212955982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.38691043666333,
+              22.39658322212118
+            ],
+            [
+              114.35516188975285,
+              22.39658322212118
+            ],
+            [
+              114.35516188975285,
+              22.417553972255877
+            ],
+            [
+              114.38691043666333,
+              22.417553972255877
+            ],
+            [
+              114.38691043666333,
+              22.39658322212118
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29156732672845,
+              22.37574626070146
+            ],
+            [
+              114.25980908607166,
+              22.37574626070146
+            ],
+            [
+              114.25980908607166,
+              22.39669839206848
+            ],
+            [
+              114.29156732672845,
+              22.39669839206848
+            ],
+            [
+              114.29156732672845,
+              22.37574626070146
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87859435144642,
+              22.354579510782816
+            ],
+            [
+              113.84677961576777,
+              22.354579510782816
+            ],
+            [
+              113.84677961576777,
+              22.375450343675464
+            ],
+            [
+              113.87859435144642,
+              22.375450343675464
+            ],
+            [
+              113.87859435144642,
+              22.354579510782816
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.41861329131822,
+              22.35467364384197
+            ],
+            [
+              114.38687900606902,
+              22.35467364384197
+            ],
+            [
+              114.38687900606902,
+              22.375650615448716
+            ],
+            [
+              114.41861329131822,
+              22.375650615448716
+            ],
+            [
+              114.41861329131822,
+              22.35467364384197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29153305021329,
+              22.33388068934016
+            ],
+            [
+              114.25978427186682,
+              22.33388068934016
+            ],
+            [
+              114.25978427186682,
+              22.35483288900724
+            ],
+            [
+              114.29153305021329,
+              22.35483288900724
+            ],
+            [
+              114.29153305021329,
+              22.33388068934016
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06922074344489,
+              22.31295267309936
+            ],
+            [
+              114.03744356080149,
+              22.31295267309936
+            ],
+            [
+              114.03744356080149,
+              22.333861337452497
+            ],
+            [
+              114.06922074344489,
+              22.333861337452497
+            ],
+            [
+              114.06922074344489,
+              22.31295267309936
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35502866377591,
+              22.312890473467256
+            ],
+            [
+              114.32329417384315,
+              22.312890473467256
+            ],
+            [
+              114.32329417384315,
+              22.333855097497587
+            ],
+            [
+              114.35502866377591,
+              22.333855097497587
+            ],
+            [
+              114.35502866377591,
+              22.312890473467256
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.38678493650302,
+              22.31285247166882
+            ],
+            [
+              114.35505524618235,
+              22.31285247166882
+            ],
+            [
+              114.35505524618235,
+              22.3338232810965
+            ],
+            [
+              114.38678493650302,
+              22.3338232810965
+            ],
+            [
+              114.38678493650302,
+              22.31285247166882
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.13274676545531,
+              22.271116415005288
+            ],
+            [
+              114.10098847645888,
+              22.271116415005288
+            ],
+            [
+              114.10098847645888,
+              22.292037692495025
+            ],
+            [
+              114.13274676545531,
+              22.292037692495025
+            ],
+            [
+              114.13274676545531,
+              22.271116415005288
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 13,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32322871522423,
+              22.27105641510495
+            ],
+            [
+              114.29149885415394,
+              22.27105641510495
+            ],
+            [
+              114.29149885415394,
+              22.292014902463592
+            ],
+            [
+              114.32322871522423,
+              22.292014902463592
+            ],
+            [
+              114.32322871522423,
+              22.27105641510495
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 14,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06926878535211,
+              22.250153741593763
+            ],
+            [
+              114.03750585519894,
+              22.250153741593763
+            ],
+            [
+              114.03750585519894,
+              22.271062643387726
+            ],
+            [
+              114.06926878535211,
+              22.271062643387726
+            ],
+            [
+              114.06926878535211,
+              22.250153741593763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 15,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.35494910458712,
+              22.250091727602605
+            ],
+            [
+              114.32322871522423,
+              22.250091727602605
+            ],
+            [
+              114.32322871522423,
+              22.27105641510495
+            ],
+            [
+              114.35494910458712,
+              22.27105641510495
+            ],
+            [
+              114.35494910458712,
+              22.250091727602605
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 16,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16449927612285,
+              22.208322562323914
+            ],
+            [
+              114.13275986544484,
+              22.208322562323914
+            ],
+            [
+              114.13275986544484,
+              22.229250236727967
+            ],
+            [
+              114.16449927612285,
+              22.229250236727967
+            ],
+            [
+              114.16449927612285,
+              22.208322562323914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 17,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19623215359984,
+              22.208321871585408
+            ],
+            [
+              114.16449744729074,
+              22.208321871585408
+            ],
+            [
+              114.16449744729074,
+              22.229255737992684
+            ],
+            [
+              114.19623215359984,
+              22.229255737992684
+            ],
+            [
+              114.19623215359984,
+              22.208321871585408
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 18,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00586052781638,
+              22.187300091447632
+            ],
+            [
+              113.97410250264265,
+              22.187300091447632
+            ],
+            [
+              113.97410250264265,
+              22.2081968014192
+            ],
+            [
+              114.00586052781638,
+              22.2081968014192
+            ],
+            [
+              114.00586052781638,
+              22.187300091447632
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 19,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22795744403723,
+              22.1873817728534
+            ],
+            [
+              114.19623215359984,
+              22.1873817728534
+            ],
+            [
+              114.19623215359984,
+              22.208321871585408
+            ],
+            [
+              114.22795744403723,
+              22.208321871585408
+            ],
+            [
+              114.22795744403723,
+              22.1873817728534
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 20,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29141371529306,
+              22.18734949448645
+            ],
+            [
+              114.259697878197,
+              22.18734949448645
+            ],
+            [
+              114.259697878197,
+              22.208301932129555
+            ],
+            [
+              114.29141371529306,
+              22.208301932129555
+            ],
+            [
+              114.29141371529306,
+              22.18734949448645
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Haliaeetus leucogaster",
+        "prediction_year": 2025,
+        "prediction_id": 21,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Haliaeetus leucogaster",
+    "predicted_locations": 21,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06909178233815,
+              22.480414118666452
+            ],
+            [
+              114.03727634450094,
+              22.480414118666452
+            ],
+            [
+              114.03727634450094,
+              22.50132214777166
+            ],
+            [
+              114.06909178233815,
+              22.50132214777166
+            ],
+            [
+              114.06909178233815,
+              22.480414118666452
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Bubalus bubalis",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Bubalus bubalis",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

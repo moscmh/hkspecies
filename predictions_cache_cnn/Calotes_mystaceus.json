@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06922074344489,
+              22.31295267309936
+            ],
+            [
+              114.03744356080149,
+              22.31295267309936
+            ],
+            [
+              114.03744356080149,
+              22.333861337452497
+            ],
+            [
+              114.06922074344489,
+              22.333861337452497
+            ],
+            [
+              114.06922074344489,
+              22.31295267309936
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Calotes mystaceus",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Calotes mystaceus",
+    "predicted_locations": 1,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}

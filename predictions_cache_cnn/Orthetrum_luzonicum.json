@@ -1,0 +1,529 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.16446972622305,
+              22.52231384689893
+            ],
+            [
+              114.16446972622305,
+              22.543246910604605
+            ],
+            [
+              114.19627569678528,
+              22.543246910604605
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 1,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.22807208237613,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.501374453540514
+            ],
+            [
+              114.19627569678528,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.52231384689893
+            ],
+            [
+              114.22807208237613,
+              22.501374453540514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 2,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25987137573998,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.50136120416041
+            ],
+            [
+              114.22807979592665,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.522306866907556
+            ],
+            [
+              114.25987137573998,
+              22.50136120416041
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 3,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.2916706400918,
+              22.50134167851244
+            ],
+            [
+              114.25988387732176,
+              22.50134167851244
+            ],
+            [
+              114.25988387732176,
+              22.522293604165302
+            ],
+            [
+              114.2916706400918,
+              22.522293604165302
+            ],
+            [
+              114.2916706400918,
+              22.50134167851244
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 4,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32346986415382,
+              22.501315876624663
+            ],
+            [
+              114.29168792968522,
+              22.501315876624663
+            ],
+            [
+              114.29168792968522,
+              22.522274058691117
+            ],
+            [
+              114.32346986415382,
+              22.522274058691117
+            ],
+            [
+              114.32346986415382,
+              22.501315876624663
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 5,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.16447902684425,
+              22.438584536384546
+            ],
+            [
+              114.13268741793262,
+              22.438584536384546
+            ],
+            [
+              114.13268741793262,
+              22.459511552072637
+            ],
+            [
+              114.16447902684425,
+              22.459511552072637
+            ],
+            [
+              114.16447902684425,
+              22.438584536384546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 6,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.29161889259244,
+              22.438544212955982
+            ],
+            [
+              114.25984641625402,
+              22.438544212955982
+            ],
+            [
+              114.25984641625402,
+              22.459496241618265
+            ],
+            [
+              114.29161889259244,
+              22.459496241618265
+            ],
+            [
+              114.29161889259244,
+              22.438544212955982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 7,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.3551886292371,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.438486510007362
+            ],
+            [
+              114.32342578662868,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.45945100627484
+            ],
+            [
+              114.3551886292371,
+              22.438486510007362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 8,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32338181249452,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.417585919425292
+            ],
+            [
+              114.29161889259244,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.438544212955982
+            ],
+            [
+              114.32338181249452,
+              22.417585919425292
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 9,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.10094318789106,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.37576913849178
+            ],
+            [
+              114.0691564175599,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.396683827858546
+            ],
+            [
+              114.10094318789106,
+              22.37576913849178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 10,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.06918861911788,
+              22.35481835831386
+            ],
+            [
+              114.03740190660761,
+              22.35481835831386
+            ],
+            [
+              114.03740190660761,
+              22.375726864137413
+            ],
+            [
+              114.06918861911788,
+              22.375726864137413
+            ],
+            [
+              114.06918861911788,
+              22.35481835831386
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 11,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.32331604484722,
+              22.354787883908706
+            ],
+            [
+              114.29156732672845,
+              22.354787883908706
+            ],
+            [
+              114.29156732672845,
+              22.37574626070146
+            ],
+            [
+              114.32331604484722,
+              22.37574626070146
+            ],
+            [
+              114.32331604484722,
+              22.354787883908706
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 12,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.00573350351486,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.29196522906725
+            ],
+            [
+              113.97395172472918,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.312861479279114
+            ],
+            [
+              114.00573350351486,
+              22.29196522906725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 13,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.87881646135558,
+              22.249916137920565
+            ],
+            [
+              113.84702567525491,
+              22.249916137920565
+            ],
+            [
+              113.84702567525491,
+              22.270787560550005
+            ],
+            [
+              113.87881646135558,
+              22.270787560550005
+            ],
+            [
+              113.87881646135558,
+              22.249916137920565
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "species_name": "Orthetrum luzonicum",
+        "prediction_year": 2025,
+        "prediction_id": 14,
+        "feature_type": "grid_box",
+        "likelihood": 1.0
+      }
+    }
+  ],
+  "prediction_info": {
+    "species_name": "Orthetrum luzonicum",
+    "predicted_locations": 14,
+    "model_type": "Neural Network (Cached)",
+    "prediction_year": 2025
+  }
+}
