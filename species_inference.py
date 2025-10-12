@@ -202,9 +202,9 @@ class Species:
         likelihood_values = []
         for i in range(20):  # y-axis (rows)
             for j in range(20):  # x-axis (columns)
-                likelihood_val = predicted_grid[predicted_grid.shape[0]-1-i, j]
+                likelihood_val = predicted_grid[i, j]
                 if likelihood_val > 0:  # Include positive predictions
-                    grid_ids.append((j, 19-i))  # Fix: j=x_bin, 19-i=y_bin (flip y-axis)
+                    grid_ids.append((j, i))  # j=x_bin, i=y_bin (correct coordinate mapping)
                     likelihood_values.append(max(0, likelihood_val))  # Ensure non-negative
 
         # Convert grid_ids to centroids and grid bounds
