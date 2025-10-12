@@ -84,7 +84,7 @@ class Species:
             species_data = species_df[species_df['scientific'] == s]
             for _, row in species_data.iterrows():
                 if pd.notnull(row['x_bin']) and pd.notnull(row['y_bin']):
-                    layer[row['year'] - 2001, 19 - int(row['y_bin']), int(row['x_bin'])] += 1
+                    layer[row['year'] - 2001, int(row['y_bin']), int(row['x_bin'])] += 1
             self.species_layers[s] = layer
         return None
 
