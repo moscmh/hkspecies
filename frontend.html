@@ -8,67 +8,141 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-        .header { background: white; padding: 30px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .search-box { display: flex; gap: 10px; margin: 20px 0; }
-        .search-box input { flex: 1; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; }
-        .search-box button { padding: 12px 24px; background: #007AFF; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
-        .search-box button:hover { background: #0056CC; }
-        .results { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .species-card { border: 1px solid #eee; border-radius: 8px; padding: 15px; margin: 10px 0; cursor: pointer; transition: all 0.2s; display: flex; gap: 15px; align-items: center; }
-        .species-card:hover { background: #f8f9fa; border-color: #007AFF; }
-        .species-photo { width: 80px; height: 80px; border-radius: 8px; object-fit: cover; background: #f0f0f0; flex-shrink: 0; }
-        .species-content { flex: 1; }
-        .species-name { font-weight: 600; color: #333; margin-bottom: 5px; }
-        .species-info { color: #666; font-size: 14px; }
-        .details { background: white; border-radius: 12px; padding: 20px; margin-top: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .species-header { display: flex; gap: 20px; align-items: flex-start; margin-bottom: 20px; }
-        .species-main-photo { width: 200px; height: 200px; border-radius: 12px; object-fit: cover; background: #f0f0f0; flex-shrink: 0; }
-        .species-main-info { flex: 1; }
-        .locations { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 15px; }
-        .location { background: #f8f9fa; padding: 10px; border-radius: 6px; font-size: 14px; }
-        .loading { text-align: center; padding: 40px; color: #666; }
-        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
-        .stat { background: #f8f9fa; padding: 15px; border-radius: 8px; text-align: center; }
-        .stat-number { font-size: 24px; font-weight: 600; color: #007AFF; }
-        .stat-label { font-size: 14px; color: #666; margin-top: 5px; }
-        .map-container { height: 400px; width: 100%; border-radius: 12px; overflow: hidden; margin-top: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .map-toggle { background: #007AFF; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; margin-top: 10px; margin-right: 10px; }
-        .map-toggle:hover { background: #0056CC; }
-        .map-toggle.hidden { background: #666; }
-        .predict-btn { background: #FF6B35; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; margin-top: 10px; }
-        .predict-btn:hover { background: #E55A2B; }
-        .predict-btn:disabled { background: #ccc; cursor: not-allowed; }
-        .prediction-info { background: #FFF3E0; border: 1px solid #FF6B35; border-radius: 8px; padding: 15px; margin: 15px 0; }
-        .prediction-title { color: #FF6B35; font-weight: 600; margin-bottom: 10px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fafc; height: 100vh; overflow: hidden; }
+        
+        .app-container { display: flex; height: 100vh; }
+        
+        /* Sidebar */
+        .sidebar { width: 400px; background: white; border-right: 1px solid #e2e8f0; display: flex; flex-direction: column; overflow: hidden; }
+        .sidebar-header { padding: 24px; border-bottom: 1px solid #e2e8f0; }
+        .sidebar-content { flex: 1; overflow-y: auto; }
+        
+        /* Main content */
+        .main-content { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+        .content-header { background: white; padding: 20px 24px; border-bottom: 1px solid #e2e8f0; }
+        .content-body { flex: 1; padding: 24px; overflow-y: auto; }
+        
+        /* Header styles */
+        .app-title { font-size: 24px; font-weight: 700; color: #1e293b; margin-bottom: 8px; }
+        .app-subtitle { color: #64748b; font-size: 14px; }
+        
+        /* Search */
+        .search-section { padding: 20px; border-bottom: 1px solid #e2e8f0; }
+        .search-box { display: flex; flex-direction: column; gap: 12px; }
+        .search-input { padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 14px; transition: border-color 0.2s; }
+        .search-input:focus { outline: none; border-color: #3b82f6; }
+        .search-buttons { display: flex; gap: 8px; }
+        .btn { padding: 10px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s; }
+        .btn-primary { background: #3b82f6; color: white; }
+        .btn-primary:hover { background: #2563eb; }
+        .btn-secondary { background: #10b981; color: white; }
+        .btn-secondary:hover { background: #059669; }
+        
+        /* Stats */
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 20px; border-bottom: 1px solid #e2e8f0; }
+        .stat-card { background: #f8fafc; padding: 16px; border-radius: 8px; text-align: center; }
+        .stat-number { font-size: 20px; font-weight: 700; color: #1e293b; }
+        .stat-label { font-size: 12px; color: #64748b; margin-top: 4px; }
+        
+        /* Species list */
+        .species-list { padding: 0 20px 20px; }
+        .species-card { border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; margin-bottom: 8px; cursor: pointer; transition: all 0.2s; }
+        .species-card:hover { background: #f1f5f9; border-color: #3b82f6; }
+        .species-card.active { background: #eff6ff; border-color: #3b82f6; }
+        .species-name { font-weight: 600; color: #1e293b; font-size: 14px; margin-bottom: 4px; }
+        .species-info { color: #64748b; font-size: 12px; }
+        
+        /* Main content area */
+        .welcome-screen { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; color: #64748b; }
+        .welcome-icon { font-size: 64px; margin-bottom: 16px; }
+        .welcome-title { font-size: 24px; font-weight: 600; color: #1e293b; margin-bottom: 8px; }
+        .welcome-text { font-size: 16px; }
+        
+        /* Species details */
+        .species-details { background: white; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .species-header { display: flex; gap: 24px; margin-bottom: 24px; }
+        .species-photo { width: 120px; height: 120px; border-radius: 12px; object-fit: cover; background: #f1f5f9; flex-shrink: 0; }
+        .species-info-main { flex: 1; }
+        .species-title { font-size: 28px; font-weight: 700; color: #1e293b; margin-bottom: 8px; }
+        .species-meta { color: #64748b; margin-bottom: 16px; }
+        .action-buttons { display: flex; gap: 12px; flex-wrap: wrap; }
+        .btn-action { padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; font-weight: 500; transition: all 0.2s; }
+        .btn-map { background: #3b82f6; color: white; }
+        .btn-map:hover { background: #2563eb; }
+        .btn-predict { background: #f59e0b; color: white; }
+        .btn-predict:hover { background: #d97706; }
+        .btn-predict:disabled { background: #9ca3af; cursor: not-allowed; }
+        
+        /* Maps */
+        .map-container { height: 500px; border-radius: 12px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        
+        /* Prediction info */
+        .prediction-info { background: #fef3c7; border: 1px solid #f59e0b; border-radius: 8px; padding: 16px; margin-bottom: 20px; }
+        .prediction-title { color: #92400e; font-weight: 600; margin-bottom: 8px; }
+        
+        /* Locations grid */
+        .locations-section { background: white; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .locations-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 16px; }
+        .location-card { background: #f8fafc; padding: 12px; border-radius: 8px; border-left: 4px solid #3b82f6; }
+        .location-district { font-weight: 600; color: #1e293b; margin-bottom: 4px; }
+        .location-info { color: #64748b; font-size: 14px; }
+        
+        /* Loading */
+        .loading { text-align: center; padding: 40px; color: #64748b; }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .app-container { flex-direction: column; }
+            .sidebar { width: 100%; height: 300px; }
+            .main-content { height: calc(100vh - 300px); }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🌿 Hong Kong Species Finder</h1>
-            <p>Search and explore Hong Kong's biodiversity - 2024 occurrence data</p>
-            
-            <div class="search-box">
-                <select id="speciesSelect" style="flex: 1; padding: 12px; border: 2px solid #ddd; border-radius: 8px; font-size: 16px; background: white;">
-                    <option value="">Select a species...</option>
-                </select>
-                <input type="text" id="searchInput" placeholder="Or search for species (e.g., Pyrocoelia, bird, frog)..." style="flex: 1;" />
-                <button onclick="searchSpecies()">Search</button>
-                <button onclick="showAllSpecies()" style="background: #34C759;">Show All</button>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="app-title">🌿 HK Species</div>
+                <div class="app-subtitle">Biodiversity Explorer</div>
             </div>
             
-            <div class="stats" id="stats"></div>
+            <div class="search-section">
+                <div class="search-box">
+                    <select id="speciesSelect" class="search-input">
+                        <option value="">Select a species...</option>
+                    </select>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search species..." />
+                    <div class="search-buttons">
+                        <button class="btn btn-primary" onclick="searchSpecies()">Search</button>
+                        <button class="btn btn-secondary" onclick="showAllSpecies()">All</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stats-grid" id="stats"></div>
+            
+            <div class="sidebar-content">
+                <div class="species-list" id="speciesList"></div>
+            </div>
         </div>
-
-        <div class="results" id="results" style="display: none;">
-            <h2>Search Results</h2>
-            <div id="speciesList"></div>
-        </div>
-
-        <div class="details" id="details" style="display: none;">
-            <div id="speciesDetails"></div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="content-header">
+                <h2 id="contentTitle">Hong Kong Species Finder</h2>
+                <p id="contentSubtitle">Select a species from the sidebar to explore its distribution and predict future occurrences</p>
+            </div>
+            
+            <div class="content-body">
+                <div id="welcomeScreen" class="welcome-screen">
+                    <div class="welcome-icon">🔍</div>
+                    <div class="welcome-title">Explore Hong Kong's Biodiversity</div>
+                    <div class="welcome-text">Search for species in the sidebar to view their current distribution and predict 2025 occurrences using our CNN-LSTM model</div>
+                </div>
+                
+                <div id="speciesDetails" style="display: none;"></div>
+            </div>
         </div>
     </div>
 
@@ -82,19 +156,19 @@
                 const data = await response.json();
                 
                 document.getElementById('stats').innerHTML = `
-                    <div class="stat">
+                    <div class="stat-card">
                         <div class="stat-number">${data.total_species}</div>
                         <div class="stat-label">Species</div>
                     </div>
-                    <div class="stat">
+                    <div class="stat-card">
                         <div class="stat-number">${data.total_occurrences}</div>
-                        <div class="stat-label">Occurrences</div>
+                        <div class="stat-label">Records</div>
                     </div>
-                    <div class="stat">
+                    <div class="stat-card">
                         <div class="stat-number">${data.total_districts}</div>
                         <div class="stat-label">Districts</div>
                     </div>
-                    <div class="stat">
+                    <div class="stat-card">
                         <div class="stat-number">${data.families.length}</div>
                         <div class="stat-label">Families</div>
                     </div>
@@ -169,14 +243,12 @@
         
         // Show all species
         async function showAllSpecies() {
-            const resultsDiv = document.getElementById('results');
             const speciesListDiv = document.getElementById('speciesList');
             
-            resultsDiv.style.display = 'block';
             speciesListDiv.innerHTML = '<div class="loading">Loading all species...</div>';
             
             try {
-                const response = await fetch(`${API_BASE}/species/list?limit=500`);
+                const response = await fetch(`${API_BASE}/species/list?limit=100`);
                 
                 if (!response.ok) {
                     throw new Error('Failed to load species');
@@ -184,40 +256,28 @@
                 
                 const data = await response.json();
                 
-                // Create species cards with photos
-                const speciesCards = await Promise.all(data.species.map(async species => {
-                    const photoUrl = await getSpeciesPhoto(species.scientific_name);
-                    return `
-                        <div class="species-card" onclick="showSpeciesDetails('${species.scientific_name}')">
-                            ${photoUrl ? `<img src="${photoUrl}" alt="${species.scientific_name}" class="species-photo" onerror="this.style.display='none'">` : '<div class="species-photo"></div>'}
-                            <div class="species-content">
-                                <div class="species-name">${species.scientific_name}</div>
-                                <div class="species-info">
-                                    Family: ${species.family} • 
-                                    ${species.occurrences_count} occurrences
-                                </div>
-                            </div>
+                // Create species cards
+                const speciesCards = data.species.map(species => `
+                    <div class="species-card" onclick="showSpeciesDetails('${species.scientific_name}')">
+                        <div class="species-name">${species.scientific_name}</div>
+                        <div class="species-info">
+                            ${species.family} • ${species.occurrences_count} records
                         </div>
-                    `;
-                }));
+                    </div>
+                `).join('');
                 
-                speciesListDiv.innerHTML = `
-                    <h3>All Species (${data.species.length} of ${data.total_available})</h3>
-                    ${speciesCards.join('')}
-                `;
+                speciesListDiv.innerHTML = speciesCards;
                 
             } catch (error) {
-                speciesListDiv.innerHTML = '<div class="loading">Failed to load species list</div>';
+                speciesListDiv.innerHTML = '<div class="loading">Failed to load species</div>';
             }
         }
         
         // Display species search results
         async function displaySpeciesResults(query) {
-            const resultsDiv = document.getElementById('results');
             const speciesListDiv = document.getElementById('speciesList');
             
-            resultsDiv.style.display = 'block';
-            speciesListDiv.innerHTML = '<div class="loading">Loading...</div>';
+            speciesListDiv.innerHTML = '<div class="loading">Searching...</div>';
             
             try {
                 const url = query ? `${API_BASE}/species/search?q=${encodeURIComponent(query)}` : `${API_BASE}/species/search`;
@@ -229,26 +289,17 @@
                 
                 const data = await response.json();
                 
-                // Create species cards with photos
-                const speciesCards = await Promise.all(data.results.map(async species => {
-                    const photoUrl = await getSpeciesPhoto(species.scientific_name);
-                    return `
-                        <div class="species-card" onclick="showSpeciesDetails('${species.scientific_name}')">
-                            ${photoUrl ? `<img src="${photoUrl}" alt="${species.scientific_name}" class="species-photo" onerror="this.style.display='none'">` : '<div class="species-photo"></div>'}
-                            <div class="species-content">
-                                <div class="species-name">${species.scientific_name}</div>
-                                <div class="species-info">
-                                    Family: ${species.family} • 
-                                    ${species.districts_count} districts • 
-                                    ${species.occurrences_count} occurrences • 
-                                    Latest: ${new Date(species.latest_date).toLocaleDateString()}
-                                </div>
-                            </div>
+                // Create species cards
+                const speciesCards = data.results.map(species => `
+                    <div class="species-card" onclick="showSpeciesDetails('${species.scientific_name}')">
+                        <div class="species-name">${species.scientific_name}</div>
+                        <div class="species-info">
+                            ${species.family} • ${species.occurrences_count} records • ${species.districts_count} districts
                         </div>
-                    `;
-                }));
+                    </div>
+                `).join('');
                 
-                speciesListDiv.innerHTML = speciesCards.join('');
+                speciesListDiv.innerHTML = speciesCards;
                 
             } catch (error) {
                 const message = query ? `No species found matching "${query}"` : 'No species data available';
@@ -258,11 +309,24 @@
         
         // Show detailed species information
         async function showSpeciesDetails(speciesName) {
-            const detailsDiv = document.getElementById('details');
+            const welcomeScreen = document.getElementById('welcomeScreen');
             const speciesDetailsDiv = document.getElementById('speciesDetails');
+            const contentTitle = document.getElementById('contentTitle');
+            const contentSubtitle = document.getElementById('contentSubtitle');
             
-            detailsDiv.style.display = 'block';
-            speciesDetailsDiv.innerHTML = '<div class="loading">Loading details...</div>';
+            // Hide welcome screen and show details
+            welcomeScreen.style.display = 'none';
+            speciesDetailsDiv.style.display = 'block';
+            
+            // Update header
+            contentTitle.textContent = speciesName;
+            contentSubtitle.textContent = 'Species distribution and prediction analysis';
+            
+            // Highlight selected species in sidebar
+            document.querySelectorAll('.species-card').forEach(card => card.classList.remove('active'));
+            event.target.closest('.species-card')?.classList.add('active');
+            
+            speciesDetailsDiv.innerHTML = '<div class="loading">Loading species data...</div>';
             
             try {
                 const [response, photoUrl] = await Promise.all([
@@ -283,16 +347,22 @@
                 });
                 
                 speciesDetailsDiv.innerHTML = `
-                    <div class="species-header">
-                        ${photoUrl ? `<img src="${photoUrl}" alt="${species.scientific_name}" class="species-main-photo" onerror="this.style.display='none'">` : '<div class="species-main-photo"></div>'}
-                        <div class="species-main-info">
-                            <h2>${species.scientific_name}</h2>
-                            <p><strong>Family:</strong> ${species.family}</p>
-                            <p><strong>Total Occurrences:</strong> ${data.total_occurrences}</p>
-                            <p><strong>Districts Found:</strong> ${data.districts_count}</p>
-                            <p><strong>Latest Sighting:</strong> ${new Date(species.latest_date).toLocaleDateString()}</p>
-                            <button class="map-toggle" onclick="toggleMap('${species.scientific_name}')">Show Current Locations</button>
-                            <button class="predict-btn" onclick="predict2025('${species.scientific_name}')">🔮 Predict 2025</button>
+                    <div class="species-details">
+                        <div class="species-header">
+                            ${photoUrl ? `<img src="${photoUrl}" alt="${species.scientific_name}" class="species-photo" onerror="this.style.display='none'">` : '<div class="species-photo"></div>'}
+                            <div class="species-info-main">
+                                <h1 class="species-title">${species.scientific_name}</h1>
+                                <div class="species-meta">
+                                    <strong>Family:</strong> ${species.family} • 
+                                    <strong>Records:</strong> ${data.total_occurrences} • 
+                                    <strong>Districts:</strong> ${data.districts_count} • 
+                                    <strong>Latest:</strong> ${new Date(species.latest_date).toLocaleDateString()}
+                                </div>
+                                <div class="action-buttons">
+                                    <button class="btn-action btn-map" onclick="toggleMap('${species.scientific_name}')" id="mapToggle">📍 Show Distribution</button>
+                                    <button class="btn-action btn-predict" onclick="predict2025('${species.scientific_name}')" id="predictBtn">🔮 Predict 2025</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
@@ -300,15 +370,19 @@
                     <div id="predictionInfo" class="prediction-info" style="display: none;"></div>
                     <div id="predictionMap" class="map-container" style="display: none;"></div>
                     
-                    <h3>Locations by District</h3>
-                    <div class="locations">
-                        ${Object.entries(locationsByDistrict).map(([district, locations]) => `
-                            <div class="location">
-                                <strong>${district}</strong><br>
-                                ${locations.length} occurrence${locations.length > 1 ? 's' : ''}<br>
-                                Latest: ${new Date(Math.max(...locations.map(l => new Date(l.date)))).toLocaleDateString()}
-                            </div>
-                        `).join('')}
+                    <div class="locations-section">
+                        <h3>Distribution by District</h3>
+                        <div class="locations-grid">
+                            ${Object.entries(locationsByDistrict).map(([district, locations]) => `
+                                <div class="location-card">
+                                    <div class="location-district">${district}</div>
+                                    <div class="location-info">
+                                        ${locations.length} record${locations.length > 1 ? 's' : ''}<br>
+                                        Latest: ${new Date(Math.max(...locations.map(l => new Date(l.date)))).toLocaleDateString()}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
                     </div>
                 `;
                 
@@ -333,34 +407,24 @@
         // Toggle map display
         async function toggleMap(speciesName) {
             const mapContainer = document.getElementById('speciesMap');
-            const toggleButton = document.querySelector('.map-toggle');
+            const toggleButton = document.getElementById('mapToggle');
             
             if (mapContainer.style.display === 'none') {
                 // Show map
                 mapContainer.style.display = 'block';
-                toggleButton.textContent = 'Hide Map';
-                toggleButton.classList.add('hidden');
+                toggleButton.textContent = '🗺️ Hide Distribution';
                 
                 // Load map data and create map
                 await loadSpeciesMap(speciesName);
             } else {
                 // Hide map
                 mapContainer.style.display = 'none';
-                toggleButton.textContent = 'Show Map';
-                toggleButton.classList.remove('hidden');
+                toggleButton.textContent = '📍 Show Distribution';
                 
                 // Destroy existing map
                 if (speciesMap) {
                     speciesMap.remove();
                     speciesMap = null;
-                }
-                
-                // Also hide prediction map if open
-                document.getElementById('predictionMap').style.display = 'none';
-                document.getElementById('predictionInfo').style.display = 'none';
-                if (predictionMap) {
-                    predictionMap.remove();
-                    predictionMap = null;
                 }
             }
         }
@@ -450,7 +514,7 @@
             `;
             
             predictBtn.disabled = true;
-            predictBtn.textContent = 'Predicting...';
+            predictBtn.textContent = '⏳ Predicting...';
             
             try {
                 const response = await fetch(`${API_BASE}/species/${encodeURIComponent(speciesName)}/predict-2025`);
