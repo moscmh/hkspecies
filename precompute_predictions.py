@@ -127,23 +127,41 @@ def precompute_all_predictions():
 
 def load_predictions_cache():
     """Load pre-computed predictions from disk"""
-    cache_file = Path("predictions_cache/all_predictions.json")
+    # Try multiple possible cache locations
+    possible_paths = [
+        Path("predictions_cache/all_predictions.json"),
+        Path("./predictions_cache/all_predictions.json"),
+        Path(os.path.dirname(__file__)) / "predictions_cache/all_predictions.json",
+    ]
     
-    if cache_file.exists():
-        print("📂 Loading pre-computed predictions...")
-        with open(cache_file, 'r') as f:
-            cache = json.load(f)
-        print(f"✅ Loaded {len(cache)} pre-computed predictions")
-        return cache
-    else:
-        print("❌ No prediction cache found! Please ensure predictions_cache/ folder is available.")
-        return {}
+    print(f"🔍 Current working directory: {os.getcwd()}")
+    
+    for cache_file in possible_paths:
+        print(f"🔍 Checking: {cache_file.absolute()}")
+        
+        if cache_file.exists():
+            try:
+                print(f"📂 Loading pre-computed predictions from {cache_file}...")
+                with open(cache_file, 'r') as f:
+                    cache = json.load(f)
+                print(f"✅ Loaded {len(cache)} pre-computed predictions")
+                return cache
+            except Exception as e:
+                print(f"❌ Error loading cache file {cache_file}: {e}")
+                continue
+    
+    print("❌ No prediction cache found in any location")
+    print("💡 Run 'python precompute_predictions.py' to generate cache")
+    return {}
+
+# Global cache variable
+_predictions_cache = None
 
 def get_cached_prediction(species_name):
     """Get prediction from cache"""
     global _predictions_cache
     
-    if '_predictions_cache' not in globals():
+    if _predictions_cache is None:
         _predictions_cache = load_predictions_cache()
     
     return _predictions_cache.get(species_name)
