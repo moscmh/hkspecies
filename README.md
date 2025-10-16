@@ -3,7 +3,7 @@ Interactive web application through **AWS Lightsail** for exploring Hong Kong's 
 
 ## File Structure
 hkspecies/  
-├── boundaries/                 # Hongkong boundaries in shapefile  
+├── boundaries/ &emsp&emsp&emsp # Hongkong boundaries in shapefile  
 ├── predictions_cache/          # Precomputed predictions for each species in Hongkong  
 ├── processed/                  # Processed geospatial data including districts and species occurrences from all available years  
 ├── species/                    # Raw datasets obtained from [Esri](https://opendata.esrichina.hk/maps/esrihk::occurrence-data-of-hong-kong-species/about)  
