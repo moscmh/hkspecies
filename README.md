@@ -1,24 +1,22 @@
 # Hong Kong Species Prediction API
 Interactive web application through **AWS Lightsail** for exploring Hong Kong's biodiversity with 2025 species occurrence predictions estimated by a Convolutional Neural Network with Long Short-Term Memory (CNN-LSTM) `deep learning` model.
 
-## File Structure
-hkspecies/  
-├── boundaries/ &emsp;&emsp;&emsp; # Hongkong boundaries in shapefile  
-├── predictions_cache/ &emsp;&emsp; # Precomputed predictions for each species in Hongkong  
-├── processed/ &emsp;&emsp;&emsp; # Processed geospatial data including districts and species occurrences from all available years  
-├── species/ &emsp;&emsp;&emsp;# Raw datasets obtained from [Esri](https://opendata.esrichina.hk/maps/esrihk::occurrence-data-of-hong-kong-species/about)  
-├── app.py &emsp;&emsp;&emsp;# FastAPI server script by Amazon Q Developer  
-├── data_processor.py &emsp;&emsp; # Initial data processing pipeline  
-├── frontend.html &emsp;&emsp;# Frontend UI by Amazon Q Developer  
-├── hk.tif &emsp;&emsp;&emsp; # A raster file for Hongkong map display  
-├── precompute_predictions.py &emsp; # Generate precomputed predictions  
-├── README.md &emsp;&emsp;&emsp; # This file  
-├── requirements.txt &emsp;&emsp; # Required Python libraries  
-├── species_inference.py &emsp; # Predictive modelling functions  
-├── species_lookup.ipynb &emsp; # Data exploration  
-├── species_model.ipynb &emsp;# EDA and predictive modelling  
-│    
-└── README.md &emsp;&emsp;&emsp; # This file  
+## File Description
+* boundaries/ - Hongkong boundaries in shapefile  
+* predictions_cache/ - Precomputed predictions for each species in Hongkong  
+* processed/ - Processed geospatial data including districts and species occurrences from all available years  
+* species/ - Raw datasets obtained from [Esri](https://opendata.esrichina.hk/maps/esrihk::occurrence-data-of-hong-kong-species/about)  
+* app.py - FastAPI server script by Amazon Q Developer  
+* data_processor.py - Initial data processing pipeline  
+* frontend.html - Frontend UI by Amazon Q Developer  
+* hk.tif - A raster file for Hongkong map display  
+* precompute_predictions.py - Generate precomputed predictions  
+* README.md - This file  
+* requirements.txt - Required Python libraries  
+* species_inference.py - Predictive modelling functions  
+* species_lookup.ipynb - Data exploration  
+* species_model.ipynb - EDA and predictive modelling  
+* README.md - This file  
 
 ## Features
 - **Species Search & Exploration** - Browse 1000+ Hong Kong species
