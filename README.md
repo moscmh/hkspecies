@@ -36,7 +36,7 @@ hkspecies/
 - The *target* variable (location) was the grid ID.
 - Each species has its own array with shape, (24, 20, 20), storing number of occurrences in each year.
 
-## AI Prediction Model
+## Deep Learning Model
 - **CNN-LSTM** ([ndrplz](https://github.com/ndrplz/ConvLSTM_pytorch))
 - **Training**: Adam optimizer, BCE loss, 100 epochs with early stopping.
 - Output example (Predictions: Shades of red; Actual occurrences: blue squares):
