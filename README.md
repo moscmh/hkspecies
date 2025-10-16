@@ -39,7 +39,7 @@ hkspecies/
 ## AI Prediction Model
 - **CNN-LSTM** ([ndrplz](https://github.com/ndrplz/ConvLSTM_pytorch))
 - **Training**: Adam optimizer, BCE loss, 100 epochs with early stopping.
-- Output example:
+- Output example (Predictions: Shades of red; Actual occurrences: blue squares):
 ![Predicted locations with actual occurrences](./image/output.png)
 
 ## 🎯 Use Cases
